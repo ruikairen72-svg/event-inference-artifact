@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-08T15:10:13.653154+00:00",
+  "datasets": "original,main_core,main_prior,main_labels,label_order,template_ood,name,label_only,natural_rule,structural_rule,real_definition",
+  "models": "qwen/qwen3-8b,meta-llama/llama-3.1-8b-instruct,mistralai/ministral-8b-2512,google/gemma-3-12b-it,qwen/qwen3-14b,qwen/qwen3-32b",
+  "planned_pending": 27949,
+  "concurrency": 8,
+  "max_output_tokens": 256,
+  "run_cap_usd": 8.7,
+  "payload_protocol_sha256": "cfbc39c51ccdb429c6e7dcf310df4c2b96e8efa4ebb24faa6af29e681cefcb51"
+}

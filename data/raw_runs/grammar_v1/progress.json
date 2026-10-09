@@ -1,0 +1,13 @@
+{
+  "run_id": "grammar_v1",
+  "utc": "2026-10-09T01:02:34.812914+00:00",
+  "pending_at_start": 180,
+  "complete": 180,
+  "transport_errors": 12,
+  "parse_invalid": 0,
+  "endpoint_mismatch": 0,
+  "run_spend_usd": 0.009402409000000002,
+  "project_spend_usd": 2.022611841999984,
+  "elapsed_s": 90,
+  "budget_stopped": false
+}

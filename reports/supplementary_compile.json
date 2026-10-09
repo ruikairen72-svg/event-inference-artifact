@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "compiler": "existing Tectonic with official unchanged acmart2.19",
+  "source_sha256": "92f71da83975120170d81b974428dbdb35a5425a58d08b70c331ce7463e74ec0",
+  "pdf_sha256": "7382c8ce97fdc8b8905be4d6939693e436989a286f5ccccf4a9ef15c853d5ea3",
+  "overfull_hbox_last_pass": []
+}

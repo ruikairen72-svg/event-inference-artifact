@@ -1,0 +1,13 @@
+{
+  "run_id": "main_v1",
+  "utc": "2026-10-09T00:29:36.497255+00:00",
+  "pending_at_start": 71,
+  "complete": 71,
+  "transport_errors": 29,
+  "parse_invalid": 0,
+  "endpoint_mismatch": 0,
+  "run_spend_usd": 1.7492834409999938,
+  "project_spend_usd": 1.9649532129999852,
+  "elapsed_s": 194,
+  "budget_stopped": false
+}

@@ -1,0 +1,193 @@
+{
+  "mechanical_checks": "passed",
+  "human_review_completed": false,
+  "independent_prior_ratings": false,
+  "scope": "intended-reading provisional stimuli",
+  "files": {
+    "structural_rule": {
+      "items": 288,
+      "unique_premise_hypothesis": 288,
+      "gold_counts": {
+        "unknown": 72,
+        "contradicted": 72,
+        "entailed": 144
+      }
+    },
+    "pilot_core": {
+      "items": 720,
+      "unique_premise_hypothesis": 720,
+      "gold_counts": {
+        "entailed": 480,
+        "unknown": 120,
+        "contradicted": 120
+      }
+    },
+    "label_only": {
+      "items": 288,
+      "unique_premise_hypothesis": 288,
+      "gold_counts": {
+        "unknown": 72,
+        "contradicted": 72,
+        "entailed": 144
+      }
+    },
+    "stress_prior": {
+      "items": 120,
+      "unique_premise_hypothesis": 120,
+      "gold_counts": {
+        "unknown": 40,
+        "entailed": 40,
+        "contradicted": 40
+      }
+    },
+    "grammar_complete_main": {
+      "items": 83,
+      "unique_premise_hypothesis": 63,
+      "gold_counts": {
+        "contradicted": 83
+      }
+    },
+    "pilot_prior": {
+      "items": 60,
+      "unique_premise_hypothesis": 60,
+      "gold_counts": {
+        "unknown": 20,
+        "entailed": 20,
+        "contradicted": 20
+      }
+    },
+    "main_core": {
+      "items": 2160,
+      "unique_premise_hypothesis": 2160,
+      "gold_counts": {
+        "contradicted": 360,
+        "entailed": 1440,
+        "unknown": 360
+      }
+    },
+    "label_order": {
+      "items": 288,
+      "unique_premise_hypothesis": 288,
+      "gold_counts": {
+        "unknown": 72,
+        "contradicted": 72,
+        "entailed": 144
+      }
+    },
+    "name": {
+      "items": 288,
+      "unique_premise_hypothesis": 268,
+      "gold_counts": {
+        "unknown": 72,
+        "contradicted": 72,
+        "entailed": 144
+      }
+    },
+    "natural_rule": {
+      "items": 288,
+      "unique_premise_hypothesis": 288,
+      "gold_counts": {
+        "unknown": 72,
+        "contradicted": 72,
+        "entailed": 144
+      }
+    },
+    "grammar_repair": {
+      "items": 30,
+      "unique_premise_hypothesis": 30,
+      "gold_counts": {
+        "contradicted": 30
+      }
+    },
+    "main_labels": {
+      "items": 60,
+      "unique_premise_hypothesis": 60,
+      "gold_counts": {
+        "entailed": 20,
+        "contradicted": 20,
+        "unknown": 20
+      }
+    },
+    "real_definition": {
+      "items": 96,
+      "unique_premise_hypothesis": 96,
+      "gold_counts": {
+        "unknown": 24,
+        "contradicted": 24,
+        "entailed": 48
+      }
+    },
+    "pilot_labels": {
+      "items": 20,
+      "unique_premise_hypothesis": 20,
+      "gold_counts": {
+        "entailed": 7,
+        "contradicted": 7,
+        "unknown": 6
+      }
+    },
+    "main_prior": {
+      "items": 240,
+      "unique_premise_hypothesis": 240,
+      "gold_counts": {
+        "unknown": 80,
+        "entailed": 80,
+        "contradicted": 80
+      }
+    },
+    "stress_core": {
+      "items": 540,
+      "unique_premise_hypothesis": 540,
+      "gold_counts": {
+        "contradicted": 90,
+        "entailed": 360,
+        "unknown": 90
+      }
+    },
+    "grammar_complete_stress": {
+      "items": 20,
+      "unique_premise_hypothesis": 20,
+      "gold_counts": {
+        "contradicted": 20
+      }
+    },
+    "template_ood": {
+      "items": 288,
+      "unique_premise_hypothesis": 288,
+      "gold_counts": {
+        "unknown": 72,
+        "contradicted": 72,
+        "entailed": 144
+      }
+    }
+  },
+  "nonce_dictionary_validation": "current_exact_dictionary",
+  "nonce_forms": 48,
+  "finite_logic_classes_main": 18,
+  "hashes": {
+    "data/generated/structural_rule.jsonl": "561127347c538c354c833be597bffeefe9fd50133f8bb2cab684350d7e866f0e",
+    "data/generated/pilot_core.jsonl": "00d8f04a73a917e742c8fa78b1b91849c6c183ab4b74240867a6a0e3dd1a30a2",
+    "data/generated/label_only.jsonl": "a310d6c5d7f38bf32777ee25870fc4575c32c51add7a8731c537157cd789ad83",
+    "data/generated/stress_prior.jsonl": "cd19dede27dfe5a0233d1710e5cfd107dfbc8dac2df0650c3e2b02e49a3bd1a5",
+    "data/generated/grammar_complete_main.jsonl": "627de685391cc16d60804406d8f437613ed212e06e737d1c0ce39ddace5c7c48",
+    "data/generated/pilot_prior.jsonl": "b6889c57b50eebf1d48b0ce4e9d8d715217370d2156013785f1ff731dffe9d39",
+    "data/generated/main_core.jsonl": "a113e72f5cc95915e848c6b76d254d4461817e2d5eb2cad7d525254f657d4c2b",
+    "data/generated/label_order.jsonl": "d725e470ecf9da6d9b851c8548765eb71ad95b2cad29f88de9d5af50c50fc6b8",
+    "data/generated/name.jsonl": "899a7a3cdd9869f73829b2a693ee4d7a93290eabd13a6b2593cac2d73f502297",
+    "data/generated/natural_rule.jsonl": "ec6ad3ad293f78ccfdcc71c5163b450544fca7a427adde9c6df0ed9f4fc2912a",
+    "data/generated/grammar_repair.jsonl": "134ca0a7cd6daf2be086b3e7b3446045c6728d488ed0afce2c3d61497a4c108f",
+    "data/generated/main_labels.jsonl": "6544126c3b73a6b7a744a0185fd6b6451d4c65683ff947f6ae01559396c93109",
+    "data/generated/real_definition.jsonl": "ebf1bcdecfc185c2d4c13e348aae7824a3f2c13d7aea9e583fec8ef623c604b9",
+    "data/generated/pilot_labels.jsonl": "82000b22f262da94c26f5755d20d77c5a7ff51ba327b78d1e0ced1f972225eeb",
+    "data/generated/main_prior.jsonl": "c410c6c532ae3cabdd1f5da17017e7e6f017ca51534eb4a2cb071f84214388c8",
+    "data/generated/stress_core.jsonl": "e32d35a8f609defd9da9b7810e1cc6f4bd412e13e9a62431488d4e88902162a4",
+    "data/generated/families.jsonl": "a665a3760f40eb9d5c2155084fbb6755a9e71dee1207472ffc4aca051cc4cb10",
+    "data/generated/grammar_complete_stress.jsonl": "0d726e6063956e87b2014e7448a0bb5b4058133add8a91a3261a9f1eed05dea8",
+    "data/generated/template_ood.jsonl": "9f3344a22563c0d87e942682bd18625b3b181cd86bfb8302bb08ed23f88ef15c"
+  },
+  "limitations": [
+    "Natural-language intended readings unvalidated by independent humans",
+    "Abstract conditions use repeated logic structures with scenario/lexeme variation, not independent logical mechanisms",
+    "Prior contrast not validated; exploratory only"
+  ]
+}

@@ -1,0 +1,1497 @@
+{
+  "figures": [
+    {
+      "figure": "main_fig2",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Real-presentation target-truth scores for bounded versus activity targets across contexts. Points are means over up to 120 planned families; intervals use 10,000 seeded verb-then-family percentile bootstrap draws. Full q domain [0,1]. Scores are elicited and uncalibrated. Missing/invalid q is excluded with denominators recorded; no unknown target receives an invented outcome.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig3",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Paired neutral compositional sensitivity across the three presentations, using up to 120 complete family pairs per system. A negative score distinguishes endpoint belief from activity occurrence; logic alone does not specify its magnitude, and a negative contrast alone does not certify categorical correctness. Intervals resample lexical verbs then families. Definitions, notation and length also differ across presentations, so layer gaps do not identify internal knowledge removal.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig4",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Exploratory intended completion-burden sensitivity in bounded Real targets, with up to 40 paired families per context and system. High/low are intended directions without human prior ratings; no causal world-knowledge effect is identified. Interval procedure matches Figure 3. Supporting/cancelling evidence determines the theory label regardless of burden cue.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig5",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Within-Qwen three-size association in neutral paired composition scores. Points use the same 120 planned family pool and intervals as Figure 3; lines connect three observations rather than establish a scaling law. Qwen8 uses Alibaba with unspecified precision; Qwen14/32 use DeepInfra FP8. Training and provider confounds prevent a parameter-count causal interpretation.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig6",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Contextual override and guidance gains use different units/populations. Left: bounded Real cancellation-minus-neutral q on up to 120 complete pairs. Right: rule-minus-baseline accuracy, averaged within each of 24 fixed families across 12 matched neutral/cancelling cells; parse/transport failures count incorrect. Lexical/family bootstrap intervals, no outcome-selected exclusions. A correct ceiling can give zero gain; guidance is not proof of an internal semantic mechanism.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    }
+  ],
+  "cell_denominators_and_estimates": [
+    {
+      "cell": "fig2:qwen/qwen3-8b:bounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.6204166666666666,
+        "ci95": [
+          0.4983333333333333,
+          0.7545937499999998
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:meta-llama/llama-3.1-8b-instruct:bounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.49583333333333335,
+        "ci95": [
+          0.2875,
+          0.7
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:mistralai/ministral-8b-2512:bounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.6920833333333334,
+        "ci95": [
+          0.5654166666666666,
+          0.8145937499999998
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:google/gemma-3-12b-it:bounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.6991666666666667,
+        "ci95": [
+          0.5474958333333332,
+          0.8395874999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-14b:bounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.6849999999999999,
+        "ci95": [
+          0.5841666666666666,
+          0.7974999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-32b:bounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.6916666666666667,
+        "ci95": [
+          0.5899999999999999,
+          0.8024999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-8b:bounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9995833333333334,
+        "ci95": [
+          0.9979166666666667,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:meta-llama/llama-3.1-8b-instruct:bounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:mistralai/ministral-8b-2512:bounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:google/gemma-3-12b-it:bounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9935833333333335,
+        "ci95": [
+          0.9915000000000002,
+          0.99575
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-14b:bounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-32b:bounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-8b:bounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.1358333333333333,
+        "ci95": [
+          0.0,
+          0.31583333333333324
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:meta-llama/llama-3.1-8b-instruct:bounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.21666666666666667,
+        "ci95": [
+          0.0,
+          0.4583333333333333
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:mistralai/ministral-8b-2512:bounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.24583333333333332,
+        "ci95": [
+          0.0,
+          0.5
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:google/gemma-3-12b-it:bounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.034583333333333334,
+        "ci95": [
+          0.015000000000000001,
+          0.06683333333333334
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-14b:bounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.008333333333333333,
+        "ci95": [
+          0.0,
+          0.041666666666666664
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-32b:bounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-8b:unbounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9641666666666663,
+        "ci95": [
+          0.9537499999999998,
+          0.97625
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:meta-llama/llama-3.1-8b-instruct:unbounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:mistralai/ministral-8b-2512:unbounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9398333333333331,
+        "ci95": [
+          0.9107479166666664,
+          0.9620020833333333
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:google/gemma-3-12b-it:unbounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9726666666666665,
+        "ci95": [
+          0.9626666666666666,
+          0.982
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-14b:unbounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9995833333333334,
+        "ci95": [
+          0.9979166666666667,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-32b:unbounded:neutral",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-8b:unbounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9612499999999997,
+        "ci95": [
+          0.9545833333333331,
+          0.9691666666666665
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:meta-llama/llama-3.1-8b-instruct:unbounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:mistralai/ministral-8b-2512:unbounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9915833333333333,
+        "ci95": [
+          0.9837499999999999,
+          0.99825
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:google/gemma-3-12b-it:unbounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.965333333333333,
+        "ci95": [
+          0.9569999999999997,
+          0.974
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-14b:unbounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9970833333333334,
+        "ci95": [
+          0.9912499999999999,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-32b:unbounded:supportive",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-8b:unbounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.979583333333333,
+        "ci95": [
+          0.9679166666666664,
+          0.9908333333333332
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:meta-llama/llama-3.1-8b-instruct:unbounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:mistralai/ministral-8b-2512:unbounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.9130833333333331,
+        "ci95": [
+          0.8615833333333333,
+          0.9542520833333332
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:google/gemma-3-12b-it:unbounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.987,
+        "ci95": [
+          0.9820000000000001,
+          0.9900000000000001
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-14b:unbounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig2:qwen/qwen3-32b:unbounded:cancelling",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-8b:real",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.34374999999999994,
+        "ci95": [
+          -0.4574999999999999,
+          -0.22040625000000014
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:meta-llama/llama-3.1-8b-instruct:real",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.5041666666666667,
+        "ci95": [
+          -0.7125,
+          -0.3
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:mistralai/ministral-8b-2512:real",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.24774999999999997,
+        "ci95": [
+          -0.36141875000000007,
+          -0.14049999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:google/gemma-3-12b-it:real",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.2735000000000001,
+        "ci95": [
+          -0.41700416666666656,
+          -0.14108333333333334
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-14b:real",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.3145833333333333,
+        "ci95": [
+          -0.4154166666666666,
+          -0.20249999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-32b:real",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.30833333333333335,
+        "ci95": [
+          -0.41000000000000003,
+          -0.19750000000000004
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-8b:nonce",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.7162499999999999,
+        "ci95": [
+          -0.7695833333333332,
+          -0.6649895833333332
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:meta-llama/llama-3.1-8b-instruct:nonce",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.4883333333333333,
+        "ci95": [
+          -0.5216666666666667,
+          -0.4608333333333333
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:mistralai/ministral-8b-2512:nonce",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:google/gemma-3-12b-it:nonce",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.6944999999999999,
+        "ci95": [
+          -0.7433333333333333,
+          -0.6487499999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-14b:nonce",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.5479166666666667,
+        "ci95": [
+          -0.5741666666666667,
+          -0.5216666666666667
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-32b:nonce",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.2341666666666667,
+        "ci95": [
+          -0.29458333333333336,
+          -0.18041666666666664
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-8b:micro",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.5,
+        "ci95": [
+          -0.5,
+          -0.5
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:meta-llama/llama-3.1-8b-instruct:micro",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.18333333333333332,
+        "ci95": [
+          -0.22916666666666666,
+          -0.1375
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:mistralai/ministral-8b-2512:micro",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:google/gemma-3-12b-it:micro",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.29000000000000004,
+        "ci95": [
+          -0.29000000000000004,
+          -0.29000000000000004
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-14b:micro",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.25250000000000006,
+        "ci95": [
+          -0.2775000000000001,
+          -0.22750000000000004
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig3:qwen/qwen3-32b:micro",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.5849999999999999,
+        "ci95": [
+          -0.5966666666666666,
+          -0.5733333333333331
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-8b:neutral",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.03499999999999999,
+        "ci95": [
+          -0.04473684210526316,
+          0.10374999999999998
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:meta-llama/llama-3.1-8b-instruct:neutral",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.03,
+        "ci95": [
+          -0.01578947368421053,
+          0.09512195121951221
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:mistralai/ministral-8b-2512:neutral",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.13999999999999999,
+        "ci95": [
+          0.032432432432432434,
+          0.2557184873949579
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:google/gemma-3-12b-it:neutral",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.09874999999999998,
+        "ci95": [
+          0.03695522774327122,
+          0.18437872023809518
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-14b:neutral",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.04624999999999999,
+        "ci95": [
+          0.0023255813953488393,
+          0.09571504559270515
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-32b:neutral",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.061250000000000006,
+        "ci95": [
+          0.014285714285714282,
+          0.11666666666666665
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-8b:supportive",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:meta-llama/llama-3.1-8b-instruct:supportive",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:mistralai/ministral-8b-2512:supportive",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:google/gemma-3-12b-it:supportive",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.0010000000000000009,
+        "ci95": [
+          -0.002250000000000002,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-14b:supportive",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-32b:supportive",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-8b:cancelling",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:meta-llama/llama-3.1-8b-instruct:cancelling",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:mistralai/ministral-8b-2512:cancelling",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.025,
+        "ci95": [
+          0.0,
+          0.10526315789473684
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:google/gemma-3-12b-it:cancelling",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-14b:cancelling",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig4:qwen/qwen3-32b:cancelling",
+      "planned_families": 40,
+      "valid_values": 40,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_families": 40,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:cancel:qwen/qwen3-8b",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.48458333333333325,
+        "ci95": [
+          -0.5854166666666667,
+          -0.38083333333333336
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:natural_rule:qwen/qwen3-8b",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.013888888888888888,
+        "ci95": [
+          -0.029166666666666664,
+          0.0
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:structural_rule:qwen/qwen3-8b",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.006944444444444444,
+        "ci95": [
+          -0.02631578947368421,
+          0.010869565217391304
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:cancel:meta-llama/llama-3.1-8b-instruct",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.2791666666666667,
+        "ci95": [
+          -0.4209374999999999,
+          -0.1375
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:natural_rule:meta-llama/llama-3.1-8b-instruct",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.05555555555555555,
+        "ci95": [
+          0.035256410256410256,
+          0.07608695652173914
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:structural_rule:meta-llama/llama-3.1-8b-instruct",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.03819444444444444,
+        "ci95": [
+          0.008333333333333335,
+          0.06668010752688154
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:cancel:mistralai/ministral-8b-2512",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.44625,
+        "ci95": [
+          -0.6020833333333333,
+          -0.27665625000000016
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:natural_rule:mistralai/ministral-8b-2512",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          -0.03260869565217391,
+          0.03968253968253968
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:structural_rule:mistralai/ministral-8b-2512",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.03125,
+        "ci95": [
+          0.0,
+          0.06790123456790122
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:cancel:google/gemma-3-12b-it",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.6645833333333335,
+        "ci95": [
+          -0.8053333333333332,
+          -0.5109145833333334
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:natural_rule:google/gemma-3-12b-it",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.03819444444444444,
+        "ci95": [
+          -0.058641975308641965,
+          -0.017543859649122806
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:structural_rule:google/gemma-3-12b-it",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.027777777777777776,
+        "ci95": [
+          -0.051587301587301584,
+          -0.003205128205128205
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:cancel:qwen/qwen3-14b",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.6766666666666665,
+        "ci95": [
+          -0.7841874999999999,
+          -0.5816666666666667
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:natural_rule:qwen/qwen3-14b",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.010416666666666666,
+        "ci95": [
+          -0.017241379310344827,
+          0.03985507246376812
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:structural_rule:qwen/qwen3-14b",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.0,
+        "ci95": [
+          -0.01923076923076923,
+          0.020833333333333332
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:cancel:qwen/qwen3-32b",
+      "planned_families": 120,
+      "valid_values": 120,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.6916666666666667,
+        "ci95": [
+          -0.8024999999999999,
+          -0.5899999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:natural_rule:qwen/qwen3-32b",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": -0.013888888888888888,
+        "ci95": [
+          -0.031746031746031744,
+          -0.0026041666666666665
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    },
+    {
+      "cell": "fig6:structural_rule:qwen/qwen3-32b",
+      "planned_families": 24,
+      "valid_values": 24,
+      "lexical_blocks": 12,
+      "metric": {
+        "estimate": 0.01736111111111111,
+        "ci95": [
+          -0.003086419753086419,
+          0.036231884057971016
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "bootstrap_draws": 10000
+      }
+    }
+  ],
+  "requires_visual_QA": true
+}

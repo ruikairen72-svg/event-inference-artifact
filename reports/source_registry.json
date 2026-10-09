@@ -1,0 +1,191 @@
+[
+  {
+    "path": "data/sources/openrouter_models.json",
+    "source_url": "https://openrouter.ai/api/v1/models",
+    "client_checked_date": "2026-10-07",
+    "sha256": "be59f9d6fd451910dc53663fa1ed467012a856162638773338ee15622690e87b",
+    "bytes": 774384
+  },
+  {
+    "path": "data/sources/github_repo.json",
+    "source_url": "https://api.github.com/repos/boleima/ImperfectiveParadox",
+    "client_checked_date": "2026-10-07",
+    "sha256": "864935c2e96d866a91aad7fc5673a8e5a656a47a84ce40e9f0ca8c573f2f7bf2",
+    "bytes": 5494
+  },
+  {
+    "path": "data/sources/github_commit.json",
+    "source_url": "https://api.github.com/repos/boleima/ImperfectiveParadox/commits/main",
+    "client_checked_date": "2026-10-07",
+    "sha256": "2e169aef7125bc9c0585d21befe093a5f7f685cadfb4520ae5c7fb4da70329b1",
+    "bytes": 5234
+  },
+  {
+    "path": "data/sources/github_tree.json",
+    "source_url": "https://api.github.com/repos/boleima/ImperfectiveParadox/git/trees/938ef893c3368f3a597e6add2cfebdad02fddebf?recursive=1",
+    "client_checked_date": "2026-10-07",
+    "sha256": "6c7a6d55246b112b28f3b880ca1412de9ccc5d1ac1c2acc1b67901d93abd0995",
+    "bytes": 1915
+  },
+  {
+    "path": "data/sources/github_initial_tree.json",
+    "source_url": "https://api.github.com/repos/boleima/ImperfectiveParadox/git/trees/8845a732d0?recursive=1",
+    "client_checked_date": "2026-10-07",
+    "sha256": "a226b418cd606c87570ca572888cab984983f4e9580ebce2a937b543c8aeccc9",
+    "bytes": 1113
+  },
+  {
+    "path": "data/sources/github_history.json",
+    "source_url": "https://api.github.com/repos/boleima/ImperfectiveParadox/commits?per_page=100",
+    "client_checked_date": "2026-10-07",
+    "sha256": "8ef8f7c8a6da91cc1debe02065ed1b335169c9b961a303186846248877576c44",
+    "bytes": 23692
+  },
+  {
+    "path": "data/sources/ma_acl.pdf",
+    "source_url": "https://aclanthology.org/2026.acl-long.689.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "cdce8d637ccf98370cdfdf2ab6b7eea28eb327240dfc7bc774d378e32f3e3eff",
+    "bytes": 491931
+  },
+  {
+    "path": "data/sources/acl_record.html",
+    "source_url": "https://aclanthology.org/2026.acl-long.689/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "2e8ce13b7c5546f34d37033b98d70ed894e46f9a7d7abe9df31cbeb4116a89c3",
+    "bytes": 43683
+  },
+  {
+    "path": "data/sources/ma_author.html",
+    "source_url": "https://arxiv.org/html/2601.09373v2",
+    "client_checked_date": "2026-10-07",
+    "sha256": "baf4b7b343d433f304454dd11e264c736f93970bd409ad42dbcd822a0851062e",
+    "bytes": 452781
+  },
+  {
+    "path": "data/sources/critique.html",
+    "source_url": "https://arxiv.org/html/2608.25005v1",
+    "client_checked_date": "2026-10-07",
+    "sha256": "660114a227f424b2b6664245478a1d54199fbb7df67798ccb54bc025b2bbe70a",
+    "bytes": 468289
+  },
+  {
+    "path": "data/sources/prus2025.pdf",
+    "source_url": "https://aclanthology.org/2025.findings-acl.683.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "6460a809c54c80b81f70001ac569943adcdb045454df83f237d873eb92ca2ea1",
+    "bytes": 380642
+  },
+  {
+    "path": "data/sources/krifka1998.pdf",
+    "source_url": "https://user.phil.hhu.de/~filip/Krifka.TELICITY.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "6ee85b46cb574d8b9788a13163a2bdd0aeee977f6dc81b1e14cc681c86ea73d5",
+    "bytes": 101836
+  },
+  {
+    "path": "data/sources/knlp_cfp.html",
+    "source_url": "https://knlp-sac.github.io/2027/call_for_papers.html",
+    "client_checked_date": "2026-10-07",
+    "sha256": "8a9754e5fa7e21c29cf06da55b8e9c454f74af22a3f00a6473f61dd5f2a0c365",
+    "bytes": 12734
+  },
+  {
+    "path": "data/sources/knlp_dates.html",
+    "source_url": "https://knlp-sac.github.io/2027/important_dates.html",
+    "client_checked_date": "2026-10-07",
+    "sha256": "c2518f8596fceea7b232fd1c3d196d712a4c7c9f2ada3a66e848e8151ce24e39",
+    "bytes": 3038
+  },
+  {
+    "path": "data/sources/sac_authorkit.html",
+    "source_url": "https://sigapp.org/sac/sac2027/authorkit.php",
+    "client_checked_date": "2026-10-07",
+    "sha256": "6a6124a346f4a866f4619bc469a48272a760b2bedb915195261b591332eda0fa",
+    "bytes": 8037
+  },
+  {
+    "path": "data/sources/sac_home.html",
+    "source_url": "https://sigapp.org/sac/sac2027/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "d4016aa9309676767f56c62ac5fee3ee3e4763faccd7f602ce909a55d9253f97",
+    "bytes": 17315
+  },
+  {
+    "path": "data/sources/sac_author_kit.pdf",
+    "source_url": "https://sigapp.org/sac/sac2027/authorkit/author-kit-2027-July11.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "c55eab6ac6eb35446ebfa8c6fe3d40abc5eb707fb0acc4d20dd33ce1a89897a8",
+    "bytes": 282986
+  },
+  {
+    "path": "data/sources/prus2024.pdf",
+    "source_url": "https://aclanthology.org/2024.eacl-long.115.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "6bd33ce5a5595cfbb4513c2984e8626151537192ce247e4bd8aa9532b1453886",
+    "bytes": 14411409
+  },
+  {
+    "path": "data/sources/moens1988.pdf",
+    "source_url": "https://aclanthology.org/J88-2003.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "bd4bb92bc4f46d510e1fbba57de3e942d896fda743783f9270d6c73d36e27f01",
+    "bytes": 1469921
+  },
+  {
+    "path": "data/sources/cogs.pdf",
+    "source_url": "https://aclanthology.org/2020.emnlp-main.731.pdf",
+    "client_checked_date": "2026-10-07",
+    "sha256": "5e379d68d1ddf7539da0869a76a519630b636dc699fbb73123a8e56c0890e0fc",
+    "bytes": 626703
+  },
+  {
+    "path": "data/sources/proofwriter.html",
+    "source_url": "https://aclanthology.org/2021.findings-acl.317/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "8e35aec2bc3fc19ee8db67524e48929d9eff44aa084bce5811d2ce7dcc01f572",
+    "bytes": 36757
+  },
+  {
+    "path": "data/sources/hans.html",
+    "source_url": "https://aclanthology.org/P19-1334/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "a1f1eb893be4addd0eee469629982643214fccd408972c326e12900f94c59bf2",
+    "bytes": 41032
+  },
+  {
+    "path": "data/sources/krr2027.html",
+    "source_url": "https://krarlab.dmi.unipg.it/krrtrack/2027/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "5706f067daee4b25937344ae05c09d3392b80377c67b86f3782ec34dfd53aa6a",
+    "bytes": 11911
+  },
+  {
+    "path": "data/sources/st2027.html",
+    "source_url": "https://itk.ilstu.edu/faculty/hhan12/ST2027/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "3bd98704b89929af13e7d8d8d71c252377a4cc28f4dda5d3beb1acf04c582736",
+    "bytes": 17196
+  },
+  {
+    "path": "data/sources/kober2020.html",
+    "source_url": "https://aclanthology.org/2020.coling-main.401/",
+    "client_checked_date": "2026-10-07",
+    "sha256": "bf801dfaef3216a6f44724313e0f1a11d8e466e5b04ee7869d1535106d43b6f6",
+    "bytes": 39923
+  },
+  {
+    "path": "data/sources/dowty_record.html",
+    "source_url": "https://link.springer.com/book/10.1007/978-94-009-9473-7",
+    "client_checked_date": "2026-10-07",
+    "sha256": "81d1ffd80ddade27467b5bd8a3e6a7dd9ba35bebd855ad3a3c474460035ced45",
+    "bytes": 266387
+  },
+  {
+    "path": "data/sources/smith_record.html",
+    "source_url": "https://link.springer.com/book/10.1007/978-94-011-5606-6",
+    "client_checked_date": "2026-10-07",
+    "sha256": "ecd5007c9ac9c84464df280dd1c26ebeb951c82012565d7a4f885389dc2054b1",
+    "bytes": 272420
+  }
+]

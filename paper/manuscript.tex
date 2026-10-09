@@ -1,0 +1,336 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{array}
+\graphicspath{{figures/}{../figures/}{event-completion/figures/}}
+\setlength{\emergencystretch}{1em}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\acmConference[SAC '27]{ACM Symposium on Applied Computing}{April 5--9, 2027}{Gwangju, Republic of Korea}
+\acmYear{2027}
+\acmDOI{}
+\acmISBN{}
+\title[Endpoint Inference under Compatible Histories]{Endpoint Inference under Compatible Histories: A Theory-Driven Event Benchmark for Language Models}
+\author{Anonymous Author(s)}
+\begin{document}
+\begin{abstract}
+Event inference must distinguish witnessed activity, attained endpoints and unresolved outcomes. Completion scores merge errors on these distinct truth conditions. We introduce a benchmark that operationalizes compatible-history semantics through matched occurrence and culmination targets, evidence-restricted histories, and ordinary-language, defined-predicate and explicit-process presentations. Across six systems and 120 families, three systems solve every explicit-process item, yet four systems above 91\% ordinary-language accuracy have only 54.2--70.0\% unknown recall. A negative score gap can simultaneously conceal contradiction of unresolved endpoints and rejection of witnessed activity. To test beyond template word counts, a separately frozen supplementary challenge swaps actor bindings under identical word multisets and uses shared premises for both targets. Across seven systems and 5,040 cells, accuracy is 66.7--93.3\%, exceeding the exact 60\% ceiling for deterministic unigram classifiers; the pilot-trained unigram baseline reaches 40\%. The three explicit-process ceiling systems fall to 63.3--75.8\% on this challenge. These results establish both the diagnostic value of category-specific event evaluation and the boundary of success on fixed occurrence witnesses.
+
+\end{abstract}
+\ccsdesc[500]{Computing methodologies~Natural language processing}
+\keywords{event semantics, natural language inference, imperfective paradox, compositionality, theory-derived benchmark}
+\maketitle
+\section{Introduction}
+Avery was reading a paragraph. Does this establish that Avery read some of it, or that Avery read the entire paragraph? The first target concerns occurrence; the second requires a culmination. This difference arises from the full verb phrase, even when its lexical verb is unchanged. A useful event-inference evaluation must distinguish those targets and distinguish an unspecified endpoint from evidence that the endpoint was never reached.
+
+Recent work uses progressive-to-simple-past inference to study the imperfective paradox in language models~\cite{ma2026}. A subsequent critique identifies interpretation and interruption ambiguities in that benchmark~\cite{han2026}. The evaluation problem extends beyond selecting less ambiguous examples: aggregate accuracy and completion propensity can assign similar summaries to systems that entail an unresolved endpoint, contradict it, or reject witnessed activity. These errors require different semantic diagnoses.
+
+We address this problem with \emph{compatible-history evaluation}. Each premise specifies a single episode and a set of admissible histories. A bounded target is true when its required endpoint is attained; an activity target is true when sufficient activity occurs. Evidence either leaves both endpoint alternatives available or selects one. Entailment, contradiction and unknown then follow from target truth across the retained histories. Figure~\ref{fig:method} illustrates how this construction separates uncertainty from explicit negative evidence.
+
+The benchmark shares the lexical verb between bounded and activity targets. Three presentations express the process relation: ordinary language (Real), a defined nonce predicate (Nonce), and an explicit process rule (Micro). This design distinguishes target-type errors from presentation-specific failures. Replication and paired controls establish how to interpret the scores; a role-swap challenge tests inference beyond word-count cues.
+
+Our contributions are:
+\begin{enumerate}
+\item An executable task specification for the all-history criterion of event occurrence, culmination and unresolved outcomes.
+\item A matched 120-family benchmark and a shared-premise role-binding challenge with an exact 60\% word-unigram ceiling, including six held-out real predicates.
+\item A seven-system empirical diagnosis: perfect explicit-rule performance coexists with ordinary-language uncertainty errors; defined predicates expose occurrence and contradiction failures; and a negative completion-score contrast alone misses these failures.
+\end{enumerate}
+
+
+\section{Background and Related Work}
+\subsection{Event Composition and Inference}
+Vendler's aspectual distinctions~\cite{vendler1957}, temporal ontology~\cite{moens1988}, and Krifka's analysis of telicity~\cite{krifka1998} motivate separating activities from endpoint-dependent descriptions. Quantity, path goals and incremental coverage change the culmination requirement of a full VP. Progressive semantics provides the antecedent for distinguishing an ongoing event from its culmination~\cite{landman1992}; our finite oracle operationalizes a specified endpoint reading. Here \emph{bounded} means that the target requires culmination; a finite reporting interval alone does not give an activity an inherent endpoint.
+
+Natural-logic inference distinguishes semantic containment from exclusion~\cite{maccartney2008}. Our finite-history oracle implements a complementary task-specific distinction: truth in all compatible histories, falsity in all, or disagreement across histories. This makes the unknown category inspectable instead of equating a plausible outcome with an entailed one. ProofWriter derives natural-language implications from supplied facts and rules~\cite{proofwriter2021}. We share its use of an executable reference standard, but compute event-target truth over evidence-restricted histories rather than chains of rule proofs. The construction targets single-episode event inference under specified readings.
+
+\subsection{Aspectual and Contextual Evaluation}
+TimeBench organizes a broad hierarchy of temporal reasoning phenomena~\cite{timebench2024}; TRAM includes event order, arithmetic, frequency and duration~\cite{tram2024}. Our task isolates a complementary distinction: whether witnessed activity establishes an endpoint, excludes it, or leaves it unresolved.
+
+ImperfectiveNLI evaluates 400 progressive-to-past inference items across four groups~\cite{ma2026}. Han and Sun~\cite{han2026} challenge some interpretations and supply a 303-item filtered pool; they also identify 76 Group A premises without explicit noncompletion. We reproduce these diagnostics with unchanged original labels. We operationalize compatible-history semantics as matched occurrence/culmination tests and distinguish errors that a completion score merges. Same-verb comparisons already occur in the prior debate.
+
+Pru\'{s} et al.~\cite{prus2024,prus2025} establish that temporal judgments depend on context and world knowledge beyond aspectual class. CoRE~\cite{core2025} tests ongoing/completed outcomes, story context and outcome-changing conditions. These approaches study contextual interpretation; our benchmark instead specifies the endpoint truth alternatives and measures adherence to them across presentations. Its exploratory burden-cue module probes plausible completion without changing the logical label.
+
+CxMP~\cite{cxmp2026} uses controlled constructional minimal pairs and pseudoword substitution. Our Nonce presentation provides a process definition and shares its predicate root within each target pair; lexical substitution is therefore coupled to an explicit interpretation. The comparison measures performance under that defined-predicate task, whose information burden differs from ordinary language.
+
+\subsection{Behavioral Diagnostics and Surface Cues}
+BLiMP isolates grammatical phenomena through acceptability minimal pairs~\cite{blimp2020}; our target pairs evaluate entailment with explicit episode evidence. COGS~\cite{cogs2020} tests lexical and structural generalization; HANS~\cite{hans2019} exposes heuristic NLI success. Annotation artifacts can make inference labels recoverable without premise access~\cite{gururangan2018}; hypothesis-only baselines diagnose those cues~\cite{poliak2018}, while CheckList organizes tests by capability and behavioral expectation~\cite{checklist2020}. We apply these diagnostic principles to event inference through category-level errors, generic label controls, paired interventions, a held-out renderer and role swaps with exact word-count collisions. Our pilot-trained surface baseline uses TF-IDF word unigrams~\cite{salton1988} and logistic regression in scikit-learn~\cite{sklearn2011} ($C=1$, fixed seed, no outcome-based tuning). It measures supervised surface recoverability alongside zero-shot model evaluation.
+
+\section{Methodology}
+\subsection{Compatible-History Predictions}
+Let $\mathcal{H}(P)$ be the nonempty set of histories compatible with premise $P$. For target $T$, define entailment ($E$), contradiction ($C$) and unknown ($U$) by
+\begin{equation}
+ L(P,T)=\begin{cases}
+ E & \forall h\in\mathcal{H}(P):T(h),\\
+ C & \forall h\in\mathcal{H}(P):\neg T(h),\\
+ U & \text{otherwise}.
+ \end{cases}
+\end{equation}
+A bounded target $B(h)$ requires attainment of progress state 4. An occurrence target $A(h)$ requires the stated sufficient activity witness, represented by at least two progress stages. Neutral evidence permits both $(1,2,S)$ and $(1,2,3,4,S)$, where $S$ denotes permanent stopping. Supporting evidence permits only the latter; cancellation permits only the former. The two histories are representatives of the endpoint truth alternatives, not an empirical event-frequency distribution.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{method_schematic.pdf}
+\caption{Compatible-history evaluation. The reading example preserves the verb and episode while changing the target's extent. Both histories contain sufficient activity; only $h_+$ attains the endpoint. Evidence retains both histories, $h_+$, or $h_-$, yielding unknown, entailed, or contradicted for the bounded target while occurrence remains entailed. Real, Nonce and Micro render these same target truth alternatives. This is the gold-label construction, not an empirical frequency model.}
+\label{fig:method}
+\end{figure*}
+
+\begin{table}[t]
+\centering
+\caption{Normative predictions, identical across the three matched presentations. These are theory-derived labels, not observed model accuracies.}
+\label{tab:theory}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccc}
+\toprule
+Evidence & \shortstack{Bounded\\target} & \shortstack{Activity\\target} & $q(B)-q(A)$\\
+\midrule
+Neutral & $U$ & $E$ & $[-1,0]$\\
+Endpoint attained & $E$ & $E$ & $0$\\
+Permanent cancellation & $C$ & $E$ & $-1$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Probability predictions require a coherent assessment accepting the premise. Logic gives only a weak neutral inequality; a strict negative gap requires a nondegenerate endpoint belief. High subjective probability does not turn an unknown outcome into entailment; no score threshold determines its label.
+
+\subsection{Families, Gold and Splits}
+A seeded generator allocates 120 main families and 40 disjoint pilot families over 12 real lemmas and three manipulation strata. Each main lemma has ten scenario realizations. Lexical blocks, rather than individual renderings, determine the outer resampling unit.
+
+Each family crosses three presentations, bounded/activity targets and neutral/supportive/cancelling evidence, producing 18 items. Gold comprises 12 entailed, three contradicted and three unknown items per family. We preserve this semantic imbalance and report macro-label and cell accuracy rather than forcing equal labels by changing targets. Original and generated pairs undergo exact/normalized overlap checks. Automatic checks verify allocation, shared lemmas and nonce forms, process predicates and the truth matrix. Gold never comes from model responses.
+
+The agent, underlying theme or path, and episode horizon are matched within a pair. A bounded theme is the entire stipulated portion or text, or a marked path goal. The activity counterpart requires sufficient witnessed processing. Quantity items exclude additional target quantities; cancellation excludes endpoint attainment and later continuation within the same episode. The oracle determines all gold labels from the encoded histories and target predicates; automatic validation checks all 5,744 frozen item variants and controls. These labels are reference judgments for the specified interpretation. The two-stage witness and fixed episode horizon are explicit task assumptions, as are exclusion of surplus targets and of resumption after cancellation.
+
+
+
+Matching preserves the underlying episode and endpoint truth alternatives, rather than making complete premises differ by a single word. Bounded Real items additionally exclude surplus targets; their outcome evidence names the required quantity, goal or coverage. Activity evidence states witnessed occurrence and duration. Outcome wording states the evidence required by each target, so the paired comparison evaluates full VP-and-evidence packages. Endpoint and cancellation conditions explicitly supply decisive facts; neutral conditions preserve unresolved endpoints.
+
+\subsection{Presentations and Intended Priors}
+Real uses ordinary verbs and arguments. Nonce defines a neutral process and shares its predicate root within the bounded/activity pair. Micro states symbolic progress and target rules. All three preserve the family-level endpoint truth alternatives, while differing in lexical associations, definition burden, length and notation. A Real-definition control tests an additional presentation with definitions supplied for ordinary predicates. Nonce forms pass a retained dictionary-noncollision audit.
+
+A separate Real-bounded module crosses two intended burden levels with three contexts over 40 main families (240 items per system). Smaller portions, shorter texts and nearer goals motivate a predicted neutral completion-score increase. The cues specify intended processing burden; no prior distribution is assumed. Explicit endpoint or cancellation evidence fixes the logical label at either burden level. This module is exploratory, with no independent prior ratings.
+
+\subsection{Shared-Premise Role-Binding Challenge}
+The original templates permit strong surface baselines. To separate role-sensitive inference from word-count cues, we add a post-review challenge whose design and analyses are frozen before its collection. It retains the same oracle while extending occurrence evidence to absent and unobserved activity. Twelve lexical blocks comprise six main lemmas and six benchmark-held-out lemmas (sip, consume, hike, paddle, scan and trace), balanced over the three strata.
+
+Each block contains five adjacent status pairs: no activity, observed partial progress with an open endpoint, final partial coverage, full coverage, and unrelated observation with no event evidence. Two actors receive separate identical assignments; swapping their names between the two records preserves every word count. The hypothesis always concerns Nora. Bounded and activity targets share the entire premise, yielding 720 cells per system across the three presentations. Zero coverage gives $C/C$; partial open evidence gives $U/E$; final partial coverage gives $C/E$; completion gives $E/E$; unrelated evidence gives $U/U$. The last condition leaves both absence and occurrence histories available.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{binding_challenge.pdf}
+\caption{Role-binding control (RB01, drink). Records stay fixed while actor bindings swap, changing Nora's bounded/activity labels from $C/C$ to $U/E$. Each pair has identical word counts and each scene supplies one shared premise for both targets. Labels are oracle predictions. Diagram excerpts abbreviate the interval/monotone-coverage assumptions; complete Real/Nonce/Micro stimuli are in the supplement.}
+\label{fig:binding}
+\end{figure}
+
+Every bounded swap pair has different gold, as do three of five activity swap pairs. A deterministic classifier invariant to word order must make identical predictions within each pair: its exact accuracy ceiling is 50\% for bounded targets, 70\% for activity, and 60\% overall. Both-correct accuracy is zero on the 288 different-gold pairs. These finite-set bounds require no probabilistic assumption. All seven systems use the original inference protocol. The Nonce occurrence gloss was clarified to describe progress rather than an observation record; all 240 Nonce cells per system were retested, with all initial outcomes retained in the supplement. Challenge intervals resample the twelve lemma blocks (10,000 draws); this supplementary analysis does not change the prespecified primary tests.
+
+\subsection{Models and Collection}
+Six named systems are fixed before main core outcomes: Qwen3 at 8B, 14B and 32B~\cite{qwen2025}; Llama 3.1 8B Instruct~\cite{llama2024}; Ministral 8B 2512~\cite{ministral2025}; and Gemma 3 12B IT~\cite{gemma2025}. A 30-family core and 20-family intended-prior subset is reserved for DeepSeek-V3.2 stress evaluation~\cite{deepseek2025}. Stress comparisons restrict every system to the same families; DeepSeek is analyzed separately from the dense Qwen size comparison.
+
+OpenRouter suppliers and precisions are pinned and recorded. Qwen's dense parameter counts are 8.2, 14.8 and 32.8 billion; size comparisons describe associations under the recorded supplier/precision settings. Requests use temperature zero, top-$p$ one, 256 output tokens, gateway reasoning-disable controls and uniform Qwen \texttt{/no\_think}. The latter is a disclosed adaptation of the original zero-shot prompt; non-Qwen original prompt bodies are unchanged. Generated tasks return a JSON label and subjective score; label-only controls omit the score. Successful responses are never retried. Exact full-payload matches are cached; failed transport attempts and all planned cells remain recorded. Full suppliers, payloads and usage are retained in the package.
+
+\begin{table*}[t]
+\centering
+\caption{Completed main core results (percent). Each presentation has 720 items per system: 480 entailed, 120 contradicted and 120 unknown. Acc. uses all planned cells; macro averages the three label recalls; U is unknown recall. The final column is a separate generic unknown-label control, including the disclosed cached controls. }
+\label{tab:core_results}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Real} & \multicolumn{3}{c}{Nonce} & \multicolumn{3}{c}{Micro} & Generic U\\
+System & Acc. & Macro & U & Acc. & Macro & U & Acc. & Macro & U & Correct\\
+\midrule
+Qwen8 & 91.9 & 83.9 & 65.0 & 59.2 & 54.6 & 0.0 & 100.0 & 100.0 & 100.0 & 0/20 \\
+Llama8 & 82.4 & 64.7 & 15.8 & 85.3 & 70.6 & 15.0 & 89.4 & 78.9 & 36.7 & 20/20 \\
+Ministral8 & 58.3 & 67.7 & 79.2 & 73.5 & 86.7 & 100.0 & 66.7 & 83.3 & 100.0 & 20/20 \\
+Gemma12 & 92.2 & 84.4 & 54.2 & 92.1 & 84.2 & 52.5 & 100.0 & 100.0 & 100.0 & 20/20 \\
+Qwen14 & 94.9 & 89.7 & 70.0 & 63.5 & 57.2 & 1.7 & 86.2 & 93.1 & 100.0 & 20/20 \\
+Qwen32 & 94.7 & 89.4 & 68.3 & 86.5 & 92.6 & 97.5 & 100.0 & 100.0 & 100.0 & 20/20 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Pilot, Freeze and Robustness}
+The disjoint two-system pilot supplies 1,600 valid responses: 720 core, 60 prior and 20 label controls per system. A retained 40-call schema check removes a redundant score field. Pilot event/prior outcomes are excluded from main estimates; identical generic controls are cached. The timestamped local freeze precedes main core collection.
+
+The seeded 24-family robustness subset crosses presentation, target type and neutral/cancelling evidence (288 matched cells per system). Paired variants change label order, renderer, names, output schema, natural guidance or structural guidance. The Real-definition variant changes 96 Real cells per system. Post-freeze participle-repair controls preserve original stimuli and results while assessing the known wording defects; their descriptive outcomes appear in Section~\ref{sec:robustness}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{main_category_accuracy.pdf}
+\caption{Neutral categorical diagnostics: unresolved endpoint versus witnessed occurrence. Each point retains 120 planned families; missing/invalid labels count incorrect. Marginal 95\% intervals use 10,000 verb-then-family bootstrap draws over 12 lexical blocks. Intervals reflect lexical/family resampling. All six systems and three presentations are shown.}
+\label{fig:category}
+\end{figure*}
+
+\subsection{Metrics and Statistics}
+Accuracy uses all planned cells; macro accuracy averages the three gold-label recalls. Cell diagnostics separate unresolved bounded endpoints from witnessed activity. Elicited $q$ is subjective target-truth probability, distinct from directly measured language-model string probability~\cite{hu2023}. Compositional sensitivity, $q(B)-q(A)$, is the paired score gap between the full target-and-premise packages; categorical judgments independently test the all-history criterion. Thus a probable unknown outcome stays unknown, and a negative score gap can accompany a contradiction error.
+
+Five prespecified contrasts per main model form one 30-test Holm family~\cite{holm1979}: Real neutral compositional sensitivity, its Real--Nonce and Real--Micro differences, Real bounded cancellation-minus-neutral $q$, and structural-rule accuracy gain. Marginal 95\% intervals use 10,000 seeded bootstrap draws~\cite{efron1979}, resampling verbs and then families within verbs. Exact sign flips over the 12 lexical blocks assume exchangeable block-effect signs under the null. Rule gains count failed outputs as incorrect; probability contrasts use complete pairs and report adverse missing-score bounds. The retained pool is complete. Family-only intervals are descriptive sensitivity checks.
+
+Secondary contrasts receive BH adjustment~\cite{bh1995} within the named complete families; these are exploratory adjusted $p$-values. The prespecified lme4 mixed-effects correctness and raw-$q$ fits~\cite{bates2015} encounter separation or singularity in the core analyses; clustered contrasts provide the inferential results. All 32 fit attempts and fallback diagnostics are retained in the supplement, including the single usable exploratory prior fit.
+
+\subsection{Reproducibility}
+The anonymous package contains generated stimuli, unchanged original gold, response/attempt ledgers, all 30 primary and 380 secondary diagnostics, model-fit diagnostics, source-backed figures and offline scripts. Independent extraction reproduces the statistical outputs exactly, and disposable stimulus replay is byte-identical. Collection uses a local precollection freeze rather than external preregistration. \footnote{Research implementation: Codex assisted study-design refinement, generator and analysis implementation, literature auditing, experimental orchestration, result checks and figure production. Gold is computed by the explicit history rules; empirical outcomes are recorded API responses.}
+
+\section{Results}
+\subsection{Evaluation Coverage and Label Controls}
+The six-system suite contains 28,104 planned cells and 27,984 unique payloads, including 35 cached generic controls and 120 equivalent planned cells. All formal responses are valid; transport attempts remain recorded separately. DeepSeek contributes 660 stress outcomes. The wording control covers 518 paired formal cells, including the initial 180 corrections.
+
+Every system solves the generic entailed and contradicted controls (20/20 each); five solve all generic unknown controls. Qwen8 scores 0/20 on generic unknowns but 120/120 on Micro unknowns. This contrast identifies presentation-dependent label use. Event-specific unknown errors also persist in systems that solve the generic controls.
+
+
+
+\subsection{Composition, Presentation and Categorical Errors}
+
+Table~\ref{tab:core_results} shows that aggregate accuracy can conceal label-specific failure. Figure~\ref{fig:category} separates neutral endpoint uncertainty from witnessed activity occurrence. Real accuracy exceeds 91\% for four systems, while their unknown recall ranges from 54.2\% to 70.0\%. Llama8 reaches 82.4\% Real accuracy but only 15.8\% unknown recall. The majority-label proportion is 66.7\%, making macro-label and cell diagnostics necessary.
+
+Nonce substitution does not uniformly improve reasoning. Qwen8 falls from 91.9\% Real accuracy to 59.2\% Nonce accuracy, and Qwen14 from 94.9\% to 63.5\%. Their neutral Nonce activity accuracy is respectively 37.5\% and 0\%, despite that target's explicit occurrence witness. Qwen32 also answers only 21.7\% of neutral Nonce activity targets correctly. These are occurrence errors on witnessed activity. Qwen8 calls every neutral Nonce bounded target contradicted; Qwen14 does so on 118/120 items. The dominant bounded-target error is therefore contradiction, which a completion-entailment account misses.
+
+Micro yields perfect core accuracy for Qwen8, Gemma12 and Qwen32. It does not provide universal recovery: Llama8 reaches 89.4\%, Qwen14 86.2\%, and Ministral8 66.7\%. Ministral8 correctly identifies every Micro unknown and contradicted item but only half of the entailed items, giving 83.3\% macro accuracy. It fails every neutral Micro activity target. Qwen14 answers 17.5\% of that same cell correctly. The explicit process condition separates systems that preserve these truth conditions from systems with occurrence errors in that task format.
+
+All six Real neutral compositional-sensitivity point estimates are negative, ranging from $-0.504$ to $-0.248$. A negative score difference is insufficient evidence of correct categorical inference. Ministral8 has zero mean neutral Nonce and Micro contrast while failing their occurrence targets; Qwen14 has negative neutral Nonce sensitivity despite failing every neutral activity judgment. The score and categorical outcomes must be interpreted jointly.
+
+\begin{table}[t]
+\centering
+\caption{Neutral Nonce error profiles. CS is the mean paired score gap; counts retain 120 families. $U\!\to\!C$ is bounded contradiction, A err. is occurrence error, and Both is their intersection within a family. These are descriptive categorical diagnostics.}
+\label{tab:profile}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+System & CS & $U\!\to\!C$ & A err. & Both\\
+\midrule
+Qwen8 & -0.716 & 120 & 75 & 75 \\
+Llama8 & -0.488 & 100 & 0 & 0 \\
+Ministral8 & 0.000 & 0 & 120 & 0 \\
+Gemma12 & -0.694 & 57 & 0 & 0 \\
+Qwen14 & -0.548 & 118 & 120 & 118 \\
+Qwen32 & -0.234 & 3 & 94 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:profile} gives a concrete counterexample to score-only evaluation: Qwen14 has a $-0.548$ Nonce gap, but 118 bounded contradiction errors and 120 occurrence errors; 118 families contain both. Qwen32 instead has mostly correct unknown labels but 94 occurrence errors. The categorical profile changes the diagnosis even when both systems have negative score gaps.
+
+A post-review lexical breakdown shows where Real uncertainty fails. For the four systems above 91\% Real accuracy, unknown recall is 0--20\% on quantity targets, 97.5--100\% on paths, and 65--92.5\% on incremental coverage (40 items per stratum). Errors span six to eight of the twelve lemmas, with severity concentrated in quantity realizations. Per-lemma and per-stratum counts are supplied in the supplement.
+
+Explicit cancellation establishes the negative operational label: Real bounded cancellation accuracy is 100\% for Qwen32, 99.2\% for Gemma12 and Qwen14, 86.7\% for Qwen8, 78.3\% for Llama8, and 75.0\% for Ministral8. All systems reach 100\% in the corresponding Micro cell. The Real estimates retain the original wording; Section~\ref{sec:robustness} reports the paired correction check.
+
+\subsection{Prespecified Clustered Contrasts}
+\begin{table}[t]
+\centering
+\caption{All prespecified contrast estimates. R CS is the Real neutral gap; R--N/M compare gaps; Cancel is bounded Real cancellation-minus-neutral score; Rule is structural-guidance gain in points. $^{*}$: Holm $p<.05$ within all 30 tests. Complete marginal lexical/family intervals and exact adjusted $p$ values are retained in the supplementary table.}
+\label{tab:primary_results}
+\setlength{\tabcolsep}{2.3pt}
+\begin{tabular}{lrrrrr}
+\toprule
+System & R CS & R--N & R--M & Cancel & Rule\\
+\midrule
+Qwen8 & $-0.34^{*}$ & $0.37^{*}$ & $0.16$ & $-0.48^{*}$ & $-0.69$ \\
+Llama8 & $-0.50$ & $-0.02$ & $-0.32$ & $-0.28$ & $3.82$ \\
+Ministral8 & $-0.25$ & $-0.25$ & $-0.25$ & $-0.45^{*}$ & $3.12$ \\
+Gemma12 & $-0.27$ & $0.42^{*}$ & $0.02$ & $-0.66^{*}$ & $-2.78$ \\
+Qwen14 & $-0.31$ & $0.23^{*}$ & $-0.06$ & $-0.68^{*}$ & $0.00$ \\
+Qwen32 & $-0.31^{*}$ & $-0.07$ & $0.28^{*}$ & $-0.69^{*}$ & $1.74$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:primary_results} reports all prespecified estimates; the supplementary table centralizes full intervals and multiplicity-adjusted tests. Real neutral sensitivity is negative in all six systems; Qwen8 and Qwen32 pass Holm correction. Positive Real--Nonce differences pass for Qwen8, Gemma12 and Qwen14: their Nonce score gaps are more negative despite the categorical failures above. Qwen32 also has a positive corrected Real--Micro difference. These results directly show why the direction of a score contrast and correctness of event inference must be evaluated separately.
+
+Cancellation lowers bounded Real scores in all systems, with five corrected contrasts passing. Structural-rule gains range from $-2.78$ to $+3.82$ percentage points; none passes the complete Holm family. The evidence supports responsiveness to cancellation evidence but no detected accuracy improvement from additional structural guidance. Every baseline prompt already defines all-history entailment, contradiction and unknown, so this tests an incremental reminder. Full marginal intervals, family-only sensitivity and mixed-fit diagnostics are supplied with the results.
+
+\subsection{Contemporary Original-Benchmark Replication}
+The unchanged 400-item benchmark yields 53.2--68.0\% accuracy; the published 303-item filter yields 67.3--80.2\% on a differently composed pool (full per-system table in the supplement). Group C true-response rates remain 43.1--96.6\% after filtering. In the 24 Group A items with explicit noncompletion, true-response rates remain 8.3--50.0\%. Thus the contemporary response pattern includes errors under explicit negative evidence as well as disputed original interpretations.
+
+All subsets retain their denominators and original gold. Llama8 and Qwen32 retain high Group C true rates despite correct generic unknown controls, motivating task-specific uncertainty diagnostics.
+
+\subsection{Intervention and Robustness Tests}
+\label{sec:robustness}
+Natural guidance changes matched accuracy by $-3.8$ to $+5.6$ points. In the complete secondary intervention family, it improves Llama8 by 5.56 points (BH $p=0.020$) and reduces Gemma12 by 3.82 points ($p=0.049$). Together with the primary structural-rule results, these opposite directions establish system-dependent intervention behavior. Held-out rendering changes model accuracy by $-9.0$ to $+11.5$ points; the Real-definition variant changes its 96 affected Real cells by zero to $+7.3$ points. On the 24 matched neutral bounded items, definitions change correct unknown judgments from 16 to 18 (Qwen8), 5 to 10 (Llama8), 19 to 22 (Ministral8), 14 to 19 (Gemma12), 16 to 18 (Qwen14), and 15 to 15 (Qwen32). Witnessed neutral Real activity remains 24/24 for five systems; Ministral8 changes from 1/24 to 0/24. Definitions therefore improve some endpoint judgments without uniformly restoring occurrence inference. All paired variants and denominators are retained in the supplement.
+
+Neutral burden-cue score shifts are positive in all six main systems ($0.030$--$0.140$), but none of the complete 21 prior-context contrasts passes BH correction (minimum adjusted $p=0.185$). The evidence is inconclusive for the predicted cue effect. Within Qwen, Micro accuracy is 100\%, 86.2\% and 100\% at 8.2, 14.8 and 32.8 billion parameters. Performance is nonmonotonic under the evaluated providers and precisions.
+
+A post-freeze audit identifies incorrect passive participles for drink, eat and write in 30 Real bounded cancellation core items. The complete paired correction covers all inherited formal defects: 83 cells per main system and 20 stress cells (518 pairs). Twelve labels change, including one improved Ministral core answer and one worsened Gemma core answer; all 20 affected DeepSeek labels remain unchanged. Original primary outcomes are preserved. The correction is a later descriptive check, with service/order variation; it adds no inferential tests.
+
+\subsection{Matched Strong-Model Stress Test}
+Every system is compared on the same 30 core families (540 items, 180 per presentation). DeepSeek reaches 90.0\% Real, 98.3\% Nonce and 100\% Micro accuracy, with macro accuracies of 80.0\%, 96.7\% and 100\%. The corresponding matched main-system accuracy ranges are 57.8--93.9\%, 57.8--93.9\% and 66.7--100\%. Three main systems also solve every Micro item on this subset.
+
+DeepSeek's Real unknown recall is 46.7\% (14/30), whereas its Nonce unknown recall is 90.0\% (27/30). Its Real entailed and contradicted recalls are 100\% and 93.3\%. Strong Nonce/Micro performance thus coexists with unresolved-endpoint errors in ordinary language. This matched stress result confirms the ordinary-language uncertainty failure alongside successful explicit-process inference.
+
+
+
+\subsection{Surface Recoverability and Rendering}
+The fixed word-unigram full-text baseline trained on disjoint pilot gold reaches 95.4\% main core accuracy and 90.7\% macro accuracy. Hypothesis-only and majority baselines both reach 66.7\% accuracy, with macro accuracies of 35.7\% and 33.3\%. Strong full-text performance establishes surface recoverability in this controlled construction set. On the same 24-family, 288-item subset, full-text baseline accuracy drops from 92.7\% with the original renderer to 76.0\% with the held-out renderer, a paired 16.7-point decrease. The baseline receives labeled pilot training. Its strong in-template fit and renderer drop establish that surface cues recover much of the controlled set while depending on its wording.
+
+\begin{table}[t]
+\centering
+\caption{Post-review role-binding challenge (percent). Each system has 720 cells; R/N/M each 240. All uses all cells; CI is the 12-lemma bootstrap interval. Pair is both-correct recall on 288 pairs with different gold. Any deterministic word-unigram classifier has a 60\% accuracy ceiling and 0\% Pair.}
+\label{tab:binding}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+System & R & N & M & All [95\% CI] & Pair\\
+\midrule
+Qwen8 & 77.1 & 82.5 & 75.8 & 78.5 [77.5,79.6] & 51.0 \\
+Llama8 & 61.7 & 75.0 & 63.3 & 66.7 [65.4,67.8] & 24.0 \\
+Ministral8 & 62.9 & 72.1 & 95.8 & 76.9 [73.8,80.1] & 69.4 \\
+Gemma12 & 87.9 & 98.3 & 63.3 & 83.2 [82.2,84.3] & 59.4 \\
+Qwen14 & 80.4 & 90.0 & 70.0 & 80.1 [79.2,81.1] & 59.0 \\
+Qwen32 & 89.2 & 91.7 & 70.4 & 83.8 [82.6,85.0] & 67.7 \\
+DeepSeek & 94.6 & 94.6 & 90.8 & 93.3 [91.9,94.6] & 91.0 \\
+Unigram & 40.0 & 40.0 & 40.0 & 40.0 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Inference beyond Word Counts}
+All 5,040 supplementary cells have valid outcomes. Table~\ref{tab:binding} contrasts role-sensitive systems with the pilot-trained unigram baseline: every system exceeds the exact 60\% ceiling, while the baseline reaches 40\%. Both-correct rates on different-gold swap pairs range from 24.0\% to 91.0\%, against zero for a deterministic word-count-invariant classifier. Successful pairs cannot be explained by such an unordered lexical rule. Held-out-lemma accuracy differs from seen-lemma accuracy by $-1.9$ to $+1.7$ points; the six-lemma splits and full cell counts are supplementary.
+
+The challenge also breaks the original Micro ceiling: Qwen8, Gemma12 and Qwen32 achieve 75.8\%, 63.3\% and 70.4\%. Their unknown-activity recalls are 2/24, 0/24 and 0/24, while witnessed-activity recalls are 72/72, 72/72 and 49/72. DeepSeek has 93.3\% total accuracy but only 50/72 witnessed Micro activity judgments correct. Ministral8 instead reaches 95.8\% Micro accuracy, compared with 66.7\% on the core. Failure includes both unresolved occurrence and rejection of explicit witnesses; the expanded format does not uniformly lower performance. Counter-grounded evidence and actor swaps change the task together, so the drop identifies a failure boundary of the core format. The complete definition check changes Nonce agreement with the intended oracle by $-14.2$ to $+13.8$ points; both directions are retained in the supplement.
+
+\section{Discussion}
+The categorical profile adds information that a completion contrast discards: Qwen14's negative Nonce score gap hides both rejection of witnessed activity and contradiction of unresolved endpoints. Real quantity targets concentrate uncertainty errors that aggregate accuracy dilutes. These findings motivate target- and category-specific reporting.
+
+Perfect Micro performance in several systems is a useful reference for the stated truth conditions. Real/Nonce differences establish presentation sensitivity: lexical meaning, definitions, notation and information burden change together. The shared-premise challenge separately tests whether systems distinguish actor assignments under exactly fixed word counts. It evaluates role-sensitive adherence to counter-grounded event rules; it does not isolate one internal cause for the original presentation differences.
+
+\balance
+\section{Scope and Limitations}
+The task specifies a single episode, sufficient witnessed activity and explicit endpoint truth alternatives. It evaluates adherence to those readings. The core covers twelve lemmas; the challenge adds six benchmark-held-out predicates under explicit coverage rules. Repeated templates and fixed actor roles delimit coverage; the swap control excludes unordered word counts but permits order-sensitive template strategies. Lexical resampling reflects these inventories. Ordinary, defined-predicate and symbolic presentations differ in information burden, so layer effects compare presentation packages. Providers, precision and training also differ across systems. Elicited scores are uncalibrated; the burden-cue analysis measures subjective shifts without independent prior ratings. Known participle defects and their complete later paired correction are reported in Section~\ref{sec:robustness}. Extending the construction inventory and testing implicit outcomes in broader discourse are natural next evaluation settings.
+
+\section{Conclusion}
+We introduce compatible-history evaluation for separating event occurrence, culmination and unresolved outcomes. The matched benchmark exposes categorical failures that aggregate accuracy and completion-score contrasts conceal. Six-system results and a matched strong-model stress test show that core explicit-process success coexists with ordinary-language uncertainty errors. The shared-premise challenge exceeds the deterministic word-count ceiling while exposing occurrence failures in systems that solve the original Micro core. This provides a reproducible method for diagnosing which event truth conditions a language model preserves across target types, evidence and presentations.
+
+
+
+\begin{thebibliography}{99}
+\bibitem{vendler1957} Zeno Vendler. 1957. Verbs and Times. \emph{The Philosophical Review} 66(2), 143--160.
+\bibitem{moens1988} Marc Moens and Mark Steedman. 1988. Temporal Ontology and Temporal Reference. \emph{Computational Linguistics} 14(2), 15--28.
+\bibitem{krifka1998} Manfred Krifka. 1998. The Origins of Telicity. In \emph{Events and Grammar}, Susan Rothstein (Ed.). Kluwer, 197--235.
+\bibitem{ma2026} Bolei Ma and Yusuke Miyao. 2026. The Imperfective Paradox in Large Language Models. In \emph{Proceedings of ACL}, 15093--15111. \url{https://aclanthology.org/2026.acl-long.689/}
+\bibitem{han2026} Kaiqiao Han and Yizhou Sun. 2026. The imperfective paradox is not necessarily in Large Language Models: A benchmark failure before a model failure. arXiv:2608.25005v1. \url{https://arxiv.org/abs/2608.25005}
+\bibitem{prus2024} Katarzyna Pru\'{s}, Mark Steedman, and Adam Lopez. 2024. Human Temporal Inferences Go Beyond Aspectual Class. In \emph{Proceedings of EACL}, 1913--1923. \url{https://aclanthology.org/2024.eacl-long.115/}
+\bibitem{prus2025} Katarzyna Pru\'{s}, Mark Steedman, and Adam Lopez. 2025. World Knowledge Resolves Some Aspectual Ambiguity. In \emph{Findings of ACL}, 13207--13220. \url{https://aclanthology.org/2025.findings-acl.683/}
+\bibitem{core2025} Sai P Vallurupalli and Francis Ferraro. 2025. CoRE: Condition-based Reasoning for Identifying Outcome Variance in Complex Events. In \emph{Findings of ACL}, 19381--19401. \url{https://aclanthology.org/2025.findings-acl.992/}
+\bibitem{cxmp2026} Miyu Oba and Saku Sugawara. 2026. CxMP: A Linguistic Minimal-Pair Benchmark for Evaluating Constructional Understanding in Language Models. In \emph{Proceedings of ACL}, 45949--45963. \url{https://aclanthology.org/2026.acl-long.2132/}
+\bibitem{cogs2020} Najoung Kim and Tal Linzen. 2020. COGS: A Compositional Generalization Challenge Based on Semantic Interpretation. In \emph{Proceedings of EMNLP}, 9087--9105. \url{https://aclanthology.org/2020.emnlp-main.731/}
+\bibitem{hans2019} R. Thomas McCoy, Ellie Pavlick, and Tal Linzen. 2019. Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference. In \emph{Proceedings of ACL}, 3428--3448. \url{https://aclanthology.org/P19-1334/}
+\bibitem{maccartney2008} Bill MacCartney and Christopher D. Manning. 2008. Modeling Semantic Containment and Exclusion in Natural Language Inference. In \emph{Proceedings of COLING}, 521--528. \url{https://aclanthology.org/C08-1066/}
+\bibitem{poliak2018} Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin Van Durme. 2018. Hypothesis Only Baselines in Natural Language Inference. In \emph{Proceedings of *SEM}, 180--191. \url{https://aclanthology.org/S18-2023/}
+\bibitem{checklist2020} Marco Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. 2020. Beyond Accuracy: Behavioral Testing of NLP Models with CheckList. In \emph{Proceedings of ACL}, 4902--4912. \url{https://aclanthology.org/2020.acl-main.442/}
+\bibitem{landman1992} Fred Landman. 1992. The Progressive. \emph{Natural Language Semantics 1(1), 1--32}. \url{https://doi.org/10.1007/BF02342615}
+\bibitem{proofwriter2021} Oyvind Tafjord, Bhavana Dalvi, and Peter Clark. 2021. ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language. \emph{Findings of ACL, 3621--3634}. \url{https://aclanthology.org/2021.findings-acl.317/}
+\bibitem{timebench2024} Zheng Chu, Jingchang Chen, Qianglong Chen, Weijiang Yu, Haotian Wang, Ming Liu, and Bing Qin. 2024. TimeBench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models. \emph{Proceedings of ACL, 1204--1228}. \url{https://aclanthology.org/2024.acl-long.66/}
+\bibitem{tram2024} Yuqing Wang and Yun Zhao. 2024. TRAM: Benchmarking Temporal Reasoning for Large Language Models. \emph{Findings of ACL, 6389--6415}. \url{https://aclanthology.org/2024.findings-acl.382/}
+\bibitem{blimp2020} Alex Warstadt, Alicia Parrish, Haokun Liu, Anhad Mohananey, Wei Peng, Sheng-Fu Wang, and Samuel R. Bowman. 2020. BLiMP: The Benchmark of Linguistic Minimal Pairs for English. \emph{Transactions of the Association for Computational Linguistics 8, 377--392}. \url{https://aclanthology.org/2020.tacl-1.25/}
+\bibitem{gururangan2018} Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R. Bowman, and Noah A. Smith. 2018. Annotation Artifacts in Natural Language Inference Data. \emph{Proceedings of NAACL-HLT, 107--112}. \url{https://aclanthology.org/N18-2017/}
+\bibitem{hu2023} Jennifer Hu and Roger Levy. 2023. Prompting is not a substitute for probability measurements in large language models. \emph{Proceedings of EMNLP, 5040--5060}. \url{https://aclanthology.org/2023.emnlp-main.306/}
+\bibitem{holm1979} Sture Holm. 1979. A Simple Sequentially Rejective Multiple Test Procedure. \emph{Scandinavian Journal of Statistics 6(2), 65--70}. \url{https://www.jstor.org/stable/4615733}
+\bibitem{bh1995} Yoav Benjamini and Yosef Hochberg. 1995. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. \emph{Journal of the Royal Statistical Society: Series B 57(1), 289--300}. \url{https://doi.org/10.1111/j.2517-6161.1995.tb02031.x}
+\bibitem{efron1979} Bradley Efron. 1979. Bootstrap Methods: Another Look at the Jackknife. \emph{The Annals of Statistics 7(1), 1--26}. \url{https://doi.org/10.1214/aos/1176344552}
+\bibitem{bates2015} Douglas Bates, Martin M\"achler, Ben Bolker, and Steve Walker. 2015. Fitting Linear Mixed-Effects Models Using lme4. \emph{Journal of Statistical Software 67(1), 1--48}. \url{https://doi.org/10.18637/jss.v067.i01}
+\bibitem{salton1988} Gerard Salton and Christopher Buckley. 1988. Term-weighting approaches in automatic text retrieval. \emph{Information Processing and Management 24(5), 513--523}. \url{https://doi.org/10.1016/0306-4573(88)90021-0}
+\bibitem{sklearn2011} Fabian Pedregosa et al. 2011. Scikit-learn: Machine Learning in Python. \emph{Journal of Machine Learning Research 12, 2825--2830}. \url{https://www.jmlr.org/papers/v12/pedregosa11a.html}
+\bibitem{qwen2025} An Yang et al. 2025. Qwen3 Technical Report. \emph{arXiv:2505.09388}. \url{https://arxiv.org/abs/2505.09388}
+\bibitem{llama2024} Aaron Grattafiori et al. 2024. The Llama 3 Herd of Models. \emph{arXiv:2407.21783}. \url{https://arxiv.org/abs/2407.21783}
+\bibitem{gemma2025} Gemma Team et al. 2025. Gemma 3 Technical Report. \emph{arXiv:2503.19786}. \url{https://arxiv.org/abs/2503.19786}
+\bibitem{deepseek2025} DeepSeek-AI et al. 2025. DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models. \emph{arXiv:2512.02556}. \url{https://arxiv.org/abs/2512.02556}
+\bibitem{ministral2025} Mistral AI. 2025. Ministral-3-8B-Instruct-2512. \emph{Official model card}. \url{https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512}
+\end{thebibliography}
+\end{document}

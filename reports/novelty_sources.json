@@ -1,0 +1,16 @@
+[
+  {
+    "path": "data/sources/cxmp_2026.pdf",
+    "source_url": "https://aclanthology.org/2026.acl-long.2132.pdf",
+    "checked_date": "2026-10-08",
+    "sha256": "ae09d0336d190b60a78661bde1c03c2d34544ca6bcb497d5a418c331d820688c",
+    "bytes": 626551
+  },
+  {
+    "path": "data/sources/core_2025.pdf",
+    "source_url": "https://aclanthology.org/2025.findings-acl.992.pdf",
+    "checked_date": "2026-10-08",
+    "sha256": "7ef298088da111f0a827facf4c7d91990c6a8989e86a3b79ef332e73179c3d70",
+    "bytes": 1037886
+  }
+]

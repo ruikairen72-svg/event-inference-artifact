@@ -1,0 +1,87 @@
+{
+  "main_pdf_sha256": "8f155f9417096a00e8d69f62546c8d176f21d82fe91733d5ab253a83c3d32931",
+  "supplement_pdf_sha256": "7382c8ce97fdc8b8905be4d6939693e436989a286f5ccccf4a9ef15c853d5ea3",
+  "render": "PyMuPDF1.6scale",
+  "pages": [
+    {
+      "document": "submission",
+      "page": 1,
+      "image": "tmp/pdfs/reviewer-final/submission-1.png",
+      "sha256": "e2a46978d69ae3f50c03e1328a1715a2d78235427ba92a5428077c298ee7fe11"
+    },
+    {
+      "document": "submission",
+      "page": 2,
+      "image": "tmp/pdfs/reviewer-final/submission-2.png",
+      "sha256": "e1b839e1f21ccd9f98d0e8bdd3caa50655117310c7a57a972547b137775a2bfe"
+    },
+    {
+      "document": "submission",
+      "page": 3,
+      "image": "tmp/pdfs/reviewer-final/submission-3.png",
+      "sha256": "5b6bdc1e5ed27de3ecf6b7d050c5c269b55f81f65a6e9a602df2b9ac57d8880d"
+    },
+    {
+      "document": "submission",
+      "page": 4,
+      "image": "tmp/pdfs/reviewer-final/submission-4.png",
+      "sha256": "55f04c57a7a4d38513eab51c21381a5e82437fbec31971104105b5ed484c135e"
+    },
+    {
+      "document": "submission",
+      "page": 5,
+      "image": "tmp/pdfs/reviewer-final/submission-5.png",
+      "sha256": "80f8f2c131e8690ef63ac159411ccce7200a7244e943556c97876d357f2d1675"
+    },
+    {
+      "document": "submission",
+      "page": 6,
+      "image": "tmp/pdfs/reviewer-final/submission-6.png",
+      "sha256": "70c9d55933f43b37899cc4cb5cb28becebdac99b0a8324b5e0e17ac1ba3024f3"
+    },
+    {
+      "document": "submission",
+      "page": 7,
+      "image": "tmp/pdfs/reviewer-final/submission-7.png",
+      "sha256": "c82894f1056a423696bd618f54aa95630d20a2664ab7c1d27162c2dd3256c8be"
+    },
+    {
+      "document": "submission",
+      "page": 8,
+      "image": "tmp/pdfs/reviewer-final/submission-8.png",
+      "sha256": "1f547e85f34dbaa534fb70f81851e8f67400f9395360edfea11f8e2cb821f79f"
+    },
+    {
+      "document": "supplementary",
+      "page": 1,
+      "image": "tmp/pdfs/reviewer-final/supplementary-1.png",
+      "sha256": "4e797411ffb0abb60156739613037b7aa385d76ac7cf947f6757284893d8118b"
+    },
+    {
+      "document": "supplementary",
+      "page": 2,
+      "image": "tmp/pdfs/reviewer-final/supplementary-2.png",
+      "sha256": "39f89962b0deb1340d59c3f4256d448a33fb61cda6ec67615a58e4c6beb1d543"
+    },
+    {
+      "document": "supplementary",
+      "page": 3,
+      "image": "tmp/pdfs/reviewer-final/supplementary-3.png",
+      "sha256": "d56652e30ba671eb62493eaf7401bffa73d6b7cd43e356370ae6781263a6315a"
+    },
+    {
+      "document": "supplementary",
+      "page": 4,
+      "image": "tmp/pdfs/reviewer-final/supplementary-4.png",
+      "sha256": "b10a1b08d5012e2cc0b0d4a76159cad1be69e392c929849c484d0af9d1c61413"
+    },
+    {
+      "document": "supplementary",
+      "page": 5,
+      "image": "tmp/pdfs/reviewer-final/supplementary-5.png",
+      "sha256": "d4f2f84afb00c98608ba3db257186463b160073855d404bdcbc09e5d01b714eb"
+    }
+  ],
+  "supplement_render": "PyMuPDF1.4scale",
+  "editorial_last_change": "Deterministic-classifier assumption made explicit; raster differences inspected"
+}

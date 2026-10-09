@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-09T02:32:08.702371+00:00",
+  "paper_ready": true,
+  "submission_ready": true,
+  "remaining": [],
+  "pdf_sha256": "71adbe2f7de06e5fd1b9779136296b4a67792ef041e4c304d7c7386a1867b1e1",
+  "manuscript_sha256": "a8164fd3c6452e9f5e8ddf5a94ef4fe2770d46cc8267362f0f25a1be532f281e",
+  "pages": 8,
+  "visual_QA": {
+    "passed": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inspection": "Current pages 1,2,4,5,6,7,8 directly viewed; page 3 byte-identical raster to previously inspected version. No clipped figures/tables, overlapping text or unresolved references; final columns balanced.",
+    "render_manifest_sha256": "d8068a383e811d8261cedcf065668d2799ef7976d1bed01e9d3d682bc058d887"
+  },
+  "scientific_claim_audit": "33 claim/source entries and complete tables verified; 2243 descriptive comparisons reconciled. All 30 primary contrasts and all 380 secondary rows retained.",
+  "review_type": "Agent self-audit; no independent human review, ratings or annotations",
+  "limitations": [
+    "Operational theory labels under stated readings; no population validity claim",
+    "Subjective uncalibrated q; intended prior effects exploratory",
+    "Presentation, provider and training confounds prevent causal knowledge/size claims",
+    "All unusable mixed fits excluded from inferential claims",
+    "Post-freeze wording supplements descriptive; original estimates unchanged"
+  ],
+  "actual_venue_submission": false,
+  "acceptance_probability_estimated": false,
+  "native_preview_limitation": "Native standalone compiler does not resolve project external figure; exported final PDF verified with existing Tectonic 0.17.0 and unchanged official acmart v2.19.",
+  "offline_reproduction_passed": true,
+  "readiness_scope": "Complete scientifically audited local submission artifact and reproducibility package; author-account administrative entry and actual venue upload not performed."
+}

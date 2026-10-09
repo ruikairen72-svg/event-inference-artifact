@@ -1,0 +1,30 @@
+{
+  "purpose": "Preserve complete literature delivery before reviewer-driven revision",
+  "sha256": {
+    "paper/manuscript.tex": "5153ba211fe620a703406a64f7a243e9f0d4116ebd35f5da86b5e9ba2749323f",
+    "output/pdf/submission.pdf": "a29d23b2566516b08cee582dbe3e436816d93d5c6cfc468d81f1cb0dd1ac59f0",
+    "paper/author_checklist.md": "ecdcf005621100a483b258897ab6f3ce4d82961d92a1f98c0af0f943c0bcf1af",
+    "reports/literature_coverage_report.md": "143636d94148be538c434369428e7538f5e7d48496d4bfcb02db5fcfae356ecb",
+    "reports/literature_coverage_audit.json": "ad067e50069daa1c2bf15e254dc82b9f782f676ce3df148c922cd35456a4067c",
+    "reports/literature_citation_verification.json": "3cd7786666a35024e24c1a21489960179ca1720f5c895c6b53fbc9278aaeeae2",
+    "reports/literature_revision_audit.json": "5aa453728d49ae1a86b016976d4e187433c1eb2fb6a2a135fc1c17a1c85f3acb",
+    "reports/final_submission_audit.json": "74e355e24b195e3720ee62db1f6d5bc3d19d5b35dd2af6b3fb4923492980ec04",
+    "reports/final_submission_audit.md": "6ec8e7aa2a28536b2d32d0be8a4bc28f6b812f0ffd08f727d11e4254ac0bb979",
+    "reports/final_project_report.md": "deb8e0a7ce81443267312f9f955d8c1bb788bfed438204b3d878da9d5c8bfead",
+    "reports/completion_requirements.md": "7f8ba0057e23987738019db488e6eda28b30ad73a52a7770612f78b98f7d8b07",
+    "reports/final_claim_ledger.json": "9ed27bec3071f65b84b158011a1929386848a6d4f7923548de4341e58ea6a785",
+    "reports/final_pdf_compile.json": "db5de90ae216f711e53114ead6da78a5f7f9b94bcb56472185304a5e0a6c07aa",
+    "reports/pdf_technical_audit.json": "944c34d6944a764c23cf5affdd39fb7acb75916e1a3565c0c8212ce70d707771",
+    "reports/figure_final_audit.json": "61f3e98e52359bd0e4cea5added8231a5c9538c8592b3e3b62438b2213e27cd8",
+    "reports/final_page_render_manifest.json": "8198c38eeae783651b83259b780776576abc404eb87367bca4e8bcffc7ba331a",
+    "reports/literature_revision_checkpoint.md": "b3fbb418b57bd1a129b749f58909bfc751e35622d9948f66ac7a725b5ad30818",
+    "scripts/audit_literature_coverage.py": "d304f3637db060661a27d381d55cdecb09761678d91ca0db12156411e09b43ec",
+    "scripts/audit_manuscript_claims.py": "5e2d20797137fa49ad3ccb00b7b4be07ee31f712e7c4c125e479df804467a6bf",
+    "scripts/build_review_archive.py": "7c45699168b503c0441294cadf3be51bf9f48b2a2599695fcb15c3473fdf0b8b",
+    "README.md": "01fa22f1eb1a3167ed9e6bccdbfb1d7a7cc8054ed7227b09204c213a21157a42",
+    "STATUS.md": "4cc832c4ad986398c87414b48603f97d4b6a8678158ec902626de69d9d8ec7c6",
+    "data/frozen/literature_prior_delivery/snapshot_manifest.json": "30b7d687ea5805f5e9ff1e2c5b1ed95f9f29e53ada95605c07b037bd5afc3459",
+    "reports/literature_revision.sha256": "b41c0cc9010b7537dc8d676a1271b274f2812c29812ac878ee7148e074507c2f",
+    "reports/sac_reviewer_report.md": "00b62251edd1bed0e829d65526d5a902b30ba3da4ca2d1387f856161d900b2da"
+  }
+}

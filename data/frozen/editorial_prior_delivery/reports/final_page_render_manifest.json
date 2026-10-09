@@ -1,0 +1,23 @@
+{
+  "pdf_sha256": "71adbe2f7de06e5fd1b9779136296b4a67792ef041e4c304d7c7386a1867b1e1",
+  "pages": 8,
+  "image_sha256": {
+    "page-1.png": "282278a970560d49bab1313dfbc2a9507f2609f8a0e16fc91bef9caa0f98d353",
+    "page-2.png": "939508e8a9e7052f49be2e926ddd4f9130999cdfa29ac94acde0f45ff1bbe0e4",
+    "page-3.png": "9449de717794199430981778ca388c94662529e70a2d2d2748af997bae48533d",
+    "page-4.png": "38691e1f82f445aa718b2fc2752643093a6594cc0771a260da6a6f8f4eae98af",
+    "page-5.png": "8ff8f14fca60b82a8c616ad1d49ee0d845ca6a1667c632005183fa5b705dc31a",
+    "page-6.png": "d1661d5b6e555201752e4df41856d84ca8230f79ac9060fbbff1e9daa87df114",
+    "page-7.png": "25664aecc34d65c4fd9e04ba3c50f68f94d7ee6ec4230ef393917ff903c0eb07",
+    "page-8.png": "26933b4e86e542a42ede17fe3daee7c8d5428f7c75dfa4f5fd6c7c04c879c24b"
+  },
+  "changed_from_last_visually_inspected_pass": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+  ]
+}

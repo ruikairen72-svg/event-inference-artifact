@@ -1,0 +1,20 @@
+{
+  "pdf_sha256": "98baa3a0a6fc93571ed5d71fcafee4d3583e313ac0fa79c6d740fe16c8effbe8",
+  "pages": 7,
+  "image_sha256": {
+    "page-1.png": "a4807874957b0926b250ede12350b962697114366c311bd34aedb0b779bf145c",
+    "page-2.png": "cc357d228dcfcadd7b0fee22a1ef9c4bb55d65d76c4a8586b850470196919d15",
+    "page-3.png": "21ef6b9a8051aec8b68854cc5238e5d4a2506c61b762d98b1a7c6af291d8d01f",
+    "page-4.png": "87b2577d829f77171e0f9a424e197eef144c3ba8869cd84f111d073d0ff3dcc4",
+    "page-5.png": "e5cdedb6eee565b7b8418b021ba4d502173f00bea0f04353aed35d3c1173590f",
+    "page-6.png": "8f0e3ce189ab8bffd52c0914b08e16fee8bb13a47eac1f718432a4e9a00d9800",
+    "page-7.png": "611322be7a0bd7696cc0d23f994b0f247d74398453f31beee6233c8a723b7a50"
+  },
+  "changed_from_last_visually_inspected_pass": [
+    4,
+    5,
+    6
+  ],
+  "render_location": "tmp/pdfs/editorial",
+  "revision": "Contribution-led editorial revision"
+}

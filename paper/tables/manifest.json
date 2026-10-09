@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+    "data/analysis/stress_planned.jsonl": "9d66eb316d9d9c7eed14fa656f49394657f8c87dd2efab3acdf960a05208a6c3"
+  },
+  "table_sha256": {
+    "paper/tables/core_confusions.csv": "4c2b1c27810e016c6585f97ec0d35d1d4470ead7b72d070271b90b256ee8697a",
+    "paper/tables/dataset_summaries.csv": "b3cbc03ee216b4db95dbf35cc7fc03a45175d8c9a6855e8f9f17f5d9c4a2d57b",
+    "paper/tables/prompt_lengths.csv": "04fc3ff31564f6613136c94514b695f4c6e04315421aa27d353a5828d88ba870",
+    "paper/tables/robustness.csv": "05118cca6980a54c3594e48d557cecdb43d8477b5fbbd72ecf2dbaa0e8a6b490",
+    "paper/tables/core_judgment_cells.csv": "ed61ce306a52a670cff6826524f07c71e9e2779f3eafb56ea9c0749bfb72d61b",
+    "paper/tables/primary_family_only_sensitivity.csv": "628117f554831afcdb712f8b832ce3e369dd41fa1abf566363f82dd3892080ff",
+    "paper/tables/primary_all_30.csv": "00b5239d2beb0264c62d05992695b07a080e00c763991392df36e55b703e79fe",
+    "paper/tables/replication.csv": "731a17391fc99579e8596bc88314cbc74899eed0284b0f51129e4ba104c268dc",
+    "paper/tables/matched_stress.csv": "67fb0aea7c769355108d67122b01177841e4dfe7c850998b34d4924e8f22eed3",
+    "paper/tables/mixed_fit_diagnostics.csv": "4247285faa4fb7b555896697706c170604eb70046d8bd6a14b3784eac333aaf7",
+    "paper/tables/label_controls.csv": "5a948d8ba45cb238a180342151be702a21c836d5f657e8583d399c3552bbd874",
+    "paper/tables/core_cells.csv": "49daa79aab9242a4875ddb625b3e4c409535eb6001dd1423c389a1e640571ecc",
+    "paper/tables/secondary_all.csv": "606732976960bb52eaca0a068bcb6c496b0c915a3c819f1a5b20b910f6dc6466",
+    "paper/tables/core_accuracy.csv": "31f10781aec1f4d772c9167623a781e72064beb2c67e456f133b8a25b92dfbf4"
+  },
+  "status": "real completed outcomes; tables require manuscript interpretation; no effect-selected deletion"
+}

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "utc": "2026-10-09T02:50:25.353460+00:00",
+  "revision": "Contribution-led academic argument and mechanism figure",
+  "before_pages": 8,
+  "after_pages": 7,
+  "manuscript_token_word_proxy": {
+    "before": 5562,
+    "after": 4748,
+    "definition": "Regex alphabetic words in full TeX, including commands; descriptive editorial proxy, not prose-only word count"
+  },
+  "references": 14,
+  "core_claim_evidence_map": [
+    {
+      "contribution": "Executable compatible-history gold separates occurrence, culmination and uncertainty",
+      "method": "All-history truth rule, progress-2 activity witness, progress-4 culmination, three evidence restrictions",
+      "evidence": [
+        "data/theory/normative_cells.jsonl",
+        "src/event_completion/semantics.py",
+        "figures/method_schematic.pdf"
+      ],
+      "scope": "Stated single-episode readings"
+    },
+    {
+      "contribution": "Matched evaluation separates target and presentation errors",
+      "method": "120 main families, same-root targets, Real/Nonce/Micro packages",
+      "evidence": [
+        "reports/main_descriptive_results.json",
+        "figures/main_category_accuracy.pdf"
+      ],
+      "scope": "Presentation packages differ in definition/notation burden; ordinary performance assessed under supplied evidence"
+    },
+    {
+      "contribution": "Empirical error profiles reveal what aggregate scores conceal",
+      "method": "Categorical diagnostics alongside subjective q; same-family stress, rule and surface controls",
+      "evidence": [
+        "reports/primary_results.json",
+        "reports/secondary_results.json",
+        "reports/stress_descriptive_results.json",
+        "reports/surface_baselines.json"
+      ],
+      "scope": "Complete prespecified correction retained; stress matched over 30 families"
+    }
+  ],
+  "conclusion_changing_counterevidence_retained": [
+    "Occurrence and unknown-to-contradicted failures",
+    "No primary structural-rule accuracy gain survives Holm",
+    "Natural guidance positive for Llama and negative for Gemma",
+    "High supervised surface recovery and held-renderer drop",
+    "All wording correction disagreements and original outcomes",
+    "Mixed fit failures and exploratory prior nulls"
+  ],
+  "editorial_changes": [
+    "Contribution-led abstract/introduction and explicit executable-method novelty",
+    "Concentrated theory-gold provenance and assumptions in methods",
+    "Removed repeated generic disclaimers and consolidated scope conditions",
+    "Compact results connect category errors, presentation packages and control evidence",
+    "All uncertainty centralized in metrics/table/figure; no new estimates",
+    "Replaced generic pipeline diagram by histories and evidence-set restriction",
+    "Verified three targeted references and retained closest competing work",
+    "Moved detailed secondary/mixed-fit information to supplementary artifact index",
+    "Removed separate AI-assistance section; research-use policy footnote and separate disclosure retained"
+  ],
+  "numeric_changes": "No data, analysis, gold or unrounded estimates changed. Prose display rounding now matches table convention (Qwen14 Micro 86.2%, original minimum 53.2%).",
+  "numerical_claim_audit_entries": 33,
+  "tested_scientific_components_unchanged": 60,
+  "new_experiments": 0,
+  "manuscript_sha256": "27ae506fac67acd27a1e7362a53599fc91f7e566626f322d87fa8ee04434a920",
+  "pdf_sha256": "98baa3a0a6fc93571ed5d71fcafee4d3583e313ac0fa79c6d740fe16c8effbe8",
+  "author_checklist": "paper/author_checklist.md",
+  "supplementary_index": "paper/supplementary_results.md"
+}

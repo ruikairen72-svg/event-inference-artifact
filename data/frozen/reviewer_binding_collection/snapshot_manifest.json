@@ -1,0 +1,9 @@
+{
+  "purpose": "Immutable collection-time supplementary generator, collector, protocol and dataset; later storage-only migration preserves every payload",
+  "sha256": {
+    "scripts/build_binding_challenge.py": "76aa8482967ea54280a45d399c6d280f3a477a70b6361bb2c8978b0fd1b9faff",
+    "src/event_completion/runner_binding.py": "52f7307212de2cffd92027b6385e57dd6abc401c347a679396ee293cf52de83a",
+    "reports/reviewer_binding_protocol.json": "00258e1640b9b8346cadcd6b9de0b436e97fa90784fe9ebe562ea8efb8c7d793",
+    "data/generated/reviewer_binding.jsonl": "affa88cca388a1f3846a69c7806c785ab31663711a6b812bd5fb0b99f7d3881d"
+  }
+}

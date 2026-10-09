@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-09T03:17:10.997775+00:00",
+  "paper_ready": true,
+  "submission_ready": true,
+  "remaining": [],
+  "pdf_sha256": "a29d23b2566516b08cee582dbe3e436816d93d5c6cfc468d81f1cb0dd1ac59f0",
+  "manuscript_sha256": "5153ba211fe620a703406a64f7a243e9f0d4116ebd35f5da86b5e9ba2749323f",
+  "pages": 8,
+  "visual_QA": {
+    "passed": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inspection": "All eight pages visually inspected; last bibliography author-list changes on page8 re-rendered and reviewed; pages1–7 raster identity checked. Method and results figures readable.",
+    "render_manifest_sha256": "8198c38eeae783651b83259b780776576abc404eb87367bca4e8bcffc7ba331a"
+  },
+  "scientific_claim_audit": "33 claim/source entries and complete tables verified; 2243 descriptive comparisons reconciled. All 30 primary contrasts and all 380 secondary rows retained.",
+  "review_type": "Agent self-audit; no independent human review, ratings or annotations",
+  "limitations": [
+    "Operational theory labels under stated readings; no population validity claim",
+    "Subjective uncalibrated q; intended prior effects exploratory",
+    "Presentation, provider and training confounds prevent causal knowledge/size claims",
+    "All unusable mixed fits excluded from inferential claims",
+    "Post-freeze wording supplements descriptive; original estimates unchanged"
+  ],
+  "actual_venue_submission": false,
+  "acceptance_probability_estimated": false,
+  "native_preview_limitation": "Native standalone compiler does not resolve project external figure; exported final PDF verified with existing Tectonic 0.17.0 and unchanged official acmart v2.19.",
+  "offline_reproduction_passed": true,
+  "readiness_scope": "Complete scientifically audited local submission artifact and reproducibility package; author-account administrative entry and actual venue upload not performed.",
+  "editorial_revision_passed": true,
+  "editorial_revision_audit": "reports/editorial_revision_audit.json",
+  "references": 32,
+  "literature_revision_passed": true,
+  "literature_revision_audit": "reports/literature_revision_audit.json",
+  "previous_editorial_evidence": "data/frozen/literature_prior_delivery"
+}

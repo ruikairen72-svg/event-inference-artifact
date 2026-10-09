@@ -1,0 +1,71 @@
+{
+  "version": "blueprint-0.1",
+  "date": "2026-10-07",
+  "status": "design_checkpoint_pending_user_review",
+  "externally_preregistered": false,
+  "inference_calls_made": 0,
+  "new_human_annotations": 0,
+  "seed": 20271007,
+  "pilot_families": 40,
+  "confirmatory_families": 120,
+  "composition": [
+    "bounded",
+    "unbounded"
+  ],
+  "knowledge": [
+    "real",
+    "nonce",
+    "micro"
+  ],
+  "context": [
+    "neutral",
+    "supportive",
+    "cancelling"
+  ],
+  "world_prior_real_bounded_families": 40,
+  "diagnostic_families": 30,
+  "robustness_families": 24,
+  "robustness_variants": [
+    "label_order",
+    "template_ood",
+    "name",
+    "label_only",
+    "natural_rule",
+    "structural_rule"
+  ],
+  "definition_control": true,
+  "main_models": [
+    "qwen/qwen3-8b",
+    "meta-llama/llama-3.1-8b-instruct",
+    "mistralai/ministral-8b-2512",
+    "google/gemma-3-12b-it",
+    "qwen/qwen3-14b",
+    "qwen/qwen3-32b"
+  ],
+  "stress_model": [
+    "deepseek/deepseek-v3.2"
+  ],
+  "gold_provider": "future_deterministic_compatible_history_solver_plus_genuine_linguistic_review",
+  "primary_contrasts": [
+    "neutral_cs_target",
+    "cs_real_minus_nonce",
+    "cs_real_minus_micro",
+    "neutral_wke",
+    "bounded_cancel_probability",
+    "structural_rule_accuracy_gain"
+  ],
+  "primary_multiplicity": "Holm across six contrasts times six main models",
+  "planned_output_cap": 256,
+  "total_target_usd": 10,
+  "scheduling_stop_usd": 9,
+  "pilot_scheduling_cap_usd": 0.9,
+  "gates": [
+    "user_blueprint_review",
+    "generator_and_validators",
+    "actual_stimulus_review",
+    "world_prior_validation_or_exploratory_reclassification",
+    "authenticated_model_and_provider_checks",
+    "pilot",
+    "freeze_before_confirmation"
+  ]
+}

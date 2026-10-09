@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Completed main core results (percent). Each presentation has 720 items per system: 480 entailed, 120 contradicted and 120 unknown. Acc. uses all planned cells; macro averages the three label recalls; U is unknown recall. The final column is a separate generic unknown-label control, including the disclosed cached controls. Perfect Micro scores concern supplied finite rules rather than unrestricted language competence.}
+\label{tab:core_results}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Real} & \multicolumn{3}{c}{Nonce} & \multicolumn{3}{c}{Micro} & Generic U\\
+System & Acc. & Macro & U & Acc. & Macro & U & Acc. & Macro & U & Correct\\
+\midrule
+Qwen8 & 91.9 & 83.9 & 65.0 & 59.2 & 54.6 & 0.0 & 100.0 & 100.0 & 100.0 & 0/20 \\
+Llama8 & 82.4 & 64.7 & 15.8 & 85.3 & 70.6 & 15.0 & 89.4 & 78.9 & 36.7 & 20/20 \\
+Ministral8 & 58.3 & 67.7 & 79.2 & 73.5 & 86.7 & 100.0 & 66.7 & 83.3 & 100.0 & 20/20 \\
+Gemma12 & 92.2 & 84.4 & 54.2 & 92.1 & 84.2 & 52.5 & 100.0 & 100.0 & 100.0 & 20/20 \\
+Qwen14 & 94.9 & 89.7 & 70.0 & 63.5 & 57.2 & 1.7 & 86.2 & 93.1 & 100.0 & 20/20 \\
+Qwen32 & 94.7 & 89.4 & 68.3 & 86.5 & 92.6 & 97.5 & 100.0 & 100.0 & 100.0 & 20/20 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Contemporary ImperfectiveNLI replication (percent), with unchanged original gold. Acc. is original-gold accuracy. TBR is the true-response rate in the named group, whose original gold is false (A) or unknown (C). Full: 400 items (A/C each 100); published VSS: 303 (A 49, C 58); explicit noncompletion: 24 Group A items. Different subsets are distinct diagnostics, not paired estimates of an improvement. All responses parse successfully.}
+\label{tab:replication_results}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Full original} & \multicolumn{3}{c}{Published VSS} & \multicolumn{2}{c}{A explicit}\\
+System & Acc. & TBR A & TBR C & Acc. & TBR A & TBR C & Acc. & TBR A\\
+\midrule
+Qwen8 & 57.5 & 56.0 & 84.0 & 73.3 & 44.9 & 75.9 & 29.2 & 41.7 \\
+Llama8 & 53.2 & 55.0 & 94.0 & 67.3 & 38.8 & 93.1 & 45.8 & 33.3 \\
+Ministral8 & 58.5 & 33.0 & 55.0 & 70.6 & 18.4 & 43.1 & 33.3 & 16.7 \\
+Gemma12 & 57.5 & 51.0 & 81.0 & 72.6 & 40.8 & 70.7 & 29.2 & 50.0 \\
+Qwen14 & 68.0 & 29.0 & 50.0 & 80.2 & 14.3 & 43.1 & 54.2 & 8.3 \\
+Qwen32 & 63.2 & 49.0 & 98.0 & 76.9 & 28.6 & 96.6 & 66.7 & 33.3 \\
+\bottomrule
+\end{tabular}
+\end{table*}

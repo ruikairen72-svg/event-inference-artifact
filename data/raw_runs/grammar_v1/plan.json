@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-09T01:01:04.843055+00:00",
+  "datasets": "grammar_repair",
+  "models": "qwen/qwen3-8b,meta-llama/llama-3.1-8b-instruct,mistralai/ministral-8b-2512,google/gemma-3-12b-it,qwen/qwen3-14b,qwen/qwen3-32b",
+  "planned_pending": 180,
+  "concurrency": 4,
+  "max_output_tokens": 256,
+  "run_cap_usd": 0.5,
+  "payload_protocol_sha256": "35b4075cc20d7a26eb7708ea1ca459b23357f36a939212dd6e14941102b9a0de"
+}

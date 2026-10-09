@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-09T00:28:13.262648+00:00",
+  "stage": "initial_main_invocation_completed_before_transport_recovery",
+  "verified_terminal_session": 4301,
+  "exit_code": 0,
+  "initial_successes": 27878,
+  "initial_failed_transport_attempts": 2853,
+  "pending_unique_after_initial": 71,
+  "parse_invalid": 0,
+  "initial_conservative_run_ledger_usd": 1.7367203339999924,
+  "append_only_prefixes": {
+    "responses.jsonl": {
+      "records": 27878,
+      "bytes": 119762939,
+      "sha256": "aab80c01619d4fff2309b814e9e8241f5156cb176cc2feb6e7e57d0778250cc5"
+    },
+    "attempts.jsonl": {
+      "records": 30731,
+      "bytes": 15410375,
+      "sha256": "96b2bd3c890c5fbd81a3840c4914668f56103dad04853be6a8ec4f2cb513a324"
+    }
+  },
+  "note": "Counts from the actual terminal result were independently reconciled to immutable raw log prefixes. Recovery appends to the same logs. This is not final project completion or complete main analysis."
+}

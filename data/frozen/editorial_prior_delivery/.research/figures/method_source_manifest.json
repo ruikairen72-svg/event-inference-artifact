@@ -1,0 +1,8 @@
+{
+  "purpose": "normative method schematic, not experimental result",
+  "source": "data/theory/normative_cells.jsonl",
+  "source_sha256": "feaa692bc56c3fa3a5d13f1a37a12e70e5332632a87a595b56f424389392b998",
+  "script_sha256": "ad62b4ece2cc635101dd8b1b475f9999572b358b54429940b6eba191edb8d3cf",
+  "cells": 18,
+  "human_validated": false
+}

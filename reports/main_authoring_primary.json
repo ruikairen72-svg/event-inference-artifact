@@ -1,0 +1,697 @@
+{
+  "scope": "Same frozen 30 primary contrasts on completed immutable main data, computed while disjoint stress collection continues; reconcile with scheduled official primary output before final claims.",
+  "planned_cells": 28104,
+  "snapshot_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+  "results": [
+    {
+      "model": "qwen/qwen3-8b",
+      "metric": "neutral_cs_target_real",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.3437500000000002,
+        -0.3437500000000002
+      ],
+      "result": {
+        "estimate": -0.34374999999999994,
+        "ci95": [
+          -0.4574999999999999,
+          -0.22040625000000014
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.001953125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.04296875
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "metric": "neutral_cs_real_minus_nonce",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.3724999999999999,
+        0.3724999999999999
+      ],
+      "result": {
+        "estimate": 0.37249999999999994,
+        "ci95": [
+          0.23500000000000001,
+          0.5208333333333333
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "metric": "neutral_cs_real_minus_micro",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.15624999999999986,
+        0.15624999999999986
+      ],
+      "result": {
+        "estimate": 0.15624999999999994,
+        "ci95": [
+          0.042500000000000024,
+          0.27959374999999986
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.025390625,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.279296875
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "metric": "bounded_real_cancel_minus_neutral_q",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.48458333333333387,
+        -0.48458333333333387
+      ],
+      "result": {
+        "estimate": -0.48458333333333325,
+        "ci95": [
+          -0.5854166666666667,
+          -0.38083333333333336
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "metric": "structural_rule_minus_baseline_accuracy",
+      "planned_families": 24,
+      "valid_pairs_or_rule_families": 24,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.006944444444444445,
+        -0.006944444444444445
+      ],
+      "result": {
+        "estimate": -0.006944444444444444,
+        "ci95": [
+          -0.02631578947368421,
+          0.010869565217391304
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.625,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "metric": "neutral_cs_target_real",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.5041666666666667,
+        -0.5041666666666667
+      ],
+      "result": {
+        "estimate": -0.5041666666666667,
+        "ci95": [
+          -0.7125,
+          -0.3
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00390625,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.06494140625
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "metric": "neutral_cs_real_minus_nonce",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.01583333333333331,
+        -0.01583333333333331
+      ],
+      "result": {
+        "estimate": -0.01583333333333333,
+        "ci95": [
+          -0.22252083333333333,
+          0.18583333333333332
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.9375,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "metric": "neutral_cs_real_minus_micro",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.32083333333333336,
+        -0.32083333333333336
+      ],
+      "result": {
+        "estimate": -0.32083333333333336,
+        "ci95": [
+          -0.5375,
+          -0.10833333333333334
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.02001953125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.240234375
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "metric": "bounded_real_cancel_minus_neutral_q",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.2791666666666667,
+        -0.2791666666666667
+      ],
+      "result": {
+        "estimate": -0.2791666666666667,
+        "ci95": [
+          -0.4209374999999999,
+          -0.1375
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.0078125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.109375
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "metric": "structural_rule_minus_baseline_accuracy",
+      "planned_families": 24,
+      "valid_pairs_or_rule_families": 24,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.038194444444444454,
+        0.038194444444444454
+      ],
+      "result": {
+        "estimate": 0.03819444444444444,
+        "ci95": [
+          0.008333333333333335,
+          0.06668010752688154
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.02734375,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.279296875
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "metric": "neutral_cs_target_real",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.2477499999999998,
+        -0.2477499999999998
+      ],
+      "result": {
+        "estimate": -0.24774999999999997,
+        "ci95": [
+          -0.36141875000000007,
+          -0.14049999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00341796875,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.06494140625
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "metric": "neutral_cs_real_minus_nonce",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.2477499999999998,
+        -0.2477499999999998
+      ],
+      "result": {
+        "estimate": -0.24774999999999997,
+        "ci95": [
+          -0.36141875000000007,
+          -0.14049999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00341796875,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.06494140625
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "metric": "neutral_cs_real_minus_micro",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.2477499999999998,
+        -0.2477499999999998
+      ],
+      "result": {
+        "estimate": -0.24774999999999997,
+        "ci95": [
+          -0.36141875000000007,
+          -0.14049999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00341796875,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.06494140625
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "metric": "bounded_real_cancel_minus_neutral_q",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.4462499999999997,
+        -0.4462499999999997
+      ],
+      "result": {
+        "estimate": -0.44625,
+        "ci95": [
+          -0.6020833333333333,
+          -0.27665625000000016
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.001953125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.04296875
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "metric": "structural_rule_minus_baseline_accuracy",
+      "planned_families": 24,
+      "valid_pairs_or_rule_families": 24,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.03125,
+        0.03125
+      ],
+      "result": {
+        "estimate": 0.03125,
+        "ci95": [
+          0.0,
+          0.06790123456790122
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "metric": "neutral_cs_target_real",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.2735,
+        -0.2735
+      ],
+      "result": {
+        "estimate": -0.2735000000000001,
+        "ci95": [
+          -0.41700416666666656,
+          -0.14108333333333334
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.0078125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.109375
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "metric": "neutral_cs_real_minus_nonce",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.42100000000000026,
+        0.42100000000000026
+      ],
+      "result": {
+        "estimate": 0.4210000000000001,
+        "ci95": [
+          0.2899125000000001,
+          0.54141875
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "metric": "neutral_cs_real_minus_micro",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.01650000000000002,
+        0.01650000000000002
+      ],
+      "result": {
+        "estimate": 0.01650000000000007,
+        "ci95": [
+          -0.12700416666666656,
+          0.14891666666666672
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.85302734375,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "metric": "bounded_real_cancel_minus_neutral_q",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.6645833333333333,
+        -0.6645833333333333
+      ],
+      "result": {
+        "estimate": -0.6645833333333335,
+        "ci95": [
+          -0.8053333333333332,
+          -0.5109145833333334
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "metric": "structural_rule_minus_baseline_accuracy",
+      "planned_families": 24,
+      "valid_pairs_or_rule_families": 24,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.027777777777777776,
+        -0.027777777777777776
+      ],
+      "result": {
+        "estimate": -0.027777777777777776,
+        "ci95": [
+          -0.051587301587301584,
+          -0.003205128205128205
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.078125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.703125
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "metric": "neutral_cs_target_real",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.3145833333333334,
+        -0.3145833333333334
+      ],
+      "result": {
+        "estimate": -0.3145833333333333,
+        "ci95": [
+          -0.4154166666666666,
+          -0.20249999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00390625,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.06494140625
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "metric": "neutral_cs_real_minus_nonce",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.23333333333333306,
+        0.23333333333333306
+      ],
+      "result": {
+        "estimate": 0.2333333333333334,
+        "ci95": [
+          0.12999999999999998,
+          0.34833333333333333
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "metric": "neutral_cs_real_minus_micro",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.0620833333333333,
+        -0.0620833333333333
+      ],
+      "result": {
+        "estimate": -0.06208333333333338,
+        "ci95": [
+          -0.175,
+          0.060833333333333295
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.32470703125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "metric": "bounded_real_cancel_minus_neutral_q",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.6766666666666672,
+        -0.6766666666666672
+      ],
+      "result": {
+        "estimate": -0.6766666666666665,
+        "ci95": [
+          -0.7841874999999999,
+          -0.5816666666666667
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "metric": "structural_rule_minus_baseline_accuracy",
+      "planned_families": 24,
+      "valid_pairs_or_rule_families": 24,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.0,
+        0.0
+      ],
+      "result": {
+        "estimate": 0.0,
+        "ci95": [
+          -0.01923076923076923,
+          0.020833333333333332
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 1.0,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "metric": "neutral_cs_target_real",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.3083333333333333,
+        -0.3083333333333333
+      ],
+      "result": {
+        "estimate": -0.30833333333333335,
+        "ci95": [
+          -0.41000000000000003,
+          -0.19750000000000004
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.001953125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.04296875
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "metric": "neutral_cs_real_minus_nonce",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.07416666666666673,
+        -0.07416666666666673
+      ],
+      "result": {
+        "estimate": -0.07416666666666667,
+        "ci95": [
+          -0.1995833333333333,
+          0.06709374999999985
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.2998046875,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "metric": "neutral_cs_real_minus_micro",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.27666666666666706,
+        0.27666666666666706
+      ],
+      "result": {
+        "estimate": 0.27666666666666667,
+        "ci95": [
+          0.16916666666666663,
+          0.3916666666666666
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "metric": "bounded_real_cancel_minus_neutral_q",
+      "planned_families": 120,
+      "valid_pairs_or_rule_families": 120,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        -0.6916666666666665,
+        -0.6916666666666665
+      ],
+      "result": {
+        "estimate": -0.6916666666666667,
+        "ci95": [
+          -0.8024999999999999,
+          -0.5899999999999999
+        ],
+        "n_families": 120,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.00048828125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 0.0146484375
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "metric": "structural_rule_minus_baseline_accuracy",
+      "planned_families": 24,
+      "valid_pairs_or_rule_families": 24,
+      "missing_families": 0,
+      "missing_q_adverse_bounds": [
+        0.01736111111111111,
+        0.01736111111111111
+      ],
+      "result": {
+        "estimate": 0.01736111111111111,
+        "ci95": [
+          -0.003086419753086419,
+          0.036231884057971016
+        ],
+        "n_families": 24,
+        "n_lexical_blocks": 12,
+        "p_cluster_signflip": 0.125,
+        "bootstrap_draws": 10000
+      },
+      "p_holm_30": 1
+    }
+  ]
+}

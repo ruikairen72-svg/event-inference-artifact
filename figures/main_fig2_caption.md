@@ -1,0 +1,1 @@
+Real-presentation target-truth scores for bounded versus activity targets across contexts. Points are means over up to 120 planned families; intervals use 10,000 seeded verb-then-family percentile bootstrap draws. Full q domain [0,1]. Scores are elicited and uncalibrated. Missing/invalid q is excluded with denominators recorded; no unknown target receives an invented outcome.

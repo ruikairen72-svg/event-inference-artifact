@@ -1,0 +1,160 @@
+{"family_id": "F001", "verb": "drink", "stratum": "quantity", "object": "water", "name": "Maya", "nonce": "fimpav", "code": "S001", "template": 0, "split": "main"}
+{"family_id": "F002", "verb": "drink", "stratum": "quantity", "object": "tea", "name": "Elena", "nonce": "vekfim", "code": "S002", "template": 1, "split": "main"}
+{"family_id": "F003", "verb": "drink", "stratum": "quantity", "object": "coffee", "name": "Noah", "nonce": "pavpav", "code": "S003", "template": 0, "split": "main"}
+{"family_id": "F004", "verb": "drink", "stratum": "quantity", "object": "milk", "name": "Priya", "nonce": "kelkel", "code": "S004", "template": 1, "split": "main"}
+{"family_id": "F005", "verb": "drink", "stratum": "quantity", "object": "orange juice", "name": "Alex", "nonce": "fimpav", "code": "S005", "template": 0, "split": "main"}
+{"family_id": "F006", "verb": "drink", "stratum": "quantity", "object": "broth", "name": "Sam", "nonce": "vekfim", "code": "S006", "template": 1, "split": "main"}
+{"family_id": "F007", "verb": "drink", "stratum": "quantity", "object": "lemonade", "name": "Leila", "nonce": "pavpav", "code": "S007", "template": 0, "split": "main"}
+{"family_id": "F008", "verb": "drink", "stratum": "quantity", "object": "cocoa", "name": "Owen", "nonce": "kelkel", "code": "S008", "template": 1, "split": "main"}
+{"family_id": "F009", "verb": "drink", "stratum": "quantity", "object": "apple juice", "name": "Nora", "nonce": "fimpav", "code": "S009", "template": 0, "split": "main"}
+{"family_id": "F010", "verb": "drink", "stratum": "quantity", "object": "kefir", "name": "Isaac", "nonce": "vekfim", "code": "S010", "template": 1, "split": "main"}
+{"family_id": "F015", "verb": "eat", "stratum": "quantity", "object": "rice", "name": "Elena", "nonce": "jompav", "code": "S015", "template": 1, "split": "main"}
+{"family_id": "F016", "verb": "eat", "stratum": "quantity", "object": "porridge", "name": "Noah", "nonce": "fimtaz", "code": "S016", "template": 0, "split": "main"}
+{"family_id": "F017", "verb": "eat", "stratum": "quantity", "object": "custard", "name": "Priya", "nonce": "jomtaz", "code": "S017", "template": 1, "split": "main"}
+{"family_id": "F018", "verb": "eat", "stratum": "quantity", "object": "yogurt", "name": "Alex", "nonce": "zuljom", "code": "S018", "template": 0, "split": "main"}
+{"family_id": "F019", "verb": "eat", "stratum": "quantity", "object": "applesauce", "name": "Sam", "nonce": "jompav", "code": "S019", "template": 1, "split": "main"}
+{"family_id": "F020", "verb": "eat", "stratum": "quantity", "object": "mashed potato", "name": "Leila", "nonce": "fimtaz", "code": "S020", "template": 0, "split": "main"}
+{"family_id": "F021", "verb": "eat", "stratum": "quantity", "object": "pudding", "name": "Owen", "nonce": "jomtaz", "code": "S021", "template": 1, "split": "main"}
+{"family_id": "F022", "verb": "eat", "stratum": "quantity", "object": "cereal", "name": "Nora", "nonce": "zuljom", "code": "S022", "template": 0, "split": "main"}
+{"family_id": "F023", "verb": "eat", "stratum": "quantity", "object": "oatmeal", "name": "Isaac", "nonce": "jompav", "code": "S023", "template": 1, "split": "main"}
+{"family_id": "F024", "verb": "eat", "stratum": "quantity", "object": "soup", "name": "Avery", "nonce": "fimtaz", "code": "S024", "template": 0, "split": "main"}
+{"family_id": "F029", "verb": "pour", "stratum": "quantity", "object": "water", "name": "Noah", "nonce": "pavtaz", "code": "S029", "template": 0, "split": "main"}
+{"family_id": "F030", "verb": "pour", "stratum": "quantity", "object": "tea", "name": "Priya", "nonce": "fimvek", "code": "S030", "template": 1, "split": "main"}
+{"family_id": "F031", "verb": "pour", "stratum": "quantity", "object": "coffee", "name": "Alex", "nonce": "taznuv", "code": "S031", "template": 0, "split": "main"}
+{"family_id": "F032", "verb": "pour", "stratum": "quantity", "object": "milk", "name": "Sam", "nonce": "kelzul", "code": "S032", "template": 1, "split": "main"}
+{"family_id": "F033", "verb": "pour", "stratum": "quantity", "object": "orange juice", "name": "Leila", "nonce": "pavtaz", "code": "S033", "template": 0, "split": "main"}
+{"family_id": "F034", "verb": "pour", "stratum": "quantity", "object": "broth", "name": "Owen", "nonce": "fimvek", "code": "S034", "template": 1, "split": "main"}
+{"family_id": "F035", "verb": "pour", "stratum": "quantity", "object": "lemonade", "name": "Nora", "nonce": "taznuv", "code": "S035", "template": 0, "split": "main"}
+{"family_id": "F036", "verb": "pour", "stratum": "quantity", "object": "cocoa", "name": "Isaac", "nonce": "kelzul", "code": "S036", "template": 1, "split": "main"}
+{"family_id": "F037", "verb": "pour", "stratum": "quantity", "object": "apple juice", "name": "Avery", "nonce": "pavtaz", "code": "S037", "template": 0, "split": "main"}
+{"family_id": "F038", "verb": "pour", "stratum": "quantity", "object": "kefir", "name": "Zara", "nonce": "fimvek", "code": "S038", "template": 1, "split": "main"}
+{"family_id": "F043", "verb": "collect", "stratum": "quantity", "object": "pebbles", "name": "Priya", "nonce": "vekzef", "code": "S043", "template": 1, "split": "main"}
+{"family_id": "F044", "verb": "collect", "stratum": "quantity", "object": "beads", "name": "Alex", "nonce": "vazpav", "code": "S044", "template": 0, "split": "main"}
+{"family_id": "F045", "verb": "collect", "stratum": "quantity", "object": "shells", "name": "Sam", "nonce": "nuvtaz", "code": "S045", "template": 1, "split": "main"}
+{"family_id": "F046", "verb": "collect", "stratum": "quantity", "object": "coins", "name": "Leila", "nonce": "zefzul", "code": "S046", "template": 0, "split": "main"}
+{"family_id": "F047", "verb": "collect", "stratum": "quantity", "object": "marbles", "name": "Owen", "nonce": "vekzef", "code": "S047", "template": 1, "split": "main"}
+{"family_id": "F048", "verb": "collect", "stratum": "quantity", "object": "leaves", "name": "Nora", "nonce": "vazpav", "code": "S048", "template": 0, "split": "main"}
+{"family_id": "F049", "verb": "collect", "stratum": "quantity", "object": "stones", "name": "Isaac", "nonce": "nuvtaz", "code": "S049", "template": 1, "split": "main"}
+{"family_id": "F050", "verb": "collect", "stratum": "quantity", "object": "buttons", "name": "Avery", "nonce": "zefzul", "code": "S050", "template": 0, "split": "main"}
+{"family_id": "F051", "verb": "collect", "stratum": "quantity", "object": "stamps", "name": "Zara", "nonce": "vekzef", "code": "S051", "template": 1, "split": "main"}
+{"family_id": "F052", "verb": "collect", "stratum": "quantity", "object": "screws", "name": "Lucas", "nonce": "vazpav", "code": "S052", "template": 0, "split": "main"}
+{"family_id": "F057", "verb": "walk", "stratum": "path", "object": "corridor", "name": "Alex", "nonce": "zefzef", "code": "S057", "template": 0, "split": "main"}
+{"family_id": "F058", "verb": "walk", "stratum": "path", "object": "garden path", "name": "Sam", "nonce": "vekjom", "code": "S058", "template": 1, "split": "main"}
+{"family_id": "F059", "verb": "walk", "stratum": "path", "object": "footpath", "name": "Leila", "nonce": "zefkel", "code": "S059", "template": 0, "split": "main"}
+{"family_id": "F060", "verb": "walk", "stratum": "path", "object": "hallway", "name": "Owen", "nonce": "tazvek", "code": "S060", "template": 1, "split": "main"}
+{"family_id": "F061", "verb": "walk", "stratum": "path", "object": "trail", "name": "Nora", "nonce": "zefzef", "code": "S061", "template": 0, "split": "main"}
+{"family_id": "F062", "verb": "walk", "stratum": "path", "object": "boardwalk", "name": "Isaac", "nonce": "vekjom", "code": "S062", "template": 1, "split": "main"}
+{"family_id": "F063", "verb": "walk", "stratum": "path", "object": "promenade", "name": "Avery", "nonce": "zefkel", "code": "S063", "template": 0, "split": "main"}
+{"family_id": "F064", "verb": "walk", "stratum": "path", "object": "platform", "name": "Zara", "nonce": "tazvek", "code": "S064", "template": 1, "split": "main"}
+{"family_id": "F065", "verb": "walk", "stratum": "path", "object": "passageway", "name": "Lucas", "nonce": "zefzef", "code": "S065", "template": 0, "split": "main"}
+{"family_id": "F066", "verb": "walk", "stratum": "path", "object": "walkway", "name": "Iris", "nonce": "vekjom", "code": "S066", "template": 1, "split": "main"}
+{"family_id": "F071", "verb": "run", "stratum": "path", "object": "track", "name": "Sam", "nonce": "tazkel", "code": "S071", "template": 1, "split": "main"}
+{"family_id": "F072", "verb": "run", "stratum": "path", "object": "trail", "name": "Leila", "nonce": "vekpav", "code": "S072", "template": 0, "split": "main"}
+{"family_id": "F073", "verb": "run", "stratum": "path", "object": "footpath", "name": "Owen", "nonce": "vazvaz", "code": "S073", "template": 1, "split": "main"}
+{"family_id": "F074", "verb": "run", "stratum": "path", "object": "corridor", "name": "Nora", "nonce": "fimzef", "code": "S074", "template": 0, "split": "main"}
+{"family_id": "F075", "verb": "run", "stratum": "path", "object": "lane", "name": "Isaac", "nonce": "tazkel", "code": "S075", "template": 1, "split": "main"}
+{"family_id": "F076", "verb": "run", "stratum": "path", "object": "path", "name": "Avery", "nonce": "vekpav", "code": "S076", "template": 0, "split": "main"}
+{"family_id": "F077", "verb": "run", "stratum": "path", "object": "walkway", "name": "Zara", "nonce": "vazvaz", "code": "S077", "template": 1, "split": "main"}
+{"family_id": "F078", "verb": "run", "stratum": "path", "object": "promenade", "name": "Lucas", "nonce": "fimzef", "code": "S078", "template": 0, "split": "main"}
+{"family_id": "F079", "verb": "run", "stratum": "path", "object": "boardwalk", "name": "Iris", "nonce": "tazkel", "code": "S079", "template": 1, "split": "main"}
+{"family_id": "F080", "verb": "run", "stratum": "path", "object": "platform", "name": "Maya", "nonce": "vekpav", "code": "S080", "template": 0, "split": "main"}
+{"family_id": "F085", "verb": "swim", "stratum": "path", "object": "pool lane", "name": "Leila", "nonce": "vaztaz", "code": "S085", "template": 0, "split": "main"}
+{"family_id": "F086", "verb": "swim", "stratum": "path", "object": "canal section", "name": "Owen", "nonce": "nuvnuv", "code": "S086", "template": 1, "split": "main"}
+{"family_id": "F087", "verb": "swim", "stratum": "path", "object": "marked water lane", "name": "Nora", "nonce": "jomkel", "code": "S087", "template": 0, "split": "main"}
+{"family_id": "F088", "verb": "swim", "stratum": "path", "object": "practice lane", "name": "Isaac", "nonce": "tazfim", "code": "S088", "template": 1, "split": "main"}
+{"family_id": "F089", "verb": "swim", "stratum": "path", "object": "indoor pool lane", "name": "Avery", "nonce": "vaztaz", "code": "S089", "template": 0, "split": "main"}
+{"family_id": "F090", "verb": "swim", "stratum": "path", "object": "outdoor pool lane", "name": "Zara", "nonce": "nuvnuv", "code": "S090", "template": 1, "split": "main"}
+{"family_id": "F091", "verb": "swim", "stratum": "path", "object": "training lane", "name": "Lucas", "nonce": "jomkel", "code": "S091", "template": 0, "split": "main"}
+{"family_id": "F092", "verb": "swim", "stratum": "path", "object": "river lane", "name": "Iris", "nonce": "tazfim", "code": "S092", "template": 1, "split": "main"}
+{"family_id": "F093", "verb": "swim", "stratum": "path", "object": "lagoon lane", "name": "Maya", "nonce": "vaztaz", "code": "S093", "template": 0, "split": "main"}
+{"family_id": "F094", "verb": "swim", "stratum": "path", "object": "lake lane", "name": "Elena", "nonce": "nuvnuv", "code": "S094", "template": 1, "split": "main"}
+{"family_id": "F099", "verb": "crawl", "stratum": "path", "object": "tunnel", "name": "Owen", "nonce": "tazpav", "code": "S099", "template": 1, "split": "main"}
+{"family_id": "F100", "verb": "crawl", "stratum": "path", "object": "corridor", "name": "Nora", "nonce": "jomfim", "code": "S100", "template": 0, "split": "main"}
+{"family_id": "F101", "verb": "crawl", "stratum": "path", "object": "passageway", "name": "Isaac", "nonce": "kelfim", "code": "S101", "template": 1, "split": "main"}
+{"family_id": "F102", "verb": "crawl", "stratum": "path", "object": "crawlway", "name": "Avery", "nonce": "zefvek", "code": "S102", "template": 0, "split": "main"}
+{"family_id": "F103", "verb": "crawl", "stratum": "path", "object": "hallway", "name": "Zara", "nonce": "tazpav", "code": "S103", "template": 1, "split": "main"}
+{"family_id": "F104", "verb": "crawl", "stratum": "path", "object": "practice lane", "name": "Lucas", "nonce": "jomfim", "code": "S104", "template": 0, "split": "main"}
+{"family_id": "F105", "verb": "crawl", "stratum": "path", "object": "narrow path", "name": "Iris", "nonce": "kelfim", "code": "S105", "template": 1, "split": "main"}
+{"family_id": "F106", "verb": "crawl", "stratum": "path", "object": "covered walkway", "name": "Maya", "nonce": "zefvek", "code": "S106", "template": 0, "split": "main"}
+{"family_id": "F107", "verb": "crawl", "stratum": "path", "object": "training lane", "name": "Elena", "nonce": "tazpav", "code": "S107", "template": 1, "split": "main"}
+{"family_id": "F108", "verb": "crawl", "stratum": "path", "object": "underpass", "name": "Noah", "nonce": "jomfim", "code": "S108", "template": 0, "split": "main"}
+{"family_id": "F113", "verb": "copy", "stratum": "incremental", "object": "paragraph", "name": "Nora", "nonce": "fimvaz", "code": "S113", "template": 0, "split": "main"}
+{"family_id": "F114", "verb": "copy", "stratum": "incremental", "object": "passage", "name": "Isaac", "nonce": "vazjom", "code": "S114", "template": 1, "split": "main"}
+{"family_id": "F115", "verb": "copy", "stratum": "incremental", "object": "recipe", "name": "Avery", "nonce": "zulpav", "code": "S115", "template": 0, "split": "main"}
+{"family_id": "F116", "verb": "copy", "stratum": "incremental", "object": "poem", "name": "Zara", "nonce": "jomnuv", "code": "S116", "template": 1, "split": "main"}
+{"family_id": "F117", "verb": "copy", "stratum": "incremental", "object": "report", "name": "Lucas", "nonce": "fimvaz", "code": "S117", "template": 0, "split": "main"}
+{"family_id": "F118", "verb": "copy", "stratum": "incremental", "object": "letter", "name": "Iris", "nonce": "vazjom", "code": "S118", "template": 1, "split": "main"}
+{"family_id": "F119", "verb": "copy", "stratum": "incremental", "object": "note", "name": "Maya", "nonce": "zulpav", "code": "S119", "template": 0, "split": "main"}
+{"family_id": "F120", "verb": "copy", "stratum": "incremental", "object": "transcript", "name": "Elena", "nonce": "jomnuv", "code": "S120", "template": 1, "split": "main"}
+{"family_id": "F121", "verb": "copy", "stratum": "incremental", "object": "speech", "name": "Noah", "nonce": "fimvaz", "code": "S121", "template": 0, "split": "main"}
+{"family_id": "F122", "verb": "copy", "stratum": "incremental", "object": "article", "name": "Priya", "nonce": "vazjom", "code": "S122", "template": 1, "split": "main"}
+{"family_id": "F127", "verb": "transcribe", "stratum": "incremental", "object": "interview", "name": "Isaac", "nonce": "jomjom", "code": "S127", "template": 1, "split": "main"}
+{"family_id": "F128", "verb": "transcribe", "stratum": "incremental", "object": "speech", "name": "Avery", "nonce": "veknuv", "code": "S128", "template": 0, "split": "main"}
+{"family_id": "F129", "verb": "transcribe", "stratum": "incremental", "object": "lecture", "name": "Zara", "nonce": "zeffim", "code": "S129", "template": 1, "split": "main"}
+{"family_id": "F130", "verb": "transcribe", "stratum": "incremental", "object": "conversation", "name": "Lucas", "nonce": "pavvek", "code": "S130", "template": 0, "split": "main"}
+{"family_id": "F131", "verb": "transcribe", "stratum": "incremental", "object": "discussion", "name": "Iris", "nonce": "jomjom", "code": "S131", "template": 1, "split": "main"}
+{"family_id": "F132", "verb": "transcribe", "stratum": "incremental", "object": "announcement", "name": "Maya", "nonce": "veknuv", "code": "S132", "template": 0, "split": "main"}
+{"family_id": "F133", "verb": "transcribe", "stratum": "incremental", "object": "dictation", "name": "Elena", "nonce": "zeffim", "code": "S133", "template": 1, "split": "main"}
+{"family_id": "F134", "verb": "transcribe", "stratum": "incremental", "object": "podcast", "name": "Noah", "nonce": "pavvek", "code": "S134", "template": 0, "split": "main"}
+{"family_id": "F135", "verb": "transcribe", "stratum": "incremental", "object": "message", "name": "Priya", "nonce": "jomjom", "code": "S135", "template": 1, "split": "main"}
+{"family_id": "F136", "verb": "transcribe", "stratum": "incremental", "object": "story", "name": "Alex", "nonce": "veknuv", "code": "S136", "template": 0, "split": "main"}
+{"family_id": "F141", "verb": "read", "stratum": "incremental", "object": "paragraph", "name": "Avery", "nonce": "keljom", "code": "S141", "template": 0, "split": "main"}
+{"family_id": "F142", "verb": "read", "stratum": "incremental", "object": "passage", "name": "Zara", "nonce": "kelnuv", "code": "S142", "template": 1, "split": "main"}
+{"family_id": "F143", "verb": "read", "stratum": "incremental", "object": "recipe", "name": "Lucas", "nonce": "zefnuv", "code": "S143", "template": 0, "split": "main"}
+{"family_id": "F144", "verb": "read", "stratum": "incremental", "object": "poem", "name": "Iris", "nonce": "jomvaz", "code": "S144", "template": 1, "split": "main"}
+{"family_id": "F145", "verb": "read", "stratum": "incremental", "object": "report", "name": "Maya", "nonce": "keljom", "code": "S145", "template": 0, "split": "main"}
+{"family_id": "F146", "verb": "read", "stratum": "incremental", "object": "letter", "name": "Elena", "nonce": "kelnuv", "code": "S146", "template": 1, "split": "main"}
+{"family_id": "F147", "verb": "read", "stratum": "incremental", "object": "note", "name": "Noah", "nonce": "zefnuv", "code": "S147", "template": 0, "split": "main"}
+{"family_id": "F148", "verb": "read", "stratum": "incremental", "object": "transcript", "name": "Priya", "nonce": "jomvaz", "code": "S148", "template": 1, "split": "main"}
+{"family_id": "F149", "verb": "read", "stratum": "incremental", "object": "speech", "name": "Alex", "nonce": "keljom", "code": "S149", "template": 0, "split": "main"}
+{"family_id": "F150", "verb": "read", "stratum": "incremental", "object": "article", "name": "Sam", "nonce": "kelnuv", "code": "S150", "template": 1, "split": "main"}
+{"family_id": "F155", "verb": "write", "stratum": "incremental", "object": "paragraph", "name": "Zara", "nonce": "jomvek", "code": "S155", "template": 1, "split": "main"}
+{"family_id": "F156", "verb": "write", "stratum": "incremental", "object": "passage", "name": "Lucas", "nonce": "nuvzul", "code": "S156", "template": 0, "split": "main"}
+{"family_id": "F157", "verb": "write", "stratum": "incremental", "object": "recipe", "name": "Iris", "nonce": "vekzul", "code": "S157", "template": 1, "split": "main"}
+{"family_id": "F158", "verb": "write", "stratum": "incremental", "object": "poem", "name": "Maya", "nonce": "vazzul", "code": "S158", "template": 0, "split": "main"}
+{"family_id": "F159", "verb": "write", "stratum": "incremental", "object": "report", "name": "Elena", "nonce": "jomvek", "code": "S159", "template": 1, "split": "main"}
+{"family_id": "F160", "verb": "write", "stratum": "incremental", "object": "letter", "name": "Noah", "nonce": "nuvzul", "code": "S160", "template": 0, "split": "main"}
+{"family_id": "F161", "verb": "write", "stratum": "incremental", "object": "note", "name": "Priya", "nonce": "vekzul", "code": "S161", "template": 1, "split": "main"}
+{"family_id": "F162", "verb": "write", "stratum": "incremental", "object": "transcript", "name": "Alex", "nonce": "vazzul", "code": "S162", "template": 0, "split": "main"}
+{"family_id": "F163", "verb": "write", "stratum": "incremental", "object": "speech", "name": "Sam", "nonce": "jomvek", "code": "S163", "template": 1, "split": "main"}
+{"family_id": "F164", "verb": "write", "stratum": "incremental", "object": "article", "name": "Leila", "nonce": "nuvzul", "code": "S164", "template": 0, "split": "main"}
+{"family_id": "F011", "verb": "drink", "stratum": "quantity", "object": "soda", "name": "Avery", "nonce": "pavpav", "code": "S011", "template": 0, "split": "pilot"}
+{"family_id": "F039", "verb": "pour", "stratum": "quantity", "object": "soda", "name": "Lucas", "nonce": "taznuv", "code": "S039", "template": 0, "split": "pilot"}
+{"family_id": "F026", "verb": "eat", "stratum": "quantity", "object": "noodles", "name": "Lucas", "nonce": "zuljom", "code": "S026", "template": 0, "split": "pilot"}
+{"family_id": "F014", "verb": "drink", "stratum": "quantity", "object": "mineral water", "name": "Iris", "nonce": "vekfim", "code": "S014", "template": 1, "split": "pilot"}
+{"family_id": "F041", "verb": "pour", "stratum": "quantity", "object": "grape juice", "name": "Maya", "nonce": "pavtaz", "code": "S041", "template": 0, "split": "pilot"}
+{"family_id": "F055", "verb": "collect", "stratum": "quantity", "object": "seeds", "name": "Elena", "nonce": "vekzef", "code": "S055", "template": 1, "split": "pilot"}
+{"family_id": "F027", "verb": "eat", "stratum": "quantity", "object": "stew", "name": "Iris", "nonce": "jompav", "code": "S027", "template": 1, "split": "pilot"}
+{"family_id": "F013", "verb": "drink", "stratum": "quantity", "object": "grape juice", "name": "Lucas", "nonce": "fimpav", "code": "S013", "template": 0, "split": "pilot"}
+{"family_id": "F053", "verb": "collect", "stratum": "quantity", "object": "tokens", "name": "Iris", "nonce": "nuvtaz", "code": "S053", "template": 1, "split": "pilot"}
+{"family_id": "F012", "verb": "drink", "stratum": "quantity", "object": "coconut water", "name": "Zara", "nonce": "kelkel", "code": "S012", "template": 1, "split": "pilot"}
+{"family_id": "F054", "verb": "collect", "stratum": "quantity", "object": "blocks", "name": "Maya", "nonce": "zefzul", "code": "S054", "template": 0, "split": "pilot"}
+{"family_id": "F025", "verb": "eat", "stratum": "quantity", "object": "salad", "name": "Zara", "nonce": "jomtaz", "code": "S025", "template": 1, "split": "pilot"}
+{"family_id": "F056", "verb": "collect", "stratum": "quantity", "object": "bottle caps", "name": "Noah", "nonce": "vazpav", "code": "S056", "template": 0, "split": "pilot"}
+{"family_id": "F042", "verb": "pour", "stratum": "quantity", "object": "mineral water", "name": "Elena", "nonce": "fimvek", "code": "S042", "template": 1, "split": "pilot"}
+{"family_id": "F112", "verb": "crawl", "stratum": "path", "object": "short tunnel", "name": "Leila", "nonce": "jomfim", "code": "S112", "template": 0, "split": "pilot"}
+{"family_id": "F068", "verb": "walk", "stratum": "path", "object": "lane", "name": "Elena", "nonce": "tazvek", "code": "S068", "template": 1, "split": "pilot"}
+{"family_id": "F096", "verb": "swim", "stratum": "path", "object": "reservoir lane", "name": "Priya", "nonce": "tazfim", "code": "S096", "template": 1, "split": "pilot"}
+{"family_id": "F110", "verb": "crawl", "stratum": "path", "object": "low tunnel", "name": "Alex", "nonce": "zefvek", "code": "S110", "template": 0, "split": "pilot"}
+{"family_id": "F067", "verb": "walk", "stratum": "path", "object": "pier", "name": "Maya", "nonce": "zefkel", "code": "S067", "template": 0, "split": "pilot"}
+{"family_id": "F109", "verb": "crawl", "stratum": "path", "object": "passage", "name": "Priya", "nonce": "kelfim", "code": "S109", "template": 1, "split": "pilot"}
+{"family_id": "F070", "verb": "walk", "stratum": "path", "object": "tunnel", "name": "Priya", "nonce": "vekjom", "code": "S070", "template": 1, "split": "pilot"}
+{"family_id": "F084", "verb": "run", "stratum": "path", "object": "hallway", "name": "Alex", "nonce": "vekpav", "code": "S084", "template": 0, "split": "pilot"}
+{"family_id": "F111", "verb": "crawl", "stratum": "path", "object": "narrow corridor", "name": "Sam", "nonce": "tazpav", "code": "S111", "template": 1, "split": "pilot"}
+{"family_id": "F081", "verb": "run", "stratum": "path", "object": "passageway", "name": "Elena", "nonce": "vazvaz", "code": "S081", "template": 1, "split": "pilot"}
+{"family_id": "F069", "verb": "walk", "stratum": "path", "object": "bridge", "name": "Noah", "nonce": "zefzef", "code": "S069", "template": 0, "split": "pilot"}
+{"family_id": "F095", "verb": "swim", "stratum": "path", "object": "channel lane", "name": "Noah", "nonce": "jomkel", "code": "S095", "template": 0, "split": "pilot"}
+{"family_id": "F097", "verb": "swim", "stratum": "path", "object": "exercise lane", "name": "Alex", "nonce": "vaztaz", "code": "S097", "template": 0, "split": "pilot"}
+{"family_id": "F165", "verb": "write", "stratum": "incremental", "object": "story", "name": "Owen", "nonce": "vekzul", "code": "S165", "template": 1, "split": "pilot"}
+{"family_id": "F123", "verb": "copy", "stratum": "incremental", "object": "story", "name": "Alex", "nonce": "zulpav", "code": "S123", "template": 0, "split": "pilot"}
+{"family_id": "F125", "verb": "copy", "stratum": "incremental", "object": "diary entry", "name": "Leila", "nonce": "fimvaz", "code": "S125", "template": 0, "split": "pilot"}
+{"family_id": "F166", "verb": "write", "stratum": "incremental", "object": "list", "name": "Nora", "nonce": "vazzul", "code": "S166", "template": 0, "split": "pilot"}
+{"family_id": "F154", "verb": "read", "stratum": "incremental", "object": "essay", "name": "Isaac", "nonce": "kelnuv", "code": "S154", "template": 1, "split": "pilot"}
+{"family_id": "F140", "verb": "transcribe", "stratum": "incremental", "object": "dialogue", "name": "Nora", "nonce": "veknuv", "code": "S140", "template": 0, "split": "pilot"}
+{"family_id": "F168", "verb": "write", "stratum": "incremental", "object": "essay", "name": "Avery", "nonce": "nuvzul", "code": "S168", "template": 0, "split": "pilot"}
+{"family_id": "F152", "verb": "read", "stratum": "incremental", "object": "list", "name": "Owen", "nonce": "jomvaz", "code": "S152", "template": 1, "split": "pilot"}
+{"family_id": "F151", "verb": "read", "stratum": "incremental", "object": "story", "name": "Leila", "nonce": "zefnuv", "code": "S151", "template": 0, "split": "pilot"}
+{"family_id": "F126", "verb": "copy", "stratum": "incremental", "object": "essay", "name": "Owen", "nonce": "vazjom", "code": "S126", "template": 1, "split": "pilot"}
+{"family_id": "F139", "verb": "transcribe", "stratum": "incremental", "object": "testimony", "name": "Owen", "nonce": "jomjom", "code": "S139", "template": 1, "split": "pilot"}
+{"family_id": "F153", "verb": "read", "stratum": "incremental", "object": "diary entry", "name": "Nora", "nonce": "keljom", "code": "S153", "template": 0, "split": "pilot"}
+{"family_id": "F138", "verb": "transcribe", "stratum": "incremental", "object": "presentation", "name": "Leila", "nonce": "pavvek", "code": "S138", "template": 0, "split": "pilot"}

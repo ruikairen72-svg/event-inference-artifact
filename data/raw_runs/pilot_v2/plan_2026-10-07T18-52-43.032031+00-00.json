@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-07T18:52:43.032031+00:00",
+  "datasets": "pilot_core,pilot_prior,pilot_labels",
+  "models": "qwen/qwen3-8b,meta-llama/llama-3.1-8b-instruct",
+  "planned_pending": 3,
+  "concurrency": 4,
+  "max_output_tokens": 256,
+  "run_cap_usd": 0.895,
+  "payload_protocol_sha256": "0198c714f958f5d2b1a44c75aa51870ce736e2a284d8b43bfc5655774e2ffa97"
+}

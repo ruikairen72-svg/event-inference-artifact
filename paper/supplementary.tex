@@ -1,0 +1,197 @@
+\documentclass[acmlarge,anonymous,review,nonacm]{acmart}
+\usepackage{booktabs,amsmath,array,float}
+\setlength{\emergencystretch}{1em}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\acmConference[SAC '27]{ACM Symposium on Applied Computing}{April 5--9, 2027}{Gwangju, Republic of Korea}
+\acmYear{2027}\acmDOI{}\acmISBN{}
+\title{Supplementary Material: Endpoint Inference under Compatible Histories}
+\author{Anonymous Author(s)}
+\begin{document}
+\maketitle
+\section{Evidence and Analysis Boundaries}
+This supplement preserves the complete original primary interval table and replication table, then documents the supplementary role-binding task and descriptive breakdowns. Original gold, the 30-test Holm family and all 380 secondary rows are unchanged. The challenge and its definition-precision check are post-review supplements, not additional prespecified primary tests. Full rows, request hashes and scripts are included in the anonymous archive.
+
+\section{Complete Original Results}
+The first two tables retain the full original primary contrasts and original-benchmark replication. Primary marginal intervals resample verbs then families within verbs; Holm correction applies to the complete thirty-test family. Original replication subsets retain distinct denominators and unchanged labels.
+
+\begin{table}[H]
+\centering\small
+\caption{All 30 prespecified contrasts. Each cell gives estimate, marginal lexical/family bootstrap 95\% CI, and Holm-adjusted $p$ across the complete 30-test family. The first four columns are q differences over 120 complete paired families; the rule column is percentage-point accuracy change over 24 complete families with 12 matched cells each. Exact block sign flips use the retained lexical blocks. Marginal intervals and adjusted tests have different multiplicity scopes. All planned probability contrasts have complete scores, so adverse bounds equal the point estimate.}
+\label{tab:primary_results}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+System & Real CS & Real--Nonce CS & Real--Micro CS & Cancel--neutral q & Structural rule\\
+\midrule
+Qwen8 & \shortstack{$-0.344$\\$[-0.457,-0.220]$\\$0.043$} & \shortstack{$0.372$\\$[0.235,0.521]$\\$0.015$} & \shortstack{$0.156$\\$[0.043,0.280]$\\$0.279$} & \shortstack{$-0.485$\\$[-0.585,-0.381]$\\$0.015$} & \shortstack{$-0.69$\\$[-2.63,1.09]$\\$1.000$} \\[3pt]
+Llama8 & \shortstack{$-0.504$\\$[-0.713,-0.300]$\\$0.065$} & \shortstack{$-0.016$\\$[-0.223,0.186]$\\$1.000$} & \shortstack{$-0.321$\\$[-0.537,-0.108]$\\$0.240$} & \shortstack{$-0.279$\\$[-0.421,-0.138]$\\$0.109$} & \shortstack{$3.82$\\$[0.83,6.67]$\\$0.279$} \\[3pt]
+Ministral8 & \shortstack{$-0.248$\\$[-0.361,-0.140]$\\$0.065$} & \shortstack{$-0.248$\\$[-0.361,-0.140]$\\$0.065$} & \shortstack{$-0.248$\\$[-0.361,-0.140]$\\$0.065$} & \shortstack{$-0.446$\\$[-0.602,-0.277]$\\$0.043$} & \shortstack{$3.12$\\$[0.00,6.79]$\\$1.000$} \\[3pt]
+Gemma12 & \shortstack{$-0.274$\\$[-0.417,-0.141]$\\$0.109$} & \shortstack{$0.421$\\$[0.290,0.541]$\\$0.015$} & \shortstack{$0.017$\\$[-0.127,0.149]$\\$1.000$} & \shortstack{$-0.665$\\$[-0.805,-0.511]$\\$0.015$} & \shortstack{$-2.78$\\$[-5.16,-0.32]$\\$0.703$} \\[3pt]
+Qwen14 & \shortstack{$-0.315$\\$[-0.415,-0.202]$\\$0.065$} & \shortstack{$0.233$\\$[0.130,0.348]$\\$0.015$} & \shortstack{$-0.062$\\$[-0.175,0.061]$\\$1.000$} & \shortstack{$-0.677$\\$[-0.784,-0.582]$\\$0.015$} & \shortstack{$0.00$\\$[-1.92,2.08]$\\$1.000$} \\[3pt]
+Qwen32 & \shortstack{$-0.308$\\$[-0.410,-0.198]$\\$0.043$} & \shortstack{$-0.074$\\$[-0.200,0.067]$\\$1.000$} & \shortstack{$0.277$\\$[0.169,0.392]$\\$0.015$} & \shortstack{$-0.692$\\$[-0.802,-0.590]$\\$0.015$} & \shortstack{$1.74$\\$[-0.31,3.62]$\\$1.000$} \\[3pt]
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering\small
+\caption{Contemporary ImperfectiveNLI replication (percent), with unchanged original gold. Acc. is original-gold accuracy. TBR is the true-response rate in the named group, whose original gold is false (A) or unknown (C). Full: 400 items (A/C each 100); published VSS: 303 (A 49, C 58); explicit noncompletion: 24 Group A items. Different subsets are distinct diagnostics, not paired estimates of an improvement. All responses parse successfully.}
+\label{tab:replication_results}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Full original} & \multicolumn{3}{c}{Published VSS} & \multicolumn{2}{c}{A explicit}\\
+System & Acc. & TBR A & TBR C & Acc. & TBR A & TBR C & Acc. & TBR A\\
+\midrule
+Qwen8 & 57.5 & 56.0 & 84.0 & 73.3 & 44.9 & 75.9 & 29.2 & 41.7 \\
+Llama8 & 53.2 & 55.0 & 94.0 & 67.3 & 38.8 & 93.1 & 45.8 & 33.3 \\
+Ministral8 & 58.5 & 33.0 & 55.0 & 70.6 & 18.4 & 43.1 & 33.3 & 16.7 \\
+Gemma12 & 57.5 & 51.0 & 81.0 & 72.6 & 40.8 & 70.7 & 29.2 & 50.0 \\
+Qwen14 & 68.0 & 29.0 & 50.0 & 80.2 & 14.3 & 43.1 & 54.2 & 8.3 \\
+Qwen32 & 63.2 & 49.0 & 98.0 & 76.9 & 28.6 & 96.6 & 66.7 & 33.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Role-Binding Construction and Full Stimuli}
+Each lexical block covers five status pairs, both actor assignments, both targets and all three presentations (60 cells). Six lemmas are reused from the main inventory and six are held out of that inventory. This describes benchmark lexical holdout, not model pretraining exclusion. Each actor has a separate identical assignment; coverage is monotone within the same ten-minute interval.
+
+The oracle evaluates bounded truth by stage 4 and occurrence truth by at least two positive stages. It uses three representative histories: $h_0=()$, $h_-=(1,2,S)$, and $h_+=(1,2,3,4,S)$. No activity retains $h_0$ ($C/C$); partial open evidence retains $h_-,h_+$ ($U/E$); final partial coverage retains $h_-$ ($C/E$); full coverage retains $h_+$ ($E/E$); unrelated observation retains all three ($U/U$). The histories represent target truth alternatives, not sampled event frequencies.
+
+Every bounded swap pair changes gold. Three of five activity swap pairs change gold; the other two retain entailed activity. Identical word counts force identical predictions for any deterministic word-count-invariant classifier. Its maximum finite-set accuracy is therefore $1/2$ for bounded targets and $(3+2\cdot2)/10=7/10$ for activity, or $60\%$ overall. On the 288 pairs whose gold differs, such a classifier cannot get both items right. This bound also applies to word-unigram TF-IDF classification.
+
+Below are the complete RB01 idle/open stimuli. Within either assignment, the two targets have exactly the same premise. The diagrams abbreviate these full texts; the empirical tasks use them without abbreviation.
+
+\subsection{Real}
+\paragraph{Original assignment} The interval runs from minute 0 through minute 10. Nora and Alex have separate, identical assignments involving water in a glass. Coverage is monotone within this interval: the same part is not counted twice, and coverage is measured on the original assignment of that actor. An observed increase from one quarter to one half of an assignment establishes some drink activity; full coverage establishes its endpoint. The following are the only observations available for the interval. Nora had zero drink coverage at every moment from minute 0 through minute 10. Alex increased drink coverage from one quarter to one half between minute 2 and minute 3.
+
+\noindent\textbf{Bounded target (contradicted):} Nora drank all the water in her glass during the interval.\par
+\noindent\textbf{Unbounded target (contradicted):} Nora drank some water during the interval.\par
+
+\paragraph{Swapped assignment} The interval runs from minute 0 through minute 10. Nora and Alex have separate, identical assignments involving water in a glass. Coverage is monotone within this interval: the same part is not counted twice, and coverage is measured on the original assignment of that actor. An observed increase from one quarter to one half of an assignment establishes some drink activity; full coverage establishes its endpoint. The following are the only observations available for the interval. Nora increased drink coverage from one quarter to one half between minute 2 and minute 3. Alex had zero drink coverage at every moment from minute 0 through minute 10.
+
+\noindent\textbf{Bounded target (unknown):} Nora drank all the water in her glass during the interval.\par
+\noindent\textbf{Unbounded target (entailed):} Nora drank some water during the interval.\par
+
+\subsection{Nonce}
+\paragraph{Original assignment} The interval runs from minute 0 through minute 10. Nora and Alex have separate, identical assignments. The invented verb dax1 means making monotone coverage progress on an assignment. "dax1-all" requires full coverage; "dax1-some" requires reaching at least two positive coverage landmarks. The same part is not counted twice. The following are the only observations available for the interval. Nora had zero dax1 coverage at every moment from minute 0 through minute 10. Alex increased dax1 coverage from one quarter to one half between minute 2 and minute 3.
+
+\noindent\textbf{Bounded target (contradicted):} Nora dax1-all during the interval.\par
+\noindent\textbf{Unbounded target (contradicted):} Nora dax1-some during the interval.\par
+
+\paragraph{Swapped assignment} The interval runs from minute 0 through minute 10. Nora and Alex have separate, identical assignments. The invented verb dax1 means making monotone coverage progress on an assignment. "dax1-all" requires full coverage; "dax1-some" requires reaching at least two positive coverage landmarks. The same part is not counted twice. The following are the only observations available for the interval. Nora increased dax1 coverage from one quarter to one half between minute 2 and minute 3. Alex had zero dax1 coverage at every moment from minute 0 through minute 10.
+
+\noindent\textbf{Bounded target (unknown):} Nora dax1-all during the interval.\par
+\noindent\textbf{Unbounded target (entailed):} Nora dax1-some during the interval.\par
+
+\subsection{Micro}
+\paragraph{Original assignment} Within interval I, Nora and Alex each have a separate process P1. A history contains increasing stages 1,2,3,4 and optionally STOP; stages cannot be repeated or reversed. B(actor) holds iff stage 4 occurs within I. A(actor) holds iff at least two positive stages occur within I. An unobserved process can have no stages, stop after stage 2, or reach stage 4. The following constraints are the only observations available for I. Nora: no stage occurred at any time within I. Alex: stages 1 and 2 occurred by time 3 within I.
+
+\noindent\textbf{Bounded target (contradicted):} B(Nora) holds within I.\par
+\noindent\textbf{Unbounded target (contradicted):} A(Nora) holds within I.\par
+
+\paragraph{Swapped assignment} Within interval I, Nora and Alex each have a separate process P1. A history contains increasing stages 1,2,3,4 and optionally STOP; stages cannot be repeated or reversed. B(actor) holds iff stage 4 occurs within I. A(actor) holds iff at least two positive stages occur within I. An unobserved process can have no stages, stop after stage 2, or reach stage 4. The following constraints are the only observations available for I. Nora: stages 1 and 2 occurred by time 3 within I. Alex: no stage occurred at any time within I.
+
+\noindent\textbf{Bounded target (unknown):} B(Nora) holds within I.\par
+\noindent\textbf{Unbounded target (entailed):} A(Nora) holds within I.\par
+
+\section{Complete Supplementary Profiles}
+Each system has 720 cells; 288 are entailed and 216 each are contradicted and unknown. Macro recall averages the three label recalls. Bootstrap intervals use 10,000 draws of the twelve lemma blocks (seed 20271009); the seen/held-out split intervals each use six blocks. They describe lexical variation within the specified construction inventory, not decoding variation across repeated seeds. Every outcome is retained; all labels parse successfully.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Supplementary macro and gold-label recall, and lexical split accuracy (percent). Split intervals resample six lemma blocks.}
+\label{tab:splits}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+System & Macro & E & C & U & Seen [CI] & Held out [CI] \\
+\midrule
+Qwen8 & 77.4 & 88.5 & 92.1 & 51.4 & 78.6 [76.9,80.3] & 78.3 [77.2,79.7] \\
+Llama8 & 63.9 & 91.3 & 91.2 & 9.3 & 66.7 [65.6,67.8] & 66.7 [64.4,68.6] \\
+Ministral8 & 78.4 & 64.2 & 77.8 & 93.1 & 76.1 [72.2,80.3] & 77.8 [72.8,82.5] \\
+Gemma12 & 81.4 & 99.7 & 81.5 & 63.0 & 82.8 [81.7,83.3] & 83.6 [81.9,85.3] \\
+Qwen14 & 79.7 & 84.4 & 100.0 & 54.6 & 81.1 [79.7,82.2] & 79.2 [78.1,80.0] \\
+Qwen32 & 82.8 & 92.0 & 94.9 & 61.6 & 84.2 [82.8,86.1] & 83.3 [81.7,84.7] \\
+DeepSeek & 93.4 & 92.4 & 88.9 & 99.1 & 93.3 [91.1,95.6] & 93.3 [92.2,94.4] \\
+\bottomrule
+\end{tabular}
+\end{table}
+\subsection{Definition-Precision Sensitivity}
+The initial nonce-some gloss required an ``observed increase,'' conflating occurrence with the availability of observation records. The precise gloss requires reaching at least two positive coverage landmarks. All 240 Nonce cells per system were retested with this replacement; records, actors, targets, histories and gold were unchanged. The final main-paper challenge uses this precise definition and reuses all 480 content-identical Real/Micro cells per system. Initial stimuli and all initial outcomes remain available. The paired check includes service/order variation and adds no inferential tests.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Complete Nonce definition-precision pairs: correct counts out of 240 and changed judgment counts. Both directions of changes are retained.}
+\label{tab:precision}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+System & Initial correct & Precise correct & Changed labels \\
+\midrule
+Qwen8 & 190 & 198 & 13 \\
+Llama8 & 147 & 180 & 34 \\
+Ministral8 & 207 & 173 & 45 \\
+Gemma12 & 232 & 236 & 4 \\
+Qwen14 & 215 & 216 & 1 \\
+Qwen32 & 213 & 220 & 17 \\
+DeepSeek & 220 & 227 & 15 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\section{Original-Core Lexical and Definition Diagnostics}
+The next tables retain all Real unknown counts per lemma and all four Real-definition cells per system. Each original lemma contributes ten unknown targets; each definition cell contains 24 matched families. The underlying outcomes and original primary and secondary estimates are unchanged. Complete presentation profiles, all 216 per-lemma rows and 54 stratum rows are in the diagnostic report.
+
+\begin{table}[H]
+\centering
+\small
+\caption{All Real unknown judgments correct out of ten per lemma. No lemma is omitted.}
+\label{tab:lemmas}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Lemma & Qwen8 & Llama8 & Ministral8 & Gemma12 & Qwen14 & Qwen32 \\
+\midrule
+collect & 7 & 0 & 9 & 0 & 7 & 5 \\
+copy & 9 & 0 & 10 & 9 & 9 & 10 \\
+crawl & 10 & 1 & 10 & 9 & 10 & 10 \\
+drink & 0 & 0 & 0 & 0 & 0 & 0 \\
+eat & 1 & 0 & 0 & 0 & 0 & 0 \\
+pour & 0 & 0 & 6 & 0 & 0 & 3 \\
+read & 9 & 0 & 10 & 10 & 9 & 5 \\
+run & 10 & 10 & 10 & 10 & 10 & 10 \\
+swim & 10 & 4 & 10 & 10 & 10 & 10 \\
+transcribe & 4 & 0 & 10 & 5 & 9 & 10 \\
+walk & 10 & 4 & 10 & 10 & 10 & 10 \\
+write & 8 & 0 & 10 & 2 & 10 & 9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\centering
+\small
+\caption{Real-definition controls: baseline / definition correct counts out of 24. Columns distinguish bounded (B) and activity (A), neutral (N) and cancellation (C).}
+\label{tab:definitions}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+System & B,N & B,C & A,N & A,C \\
+\midrule
+Qwen8 & 16 / 18 & 22 / 24 & 24 / 24 & 24 / 24 \\
+Llama8 & 5 / 10 & 20 / 22 & 24 / 24 & 24 / 24 \\
+Ministral8 & 19 / 22 & 19 / 19 & 1 / 0 & 2 / 6 \\
+Gemma12 & 14 / 19 & 24 / 24 & 24 / 24 & 24 / 24 \\
+Qwen14 & 16 / 18 & 23 / 24 & 24 / 24 & 24 / 24 \\
+Qwen32 & 15 / 15 & 24 / 24 & 24 / 24 & 24 / 24 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\section{Collection and Reproduction}
+All original and supplementary payloads use pinned suppliers and the recorded decoding settings. A technical probe initially used an older collector without the main Qwen disable controls; those Qwen payloads are excluded from the corrected analysis and retained. Content-identical non-Qwen probe responses can be reused. Shutdown overlap duplicates are retained; the earliest timestamp per exact payload is selected regardless of correctness. No successful output is retried for its answer.
+
+Collection-time generator, collector, protocol and dataset copies are frozen separately. Supplementary files are outside the original generated-data directory, preserving the original generator replay contract. The definition-precision amendment precedes all amended calls. Offline analysis needs no API key or network. API attempts, unknown-charge reserves and the interrupted-probe reserve are described in the supporting index; original ledgers remain unchanged.
+
+\end{document}

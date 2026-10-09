@@ -1,0 +1,9 @@
+{
+  "no_calls": true,
+  "remaining_main_planned_cells": 28104,
+  "remaining_main_unique_payloads": 27984,
+  "stress_planned_cells": 660,
+  "stress_unique_payloads": 660,
+  "definition_real_only_per_model": 96,
+  "note": "Counts are protocol scheduling audit, not completed results. Human/freeze gate remains pending."
+}

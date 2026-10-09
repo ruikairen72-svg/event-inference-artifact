@@ -1,0 +1,402 @@
+{
+  "status": "post-freeze descriptive wording sensitivity; not prespecified inference",
+  "defect": "Simple past was used instead of the past participle in three passive cancellation templates.",
+  "patterns": [
+    "was never drank",
+    "was never ate",
+    "were never wrote"
+  ],
+  "primary_data_and_tests_unchanged": true,
+  "scope": "Removing cells changes their composition and lexical mix; differences do not identify a causal wording effect. Original responses are retained; paired corrections are reported separately. No new significance tests.",
+  "datasets": {
+    "grammar_complete_main": {
+      "planned": 83,
+      "affected": 0,
+      "affected_by_verb": {},
+      "item_ids": [],
+      "sha256": "627de685391cc16d60804406d8f437613ed212e06e737d1c0ce39ddace5c7c48"
+    },
+    "grammar_complete_stress": {
+      "planned": 20,
+      "affected": 0,
+      "affected_by_verb": {},
+      "item_ids": [],
+      "sha256": "0d726e6063956e87b2014e7448a0bb5b4058133add8a91a3261a9f1eed05dea8"
+    },
+    "grammar_repair": {
+      "planned": 30,
+      "affected": 0,
+      "affected_by_verb": {},
+      "item_ids": [],
+      "sha256": "134ca0a7cd6daf2be086b3e7b3446045c6728d488ed0afce2c3d61497a4c108f"
+    },
+    "label_only": {
+      "planned": 288,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:label_only",
+        "F009:real:bounded:cancelling:none:label_only",
+        "F001:real:bounded:cancelling:none:label_only",
+        "F020:real:bounded:cancelling:none:label_only",
+        "F164:real:bounded:cancelling:none:label_only"
+      ],
+      "sha256": "a310d6c5d7f38bf32777ee25870fc4575c32c51add7a8731c537157cd789ad83"
+    },
+    "label_order": {
+      "planned": 288,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:label_order",
+        "F009:real:bounded:cancelling:none:label_order",
+        "F001:real:bounded:cancelling:none:label_order",
+        "F020:real:bounded:cancelling:none:label_order",
+        "F164:real:bounded:cancelling:none:label_order"
+      ],
+      "sha256": "d725e470ecf9da6d9b851c8548765eb71ad95b2cad29f88de9d5af50c50fc6b8"
+    },
+    "main_core": {
+      "planned": 2160,
+      "affected": 30,
+      "affected_by_verb": {
+        "write": 10,
+        "eat": 10,
+        "drink": 10
+      },
+      "item_ids": [
+        "F156:real:bounded:cancelling:none:baseline",
+        "F161:real:bounded:cancelling:none:baseline",
+        "F017:real:bounded:cancelling:none:baseline",
+        "F006:real:bounded:cancelling:none:baseline",
+        "F019:real:bounded:cancelling:none:baseline",
+        "F002:real:bounded:cancelling:none:baseline",
+        "F021:real:bounded:cancelling:none:baseline",
+        "F157:real:bounded:cancelling:none:baseline",
+        "F023:real:bounded:cancelling:none:baseline",
+        "F005:real:bounded:cancelling:none:baseline",
+        "F159:real:bounded:cancelling:none:baseline",
+        "F022:real:bounded:cancelling:none:baseline",
+        "F010:real:bounded:cancelling:none:baseline",
+        "F024:real:bounded:cancelling:none:baseline",
+        "F003:real:bounded:cancelling:none:baseline",
+        "F008:real:bounded:cancelling:none:baseline",
+        "F158:real:bounded:cancelling:none:baseline",
+        "F007:real:bounded:cancelling:none:baseline",
+        "F020:real:bounded:cancelling:none:baseline",
+        "F016:real:bounded:cancelling:none:baseline",
+        "F009:real:bounded:cancelling:none:baseline",
+        "F160:real:bounded:cancelling:none:baseline",
+        "F015:real:bounded:cancelling:none:baseline",
+        "F018:real:bounded:cancelling:none:baseline",
+        "F163:real:bounded:cancelling:none:baseline",
+        "F155:real:bounded:cancelling:none:baseline",
+        "F164:real:bounded:cancelling:none:baseline",
+        "F004:real:bounded:cancelling:none:baseline",
+        "F001:real:bounded:cancelling:none:baseline",
+        "F162:real:bounded:cancelling:none:baseline"
+      ],
+      "sha256": "a113e72f5cc95915e848c6b76d254d4461817e2d5eb2cad7d525254f657d4c2b"
+    },
+    "main_labels": {
+      "planned": 60,
+      "affected": 0,
+      "affected_by_verb": {},
+      "item_ids": [],
+      "sha256": "6544126c3b73a6b7a744a0185fd6b6451d4c65683ff947f6ae01559396c93109"
+    },
+    "main_prior": {
+      "planned": 240,
+      "affected": 18,
+      "affected_by_verb": {
+        "drink": 6,
+        "eat": 8,
+        "write": 4
+      },
+      "item_ids": [
+        "F003:real:bounded:cancelling:high:baseline",
+        "F003:real:bounded:cancelling:low:baseline",
+        "F017:real:bounded:cancelling:high:baseline",
+        "F017:real:bounded:cancelling:low:baseline",
+        "F002:real:bounded:cancelling:high:baseline",
+        "F002:real:bounded:cancelling:low:baseline",
+        "F015:real:bounded:cancelling:high:baseline",
+        "F015:real:bounded:cancelling:low:baseline",
+        "F019:real:bounded:cancelling:high:baseline",
+        "F019:real:bounded:cancelling:low:baseline",
+        "F010:real:bounded:cancelling:high:baseline",
+        "F010:real:bounded:cancelling:low:baseline",
+        "F018:real:bounded:cancelling:high:baseline",
+        "F018:real:bounded:cancelling:low:baseline",
+        "F155:real:bounded:cancelling:high:baseline",
+        "F155:real:bounded:cancelling:low:baseline",
+        "F162:real:bounded:cancelling:high:baseline",
+        "F162:real:bounded:cancelling:low:baseline"
+      ],
+      "sha256": "c410c6c532ae3cabdd1f5da17017e7e6f017ca51534eb4a2cb071f84214388c8"
+    },
+    "name": {
+      "planned": 288,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:name",
+        "F009:real:bounded:cancelling:none:name",
+        "F001:real:bounded:cancelling:none:name",
+        "F020:real:bounded:cancelling:none:name",
+        "F164:real:bounded:cancelling:none:name"
+      ],
+      "sha256": "899a7a3cdd9869f73829b2a693ee4d7a93290eabd13a6b2593cac2d73f502297"
+    },
+    "natural_rule": {
+      "planned": 288,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:natural_rule",
+        "F009:real:bounded:cancelling:none:natural_rule",
+        "F001:real:bounded:cancelling:none:natural_rule",
+        "F020:real:bounded:cancelling:none:natural_rule",
+        "F164:real:bounded:cancelling:none:natural_rule"
+      ],
+      "sha256": "ec6ad3ad293f78ccfdcc71c5163b450544fca7a427adde9c6df0ed9f4fc2912a"
+    },
+    "pilot_core": {
+      "planned": 720,
+      "affected": 10,
+      "affected_by_verb": {
+        "drink": 4,
+        "write": 3,
+        "eat": 3
+      },
+      "item_ids": [
+        "F013:real:bounded:cancelling:none:baseline",
+        "F166:real:bounded:cancelling:none:baseline",
+        "F011:real:bounded:cancelling:none:baseline",
+        "F165:real:bounded:cancelling:none:baseline",
+        "F025:real:bounded:cancelling:none:baseline",
+        "F026:real:bounded:cancelling:none:baseline",
+        "F168:real:bounded:cancelling:none:baseline",
+        "F027:real:bounded:cancelling:none:baseline",
+        "F014:real:bounded:cancelling:none:baseline",
+        "F012:real:bounded:cancelling:none:baseline"
+      ],
+      "sha256": "00d8f04a73a917e742c8fa78b1b91849c6c183ab4b74240867a6a0e3dd1a30a2"
+    },
+    "pilot_labels": {
+      "planned": 20,
+      "affected": 0,
+      "affected_by_verb": {},
+      "item_ids": [],
+      "sha256": "82000b22f262da94c26f5755d20d77c5a7ff51ba327b78d1e0ced1f972225eeb"
+    },
+    "pilot_prior": {
+      "planned": 60,
+      "affected": 6,
+      "affected_by_verb": {
+        "drink": 2,
+        "eat": 2,
+        "write": 2
+      },
+      "item_ids": [
+        "F014:real:bounded:cancelling:high:baseline",
+        "F014:real:bounded:cancelling:low:baseline",
+        "F027:real:bounded:cancelling:high:baseline",
+        "F027:real:bounded:cancelling:low:baseline",
+        "F166:real:bounded:cancelling:high:baseline",
+        "F166:real:bounded:cancelling:low:baseline"
+      ],
+      "sha256": "b6889c57b50eebf1d48b0ce4e9d8d715217370d2156013785f1ff731dffe9d39"
+    },
+    "real_definition": {
+      "planned": 96,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:real_definition",
+        "F009:real:bounded:cancelling:none:real_definition",
+        "F001:real:bounded:cancelling:none:real_definition",
+        "F020:real:bounded:cancelling:none:real_definition",
+        "F164:real:bounded:cancelling:none:real_definition"
+      ],
+      "sha256": "ebf1bcdecfc185c2d4c13e348aae7824a3f2c13d7aea9e583fec8ef623c604b9"
+    },
+    "stress_core": {
+      "planned": 540,
+      "affected": 6,
+      "affected_by_verb": {
+        "eat": 3,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:baseline",
+        "F024:real:bounded:cancelling:none:baseline",
+        "F020:real:bounded:cancelling:none:baseline",
+        "F009:real:bounded:cancelling:none:baseline",
+        "F164:real:bounded:cancelling:none:baseline",
+        "F001:real:bounded:cancelling:none:baseline"
+      ],
+      "sha256": "e32d35a8f609defd9da9b7810e1cc6f4bd412e13e9a62431488d4e88902162a4"
+    },
+    "stress_prior": {
+      "planned": 120,
+      "affected": 14,
+      "affected_by_verb": {
+        "drink": 6,
+        "eat": 4,
+        "write": 4
+      },
+      "item_ids": [
+        "F003:real:bounded:cancelling:high:baseline",
+        "F003:real:bounded:cancelling:low:baseline",
+        "F002:real:bounded:cancelling:high:baseline",
+        "F002:real:bounded:cancelling:low:baseline",
+        "F015:real:bounded:cancelling:high:baseline",
+        "F015:real:bounded:cancelling:low:baseline",
+        "F019:real:bounded:cancelling:high:baseline",
+        "F019:real:bounded:cancelling:low:baseline",
+        "F010:real:bounded:cancelling:high:baseline",
+        "F010:real:bounded:cancelling:low:baseline",
+        "F155:real:bounded:cancelling:high:baseline",
+        "F155:real:bounded:cancelling:low:baseline",
+        "F162:real:bounded:cancelling:high:baseline",
+        "F162:real:bounded:cancelling:low:baseline"
+      ],
+      "sha256": "cd19dede27dfe5a0233d1710e5cfd107dfbc8dac2df0650c3e2b02e49a3bd1a5"
+    },
+    "structural_rule": {
+      "planned": 288,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:structural_rule",
+        "F009:real:bounded:cancelling:none:structural_rule",
+        "F001:real:bounded:cancelling:none:structural_rule",
+        "F020:real:bounded:cancelling:none:structural_rule",
+        "F164:real:bounded:cancelling:none:structural_rule"
+      ],
+      "sha256": "561127347c538c354c833be597bffeefe9fd50133f8bb2cab684350d7e866f0e"
+    },
+    "template_ood": {
+      "planned": 288,
+      "affected": 5,
+      "affected_by_verb": {
+        "eat": 2,
+        "drink": 2,
+        "write": 1
+      },
+      "item_ids": [
+        "F019:real:bounded:cancelling:none:template_ood",
+        "F009:real:bounded:cancelling:none:template_ood",
+        "F001:real:bounded:cancelling:none:template_ood",
+        "F020:real:bounded:cancelling:none:template_ood",
+        "F164:real:bounded:cancelling:none:template_ood"
+      ],
+      "sha256": "9f3344a22563c0d87e942682bd18625b3b181cd86bfb8302bb08ed23f88ef15c"
+    }
+  },
+  "empirical_sensitivity": [
+    {
+      "model": "google/gemma-3-12b-it",
+      "dataset": "main",
+      "core_planned": 2160,
+      "wording_affected_cells": 30,
+      "accuracy_all_planned": 0.9476851851851852,
+      "accuracy_without_affected_cells": 0.9474178403755869,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.6748888888888891
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "dataset": "main",
+      "core_planned": 2160,
+      "wording_affected_cells": 30,
+      "accuracy_all_planned": 0.8569444444444444,
+      "accuracy_without_affected_cells": 0.8624413145539906,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.3277777777777778
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "dataset": "main",
+      "core_planned": 2160,
+      "wording_affected_cells": 30,
+      "accuracy_all_planned": 0.6615740740740741,
+      "accuracy_without_affected_cells": 0.6661971830985915,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.5561111111111114
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "dataset": "main",
+      "core_planned": 2160,
+      "wording_affected_cells": 30,
+      "accuracy_all_planned": 0.8152777777777778,
+      "accuracy_without_affected_cells": 0.8126760563380282,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.6244444444444446
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "dataset": "main",
+      "core_planned": 2160,
+      "wording_affected_cells": 30,
+      "accuracy_all_planned": 0.9375,
+      "accuracy_without_affected_cells": 0.9366197183098591,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.6377777777777781
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "dataset": "main",
+      "core_planned": 2160,
+      "wording_affected_cells": 30,
+      "accuracy_all_planned": 0.837037037037037,
+      "accuracy_without_affected_cells": 0.8384976525821596,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 90,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.46388888888888913
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "dataset": "stress",
+      "core_planned": 540,
+      "wording_affected_cells": 6,
+      "accuracy_all_planned": 0.9611111111111111,
+      "accuracy_without_affected_cells": 0.9606741573033708,
+      "real_bounded_cancel_minus_neutral_unaffected_planned_families": 24,
+      "real_bounded_cancel_minus_neutral_unaffected_valid_pairs": 24,
+      "real_bounded_cancel_minus_neutral_unaffected_mean": -0.5270833333333332
+    }
+  ]
+}

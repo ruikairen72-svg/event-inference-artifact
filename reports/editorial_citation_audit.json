@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-09T02:47:07.337346+00:00",
+  "passed": true,
+  "new_references": [
+    {
+      "key": "maccartney2008",
+      "authors": "Bill MacCartney; Christopher D. Manning",
+      "year": 2008,
+      "title": "Modeling Semantic Containment and Exclusion in Natural Language Inference",
+      "venue": "COLING",
+      "pages": "521\u2013528",
+      "url": "https://aclanthology.org/C08-1066/",
+      "checked_content": "Official bibliographic record, PDF abstract and introduction",
+      "role": "Distinguish containment/exclusion inference from the task-specific compatible-history truth test; no claim of equivalent algorithms"
+    },
+    {
+      "key": "poliak2018",
+      "authors": "Adam Poliak; Jason Naradowsky; Aparajita Haldar; Rachel Rudinger; Benjamin Van Durme",
+      "year": 2018,
+      "title": "Hypothesis Only Baselines in Natural Language Inference",
+      "venue": "*SEM",
+      "pages": "180\u2013191",
+      "url": "https://aclanthology.org/S18-2023/",
+      "checked_content": "Official record, PDF abstract/introduction and baseline figure caption",
+      "role": "Motivate hypothesis-only recoverability diagnostic; no reuse of its numerical results"
+    },
+    {
+      "key": "checklist2020",
+      "authors": "Marco Tulio Ribeiro; Tongshuang Wu; Carlos Guestrin; Sameer Singh",
+      "year": 2020,
+      "title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+      "venue": "ACL",
+      "pages": "4902\u20134912",
+      "url": "https://aclanthology.org/2020.acl-main.442/",
+      "checked_content": "Official record and PDF description of behavioral capability/test matrix",
+      "role": "Motivate structured behavioral tests and paired controls rather than aggregate accuracy alone"
+    }
+  ],
+  "existing_reference_scope": "Eleven prior references retain their source-registry verification; CoRE, CxMP and HANS official records/PDFs rechecked for comparisons. Han and Sun remains identified as an arXiv preprint.",
+  "reference_figure": {
+    "source": "https://aclanthology.org/2025.findings-acl.992/",
+    "figure": 1,
+    "inspected": "PDF page 1 raster",
+    "applied_rules": "Concrete instance above aligned relation/response table, hierarchy separation and direct category labels. Current mechanism instead uses histories and set restriction."
+  },
+  "AI_policy": {
+    "central_url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
+    "central_access": "403; not claimed directly read",
+    "official_ACM_venue_quotation_url": "https://sensys.acm.org/2027/cfp.html",
+    "verified_content": "Research-lifecycle AI use requires detailed methods disclosure; AI writing assistance alone no longer requires disclosure.",
+    "disposition": "Removed standalone assistance section and writing-process description; retain research implementation methods footnote, with separately prepared disclosure and author checklist."
+  }
+}

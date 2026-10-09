@@ -1,0 +1,11 @@
+{
+  "source_archive_sha256": "d411023e102bf2f32dec3037953773b793def2076f40ee2fa74da0cac7dff60f",
+  "source_archive_manifested_files": 513,
+  "archive_complete_and_unchanged": true,
+  "large_files_available_inside_zip_only": [
+    "data/analysis/main_planned.jsonl",
+    "data/frozen/editorial_prior_delivery/data/analysis/main_planned.jsonl",
+    "data/raw_runs/main_v1/responses.jsonl"
+  ],
+  "browsable_readme_has_hosting_note": true
+}

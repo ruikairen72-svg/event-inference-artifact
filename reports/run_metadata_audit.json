@@ -1,0 +1,1787 @@
+{
+  "scope": "technical metadata on main/stress/grammar calls and the separately identified cached main label controls; not semantic results or independent invoice verification",
+  "complete_collection": true,
+  "runs": [
+    {
+      "run": "grammar_complete_v2",
+      "model": "deepseek/deepseek-v3.2",
+      "successful_unique_calls": 20,
+      "returned_model_counts": {
+        "deepseek/deepseek-v3.2": 20
+      },
+      "provider_counts": {
+        "DeepInfra": 20
+      },
+      "finish_reason_counts": {
+        "stop": 20
+      },
+      "parse_status_counts": {
+        "ok": 20
+      },
+      "prompt_tokens_mean": 282.65,
+      "prompt_tokens_max": 293,
+      "completion_tokens_mean": 24.8,
+      "completion_tokens_max": 27,
+      "reasoning_tokens_histogram": {
+        "0": 20
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 20,
+      "max_tokens_values": {
+        "256": 20
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_complete_v2",
+      "model": "google/gemma-3-12b-it",
+      "successful_unique_calls": 53,
+      "returned_model_counts": {
+        "google/gemma-3-12b-it": 53
+      },
+      "provider_counts": {
+        "DeepInfra": 53
+      },
+      "finish_reason_counts": {
+        "stop": 53
+      },
+      "parse_status_counts": {
+        "ok": 53
+      },
+      "prompt_tokens_mean": 288.20754716981133,
+      "prompt_tokens_max": 323,
+      "completion_tokens_mean": 28.471698113207548,
+      "completion_tokens_max": 30,
+      "reasoning_tokens_histogram": {
+        "0": 53
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 53,
+      "max_tokens_values": {
+        "256": 53
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_complete_v2",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "successful_unique_calls": 53,
+      "returned_model_counts": {
+        "meta-llama/llama-3.1-8b-instruct": 53
+      },
+      "provider_counts": {
+        "Groq": 53
+      },
+      "finish_reason_counts": {
+        "stop": 53
+      },
+      "parse_status_counts": {
+        "ok": 53
+      },
+      "prompt_tokens_mean": 314.0566037735849,
+      "prompt_tokens_max": 349,
+      "completion_tokens_mean": 22.264150943396228,
+      "completion_tokens_max": 28,
+      "reasoning_tokens_histogram": {
+        "0": 53
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 53,
+      "max_tokens_values": {
+        "256": 53
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_complete_v2",
+      "model": "mistralai/ministral-8b-2512",
+      "successful_unique_calls": 53,
+      "returned_model_counts": {
+        "mistralai/ministral-8b-2512": 53
+      },
+      "provider_counts": {
+        "Mistral": 53
+      },
+      "finish_reason_counts": {
+        "stop": 53
+      },
+      "parse_status_counts": {
+        "ok": 53
+      },
+      "prompt_tokens_mean": 289.47169811320754,
+      "prompt_tokens_max": 327,
+      "completion_tokens_mean": 28.22641509433962,
+      "completion_tokens_max": 31,
+      "reasoning_tokens_histogram": {
+        "0": 53
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 53,
+      "max_tokens_values": {
+        "256": 53
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_complete_v2",
+      "model": "qwen/qwen3-14b",
+      "successful_unique_calls": 53,
+      "returned_model_counts": {
+        "qwen/qwen3-14b": 53
+      },
+      "provider_counts": {
+        "DeepInfra": 53
+      },
+      "finish_reason_counts": {
+        "stop": 53
+      },
+      "parse_status_counts": {
+        "ok": 53
+      },
+      "prompt_tokens_mean": 296.0566037735849,
+      "prompt_tokens_max": 331,
+      "completion_tokens_mean": 26.867924528301888,
+      "completion_tokens_max": 28,
+      "reasoning_tokens_histogram": {
+        "1": 53
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 53,
+      "max_tokens_values": {
+        "256": 53
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_complete_v2",
+      "model": "qwen/qwen3-32b",
+      "successful_unique_calls": 53,
+      "returned_model_counts": {
+        "qwen/qwen3-32b": 53
+      },
+      "provider_counts": {
+        "DeepInfra": 53
+      },
+      "finish_reason_counts": {
+        "stop": 53
+      },
+      "parse_status_counts": {
+        "ok": 53
+      },
+      "prompt_tokens_mean": 296.0566037735849,
+      "prompt_tokens_max": 331,
+      "completion_tokens_mean": 30.58490566037736,
+      "completion_tokens_max": 32,
+      "reasoning_tokens_histogram": {
+        "1": 53
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 53,
+      "max_tokens_values": {
+        "256": 53
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_complete_v2",
+      "model": "qwen/qwen3-8b",
+      "successful_unique_calls": 53,
+      "returned_model_counts": {
+        "qwen/qwen3-8b": 53
+      },
+      "provider_counts": {
+        "Alibaba": 53
+      },
+      "finish_reason_counts": {
+        "stop": 53
+      },
+      "parse_status_counts": {
+        "ok": 53
+      },
+      "prompt_tokens_mean": 299.0566037735849,
+      "prompt_tokens_max": 334,
+      "completion_tokens_mean": 18.71698113207547,
+      "completion_tokens_max": 20,
+      "reasoning_tokens_histogram": {
+        "0": 53
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 53,
+      "max_tokens_values": {
+        "256": 53
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_v1",
+      "model": "google/gemma-3-12b-it",
+      "successful_unique_calls": 30,
+      "returned_model_counts": {
+        "google/gemma-3-12b-it": 30
+      },
+      "provider_counts": {
+        "DeepInfra": 30
+      },
+      "finish_reason_counts": {
+        "stop": 30
+      },
+      "parse_status_counts": {
+        "ok": 30
+      },
+      "prompt_tokens_mean": 279.8333333333333,
+      "prompt_tokens_max": 286,
+      "completion_tokens_mean": 29.933333333333334,
+      "completion_tokens_max": 30,
+      "reasoning_tokens_histogram": {
+        "0": 30
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 30,
+      "max_tokens_values": {
+        "256": 30
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_v1",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "successful_unique_calls": 30,
+      "returned_model_counts": {
+        "meta-llama/llama-3.1-8b-instruct": 30
+      },
+      "provider_counts": {
+        "Groq": 30
+      },
+      "finish_reason_counts": {
+        "stop": 30
+      },
+      "parse_status_counts": {
+        "ok": 30
+      },
+      "prompt_tokens_mean": 305.7,
+      "prompt_tokens_max": 314,
+      "completion_tokens_mean": 22.666666666666668,
+      "completion_tokens_max": 24,
+      "reasoning_tokens_histogram": {
+        "0": 30
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 30,
+      "max_tokens_values": {
+        "256": 30
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_v1",
+      "model": "mistralai/ministral-8b-2512",
+      "successful_unique_calls": 30,
+      "returned_model_counts": {
+        "mistralai/ministral-8b-2512": 30
+      },
+      "provider_counts": {
+        "Mistral": 30
+      },
+      "finish_reason_counts": {
+        "stop": 30
+      },
+      "parse_status_counts": {
+        "ok": 30
+      },
+      "prompt_tokens_mean": 280.46666666666664,
+      "prompt_tokens_max": 290,
+      "completion_tokens_mean": 29.6,
+      "completion_tokens_max": 31,
+      "reasoning_tokens_histogram": {
+        "0": 30
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 30,
+      "max_tokens_values": {
+        "256": 30
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_v1",
+      "model": "qwen/qwen3-14b",
+      "successful_unique_calls": 30,
+      "returned_model_counts": {
+        "qwen/qwen3-14b": 30
+      },
+      "provider_counts": {
+        "DeepInfra": 30
+      },
+      "finish_reason_counts": {
+        "stop": 30
+      },
+      "parse_status_counts": {
+        "ok": 30
+      },
+      "prompt_tokens_mean": 287.7,
+      "prompt_tokens_max": 296,
+      "completion_tokens_mean": 28,
+      "completion_tokens_max": 28,
+      "reasoning_tokens_histogram": {
+        "1": 30
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 30,
+      "max_tokens_values": {
+        "256": 30
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_v1",
+      "model": "qwen/qwen3-32b",
+      "successful_unique_calls": 30,
+      "returned_model_counts": {
+        "qwen/qwen3-32b": 30
+      },
+      "provider_counts": {
+        "DeepInfra": 30
+      },
+      "finish_reason_counts": {
+        "stop": 30
+      },
+      "parse_status_counts": {
+        "ok": 30
+      },
+      "prompt_tokens_mean": 287.7,
+      "prompt_tokens_max": 296,
+      "completion_tokens_mean": 32,
+      "completion_tokens_max": 32,
+      "reasoning_tokens_histogram": {
+        "1": 30
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 30,
+      "max_tokens_values": {
+        "256": 30
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "grammar_v1",
+      "model": "qwen/qwen3-8b",
+      "successful_unique_calls": 30,
+      "returned_model_counts": {
+        "qwen/qwen3-8b": 30
+      },
+      "provider_counts": {
+        "Alibaba": 30
+      },
+      "finish_reason_counts": {
+        "stop": 30
+      },
+      "parse_status_counts": {
+        "ok": 30
+      },
+      "prompt_tokens_mean": 290.7,
+      "prompt_tokens_max": 299,
+      "completion_tokens_mean": 19.733333333333334,
+      "completion_tokens_max": 20,
+      "reasoning_tokens_histogram": {
+        "0": 30
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 30,
+      "max_tokens_values": {
+        "256": 30
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "main_v1",
+      "model": "google/gemma-3-12b-it",
+      "successful_unique_calls": 4661,
+      "returned_model_counts": {
+        "google/gemma-3-12b-it": 4661
+      },
+      "provider_counts": {
+        "DeepInfra": 4661
+      },
+      "finish_reason_counts": {
+        "stop": 4661
+      },
+      "parse_status_counts": {
+        "ok": 4661
+      },
+      "prompt_tokens_mean": 273.87406136022315,
+      "prompt_tokens_max": 372,
+      "completion_tokens_mean": 26.314095687620682,
+      "completion_tokens_max": 30,
+      "reasoning_tokens_histogram": {
+        "0": 4661
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 4661,
+      "max_tokens_values": {
+        "256": 4661
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "main_v1",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "successful_unique_calls": 4644,
+      "returned_model_counts": {
+        "meta-llama/llama-3.1-8b-instruct": 4644
+      },
+      "provider_counts": {
+        "Groq": 4644
+      },
+      "finish_reason_counts": {
+        "stop": 4644
+      },
+      "parse_status_counts": {
+        "ok": 4644
+      },
+      "prompt_tokens_mean": 300.04005167958655,
+      "prompt_tokens_max": 403,
+      "completion_tokens_mean": 20.588070628768303,
+      "completion_tokens_max": 29,
+      "reasoning_tokens_histogram": {
+        "0": 4644
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 4644,
+      "max_tokens_values": {
+        "256": 4644
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "main_v1",
+      "model": "mistralai/ministral-8b-2512",
+      "successful_unique_calls": 4661,
+      "returned_model_counts": {
+        "mistralai/ministral-8b-2512": 4661
+      },
+      "provider_counts": {
+        "Mistral": 4661
+      },
+      "finish_reason_counts": {
+        "stop": 4661
+      },
+      "parse_status_counts": {
+        "ok": 4661
+      },
+      "prompt_tokens_mean": 274.8103411285132,
+      "prompt_tokens_max": 377,
+      "completion_tokens_mean": 25.705642565972965,
+      "completion_tokens_max": 31,
+      "reasoning_tokens_histogram": {
+        "0": 4661
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 4661,
+      "max_tokens_values": {
+        "256": 4661
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "main_v1",
+      "model": "qwen/qwen3-14b",
+      "successful_unique_calls": 4661,
+      "returned_model_counts": {
+        "qwen/qwen3-14b": 4661
+      },
+      "provider_counts": {
+        "DeepInfra": 4661
+      },
+      "finish_reason_counts": {
+        "stop": 4661
+      },
+      "parse_status_counts": {
+        "ok": 4661
+      },
+      "prompt_tokens_mean": 282.34992490881785,
+      "prompt_tokens_max": 385,
+      "completion_tokens_mean": 24.427590645784168,
+      "completion_tokens_max": 28,
+      "reasoning_tokens_histogram": {
+        "1": 4661
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 4661,
+      "max_tokens_values": {
+        "256": 4661
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "main_v1",
+      "model": "qwen/qwen3-32b",
+      "successful_unique_calls": 4661,
+      "returned_model_counts": {
+        "qwen/qwen3-32b": 4661
+      },
+      "provider_counts": {
+        "DeepInfra": 4661
+      },
+      "finish_reason_counts": {
+        "stop": 4661
+      },
+      "parse_status_counts": {
+        "ok": 4661
+      },
+      "prompt_tokens_mean": 282.34992490881785,
+      "prompt_tokens_max": 385,
+      "completion_tokens_mean": 27.353786741042693,
+      "completion_tokens_max": 32,
+      "reasoning_tokens_histogram": {
+        "1": 4661
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 4661,
+      "max_tokens_values": {
+        "256": 4661
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "main_v1",
+      "model": "qwen/qwen3-8b",
+      "successful_unique_calls": 4661,
+      "returned_model_counts": {
+        "qwen/qwen3-8b": 4661
+      },
+      "provider_counts": {
+        "Alibaba": 4661
+      },
+      "finish_reason_counts": {
+        "stop": 4661
+      },
+      "parse_status_counts": {
+        "ok": 4661
+      },
+      "prompt_tokens_mean": 285.34992490881785,
+      "prompt_tokens_max": 388,
+      "completion_tokens_mean": 17.07358935850676,
+      "completion_tokens_max": 20,
+      "reasoning_tokens_histogram": {
+        "0": 4661
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 4661,
+      "max_tokens_values": {
+        "256": 4661
+      },
+      "qwen_suffix_uniform": true,
+      "fallback_disabled_uniform": true
+    },
+    {
+      "run": "stress_v1",
+      "model": "deepseek/deepseek-v3.2",
+      "successful_unique_calls": 660,
+      "returned_model_counts": {
+        "deepseek/deepseek-v3.2": 660
+      },
+      "provider_counts": {
+        "DeepInfra": 660
+      },
+      "finish_reason_counts": {
+        "stop": 660
+      },
+      "parse_status_counts": {
+        "ok": 660
+      },
+      "prompt_tokens_mean": 280.5969696969697,
+      "prompt_tokens_max": 338,
+      "completion_tokens_mean": 23.945454545454545,
+      "completion_tokens_max": 25,
+      "reasoning_tokens_histogram": {
+        "0": 660
+      },
+      "observed_prompt_under_reservation_estimate": true,
+      "usage_comparisons": 660,
+      "max_tokens_values": {
+        "256": 660
+      },
+      "qwen_suffix_uniform": null,
+      "fallback_disabled_uniform": true
+    }
+  ],
+  "known_returned_cost_usd": 0.9223544599999896,
+  "conservative_ledger_usd": 2.042477941999984,
+  "unknown_charge_attempts": 3431,
+  "cached_main_control_metadata": [
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "d41108ec42d4617c44a09595c5138f903c4a102dc03fd3ca7f51b233e3e3316c",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 28,
+        "total_tokens": 247,
+        "cost": 1.319e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.319e-05,
+          "upstream_inference_prompt_cost": 1.095e-05,
+          "upstream_inference_completions_cost": 2.24e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "6eb680f0bc1689a45118ffa236c9dd2496bb2f0e8cfaee9ea365fee059ce186e",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 23,
+        "total_tokens": 241,
+        "cost": 1.274e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.274e-05,
+          "upstream_inference_prompt_cost": 1.09e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "6dcb922a1dd035c26a89cbf2c2972027de12120c393a6677884e5bac77465a3e",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 23,
+        "total_tokens": 243,
+        "cost": 1.284e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.284e-05,
+          "upstream_inference_prompt_cost": 1.1e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "19ee511bdd195e086cd7279f2f25d25a5511dd2a0fb67317b7b3e2f3a82a475c",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 22,
+        "total_tokens": 241,
+        "cost": 1.271e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.271e-05,
+          "upstream_inference_prompt_cost": 1.095e-05,
+          "upstream_inference_completions_cost": 1.76e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "5d51b27728e4c1aebb973a7756c795897729ea9cecc2ecd1dcc38f7a39050188",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 23,
+        "total_tokens": 243,
+        "cost": 1.284e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.284e-05,
+          "upstream_inference_prompt_cost": 1.1e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "4b546b342f5c28a4dd4b06c26787ec67769bd640620f783396128c8c5159df38",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 226,
+        "completion_tokens": 23,
+        "total_tokens": 249,
+        "cost": 1.314e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.314e-05,
+          "upstream_inference_prompt_cost": 1.13e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "4b541a6c72af06b9119e552cff9430bf8ba35b78636cb5942e62b3397c389d1a",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 218,
+        "completion_tokens": 23,
+        "total_tokens": 241,
+        "cost": 1.274e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.274e-05,
+          "upstream_inference_prompt_cost": 1.09e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "4d00333a3c50c5f577c3a226afb54aaac7a5d7f9f7f961c61ad8d0a6d695a89a",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 22,
+        "total_tokens": 241,
+        "cost": 1.271e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.271e-05,
+          "upstream_inference_prompt_cost": 1.095e-05,
+          "upstream_inference_completions_cost": 1.76e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "1236bb04709bb84f56ae2f707d55435f3ce6eedc08eaa9032993d6732b300557",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 22,
+        "total_tokens": 241,
+        "cost": 1.271e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.271e-05,
+          "upstream_inference_prompt_cost": 1.095e-05,
+          "upstream_inference_completions_cost": 1.76e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "6c74a6c0fafff6f923d78ac7e672935e04d4ea77bce8eab4fe8e2a786a6e065b",
+      "returned_model": "qwen/qwen3-8b",
+      "returned_provider": "Alibaba",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 204,
+        "completion_tokens": 19,
+        "total_tokens": 223,
+        "cost": 3.2513e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.2513e-05,
+          "upstream_inference_prompt_cost": 2.3868e-05,
+          "upstream_inference_completions_cost": 8.645e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "7ba6141b119ae97d251e1a2b469a06f02e40c767b6e55f12698a906acaddc684",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 27,
+        "total_tokens": 252,
+        "cost": 1.341e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.341e-05,
+          "upstream_inference_prompt_cost": 1.125e-05,
+          "upstream_inference_completions_cost": 2.16e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "fd9be3781bf15dea9014e32bb93b2cce58e3a0d3b5851229a02798862d0c2743",
+      "returned_model": "qwen/qwen3-32b",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 32,
+        "total_tokens": 234,
+        "cost": 2.512e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.512e-05,
+          "upstream_inference_prompt_cost": 1.616e-05,
+          "upstream_inference_completions_cost": 8.96e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "738f418929e3eeb8270e585a376daecdb5f345f61c62b72f99d3469760048bba",
+      "returned_model": "qwen/qwen3-32b",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 31,
+        "total_tokens": 232,
+        "cost": 2.476e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.476e-05,
+          "upstream_inference_prompt_cost": 1.608e-05,
+          "upstream_inference_completions_cost": 8.68e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "9f2b5b7cab8807bd9a2dcd5f8563ab0f4adf15a232b2902c601c77629d48b3f7",
+      "returned_model": "qwen/qwen3-32b",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 207,
+        "completion_tokens": 30,
+        "total_tokens": 237,
+        "cost": 2.496e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.496e-05,
+          "upstream_inference_prompt_cost": 1.656e-05,
+          "upstream_inference_completions_cost": 8.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "657a919c3fd65affa78b9370d187c2c253fda20907a012b63e2c452236e37e71",
+      "returned_model": "qwen/qwen3-8b",
+      "returned_provider": "Alibaba",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 210,
+        "completion_tokens": 20,
+        "total_tokens": 230,
+        "cost": 3.367e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.367e-05,
+          "upstream_inference_prompt_cost": 2.457e-05,
+          "upstream_inference_completions_cost": 9.1e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "source_run": "main_endpoint_probe",
+      "request_id": "29f4597277444972bfa0a6fccc33ba39395f4e6caef1a745dcd9e1f32f89cad7",
+      "returned_model": "google/gemma-3-12b-it",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 194,
+        "completion_tokens": 29,
+        "total_tokens": 223,
+        "cost": 1.405e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.405e-05,
+          "upstream_inference_prompt_cost": 9.7e-06,
+          "upstream_inference_completions_cost": 4.35e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "3ef1382a562546f2b01f203fe5786d98184d70fb1d1347ef2e1d026d7643ef97",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 23,
+        "total_tokens": 243,
+        "cost": 1.284e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.284e-05,
+          "upstream_inference_prompt_cost": 1.1e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "6d16b9696e432bb7cfbc6b689d881eea08e37f50e9e3dc99a5f9edcf19d0835c",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 22,
+        "total_tokens": 239,
+        "cost": 1.261e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.261e-05,
+          "upstream_inference_prompt_cost": 1.085e-05,
+          "upstream_inference_completions_cost": 1.76e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "fa337cfa3cc09b77ad63849239fc28f3c8b6bab4ed2dce349b6466eccdfb7b4e",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 23,
+        "total_tokens": 243,
+        "cost": 1.284e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.284e-05,
+          "upstream_inference_prompt_cost": 1.1e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "d89bba301de96ec73afae00904964d52dfe2f92c949c1c705f3ea8906760d9d4",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 224,
+        "completion_tokens": 27,
+        "total_tokens": 251,
+        "cost": 1.336e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.336e-05,
+          "upstream_inference_prompt_cost": 1.12e-05,
+          "upstream_inference_completions_cost": 2.16e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "source_run": "main_endpoint_probe",
+      "request_id": "1bbc3832ab98e8e33a594430667ce6d480d3b5a452976113e7be28fd774226fb",
+      "returned_model": "mistralai/ministral-8b-2512",
+      "returned_provider": "Mistral",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 194,
+        "completion_tokens": 29,
+        "total_tokens": 223,
+        "cost": 1.617e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.617e-05,
+          "upstream_inference_prompt_cost": 1.182e-05,
+          "upstream_inference_completions_cost": 4.35e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "4727d6ae416d31f6ebbcbdcfbce005a585ee8aff5d726f21b3ccfaec6845e24a",
+      "returned_model": "qwen/qwen3-14b",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 202,
+        "completion_tokens": 28,
+        "total_tokens": 230,
+        "cost": 3.096e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.096e-05,
+          "upstream_inference_prompt_cost": 2.424e-05,
+          "upstream_inference_completions_cost": 6.72e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "9bae8a9ced65f39806e675c5a94cdd1e6fdb13053d80e9571847c8ad0ad77474",
+      "returned_model": "qwen/qwen3-8b",
+      "returned_provider": "Alibaba",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 205,
+        "completion_tokens": 20,
+        "total_tokens": 225,
+        "cost": 3.3085e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.3085e-05,
+          "upstream_inference_prompt_cost": 2.3985e-05,
+          "upstream_inference_completions_cost": 9.1e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "source_run": "main_endpoint_probe",
+      "request_id": "de353cda47874426fef9a647837e8858bf864fbb720c22e61c37b4b46cf25b2f",
+      "returned_model": "mistralai/ministral-8b-2512",
+      "returned_provider": "Mistral",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 28,
+        "total_tokens": 227,
+        "cost": 1.677e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.677e-05,
+          "upstream_inference_prompt_cost": 1.257e-05,
+          "upstream_inference_completions_cost": 4.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "04d42171a74d3b027b99c0fe7230c288f786785b2704f2ec7999d9e909fea67d",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 27,
+        "total_tokens": 252,
+        "cost": 1.341e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.341e-05,
+          "upstream_inference_prompt_cost": 1.125e-05,
+          "upstream_inference_completions_cost": 2.16e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "def079206e8ada43b11e1e8fe64cfb13322ff8b4e0da96ecc168d0207448c1e8",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 22,
+        "total_tokens": 241,
+        "cost": 1.271e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.271e-05,
+          "upstream_inference_prompt_cost": 1.095e-05,
+          "upstream_inference_completions_cost": 1.76e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "source_run": "main_endpoint_probe",
+      "request_id": "9ccd6fb0389393132132ede12a5305caee0df0d585171b6e978356743316e2ad",
+      "returned_model": "google/gemma-3-12b-it",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 28,
+        "total_tokens": 229,
+        "cost": 1.425e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.425e-05,
+          "upstream_inference_prompt_cost": 1.005e-05,
+          "upstream_inference_completions_cost": 4.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "558851c50173f07ed9c8123a2870387a107f5b6b5d24e2e0fddd469bdc257ab0",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 226,
+        "completion_tokens": 27,
+        "total_tokens": 253,
+        "cost": 1.346e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.346e-05,
+          "upstream_inference_prompt_cost": 1.13e-05,
+          "upstream_inference_completions_cost": 2.16e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "source_run": "main_endpoint_probe",
+      "request_id": "9f2a4120179a73ace430d2f4943e41c31217702bb686e20546444a05b7bd91f6",
+      "returned_model": "mistralai/ministral-8b-2512",
+      "returned_provider": "Mistral",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 193,
+        "completion_tokens": 29,
+        "total_tokens": 222,
+        "cost": 3.33e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.33e-05,
+          "upstream_inference_prompt_cost": 2.895e-05,
+          "upstream_inference_completions_cost": 4.35e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "3bc9817a78dbbddadb72f270bcaa77fbfd89975347ec2a6d598ffc55a8c14757",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 23,
+        "total_tokens": 248,
+        "cost": 1.309e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.309e-05,
+          "upstream_inference_prompt_cost": 1.125e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "71e622462b73cb58c217617fde86233d3f45dbe32baea69daedf4de9699fb8ed",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 22,
+        "total_tokens": 241,
+        "cost": 1.271e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.271e-05,
+          "upstream_inference_prompt_cost": 1.095e-05,
+          "upstream_inference_completions_cost": 1.76e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "719c120cbdd0fc0e94c4d87149d90c3f76eefe3d0fff840c515bd5af891e4af8",
+      "returned_model": "qwen/qwen3-14b",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 201,
+        "completion_tokens": 27,
+        "total_tokens": 228,
+        "cost": 3.06e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.06e-05,
+          "upstream_inference_prompt_cost": 2.412e-05,
+          "upstream_inference_completions_cost": 6.48e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "source_run": "main_endpoint_probe_v3",
+      "request_id": "bf0af4abc81b62e85e690e3958ff61fc86abe77a0ca1a22afe76f2b88a05fecd",
+      "returned_model": "qwen/qwen3-14b",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 207,
+        "completion_tokens": 26,
+        "total_tokens": 233,
+        "cost": 3.108e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.108e-05,
+          "upstream_inference_prompt_cost": 2.484e-05,
+          "upstream_inference_completions_cost": 6.24e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "source_run": "main_endpoint_probe",
+      "request_id": "1e501106bcc8a152772576544d07375f70fa436f9e3573f9e9f64e6c263a1c5e",
+      "returned_model": "google/gemma-3-12b-it",
+      "returned_provider": "DeepInfra",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 195,
+        "completion_tokens": 29,
+        "total_tokens": 224,
+        "cost": 1.41e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.41e-05,
+          "upstream_inference_prompt_cost": 9.75e-06,
+          "upstream_inference_completions_cost": 4.35e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "source_run": "pilot_v2",
+      "request_id": "95138696056b6d49b19b022513d34d11157e698c4524b58284318225f188114d",
+      "returned_model": "meta-llama/llama-3.1-8b-instruct",
+      "returned_provider": "Groq",
+      "parse_status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 23,
+        "total_tokens": 243,
+        "cost": 1.284e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.284e-05,
+          "upstream_inference_prompt_cost": 1.1e-05,
+          "upstream_inference_completions_cost": 1.84e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "fallback_disabled": true
+    }
+  ],
+  "cached_control_parse_and_finish_checks": true
+}

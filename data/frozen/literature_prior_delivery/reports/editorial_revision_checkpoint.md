@@ -1,0 +1,5 @@
+# Editorial revision checkpoint — 2026-10-09
+
+The seven-page revised article and redesigned method illustration supersede the prior eight-page delivery. All original data, gold, prespecified contrasts and numerical analyses are unchanged. Previous phases 6–12 and their former evidence are preserved under `data/frozen/editorial_prior_delivery`; verify those historical hashes against that snapshot, rather than requiring the revised manuscript to equal its earlier version. Current artifact hashes are in `editorial_revision.sha256`.
+
+The revision passes the 33-entry numerical/citation consistency ledger, source-linked claim review, all-page visual inspection, embedded-font/anonymous-metadata checks and official-template compilation without overfull boxes or unresolved references. Independent numerical reproduction remains valid because every tested scientific component is byte-identical. Final archive member verification and historical-snapshot reconciliation are recorded in the external archive manifest. No API recollection or new statistical test was performed.

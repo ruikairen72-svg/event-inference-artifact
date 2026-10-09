@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "utc": "2026-10-09T03:17:10.997775+00:00",
+  "before_pages": 7,
+  "after_pages": 8,
+  "before_references": 14,
+  "after_references": 32,
+  "new_references": 18,
+  "all_references_cited": true,
+  "bibliographic_verification": "reports/literature_citation_verification.json",
+  "comparison_count_audit": "reports/literature_coverage_audit.json",
+  "outside_manuscript_report": "reports/literature_coverage_report.md",
+  "sampling_scope": "SAC published-layout n=2 range35–46; closest-topic EACL/ACL/Findings n=4 range25–43; 2024 author drafts counted separately, excluded from published-layout range. Purposive sample, not a venue-wide typical-range estimate.",
+  "integration": [
+    "Progressive theory and executable rule-gold comparison",
+    "Broader temporal benchmarks compared with specific event truth conditions",
+    "Minimal pairs and annotation-artifact diagnostic motivation",
+    "Elicited versus measured probabilities",
+    "Actual TF-IDF/logistic baseline specification and library",
+    "Actual Holm, BH, bootstrap and lme4 sources",
+    "All actually evaluated model family/version sources"
+  ],
+  "visual_QA": "All eight final pages reviewed; final author-list changes affect page8 only, re-rendered and reviewed; pages1–7 raster-identical to inspected pass. Method page3 and empirical category figure page5 remain legible.",
+  "new_experiments": 0,
+  "scientific_components_unchanged": 60,
+  "numerical_claim_audit_entries": 33,
+  "original_gold_unchanged": true,
+  "prior_editorial_snapshot_verified": true,
+  "manuscript_sha256": "5153ba211fe620a703406a64f7a243e9f0d4116ebd35f5da86b5e9ba2749323f",
+  "pdf_sha256": "a29d23b2566516b08cee582dbe3e436816d93d5c6cfc468d81f1cb0dd1ac59f0",
+  "no_new_empirical_claims": true,
+  "full_text_access_limits": [
+    "Landman 1992 subscription full text unavailable: only general theoretical placement, no detailed derivation attributed.",
+    "Salton and Buckley publisher page 403: primary indexed metadata and abstract verified; no implementation-equivalence claim."
+  ]
+}

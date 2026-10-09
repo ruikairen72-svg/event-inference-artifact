@@ -1,0 +1,30 @@
+{
+  "figure_id": "binding_challenge",
+  "archetype": "mechanism",
+  "source": "data/supplementary/reviewer_binding.jsonl",
+  "source_sha256": "affa88cca388a1f3846a69c7806c785ab31663711a6b812bd5fb0b99f7d3881d",
+  "item_ids": [
+    "RB01_0_0_real_bounded",
+    "RB01_0_0_real_unbounded",
+    "RB01_0_1_real_bounded",
+    "RB01_0_1_real_unbounded"
+  ],
+  "selection": "first predefined idle/open drink pair, both swaps/targets; no API outcomes used",
+  "script": ".research/figures/scripts/binding_challenge.py",
+  "script_sha256": "122a1956643685ac6a9a60aa49b919373cd37993edfc968f54c5d2f510af7ba7",
+  "outputs": [
+    "figures/binding_challenge.pdf",
+    "figures/binding_challenge.svg",
+    "figures/binding_challenge.png"
+  ],
+  "output_sha256": {
+    "figures/binding_challenge.pdf": "7b6b122ea439c0e808589a03092d41d67e2d31fea1427e5cde3276ec44c9e567",
+    "figures/binding_challenge.svg": "3bb1f7acd2a7995c60d9a9b56f22b7845872b120b284303dd2a206636d9387d2",
+    "figures/binding_challenge.png": "bdf3477aecbdef12f725f8d50ea88e10349988b516d6bb3f73d46beb136f9cf5"
+  },
+  "physical_cm": [
+    8.5,
+    7.0
+  ],
+  "empirical_statistics": false
+}

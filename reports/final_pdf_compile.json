@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "utc": "2026-10-09T05:05:12.881503+00:00",
+  "compiler": "existing Tectonic",
+  "compiler_version": "Tectonic 0.17.0",
+  "selected_class_versions": [
+    "2026/06/27 v2.19 Typesetting articles for the Associatio",
+    "2026/06/27 v2.19 Typesetting articles for the Associatio"
+  ],
+  "official_class_sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+  "last_pass_has_unresolved_references": false,
+  "overfull_hbox_warnings_last_pass": [],
+  "source_sha256": "9934498d6bf24dee14af536486bafcb5ab706ae0183e4e15df9eb21c36178158",
+  "pdf_sha256": "8f155f9417096a00e8d69f62546c8d176f21d82fe91733d5ab253a83c3d32931",
+  "native_editor_disposition": "Source remains open. Built-in standalone compiler cannot resolve external figure resources and bundles acmart v1.83; final multi-file PDF is verified with the official retained v2.19 class using the existing compiler."
+}

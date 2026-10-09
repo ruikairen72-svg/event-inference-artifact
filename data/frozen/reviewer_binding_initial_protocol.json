@@ -1,0 +1,66 @@
+{
+  "status": "frozen_before_any_challenge_API_collection",
+  "created_utc": "2026-10-09T03:51:50.257529+00:00",
+  "analysis_status": "post-review supplementary; original primary/secondary families unchanged",
+  "dataset_sha256": "affa88cca388a1f3846a69c7806c785ab31663711a6b812bd5fb0b99f7d3881d",
+  "generator_sha256": "76aa8482967ea54280a45d399c6d280f3a477a70b6361bb2c8978b0fd1b9faff",
+  "items_per_model": 720,
+  "models": [
+    "qwen/qwen3-8b",
+    "meta-llama/llama-3.1-8b-instruct",
+    "mistralai/ministral-8b-2512",
+    "google/gemma-3-12b-it",
+    "qwen/qwen3-14b",
+    "qwen/qwen3-32b",
+    "deepseek/deepseek-v3.2"
+  ],
+  "planned_calls": 5040,
+  "run_cap_usd": 1.25,
+  "lexical_blocks": 12,
+  "held_out_lemmas": [
+    "sip",
+    "consume",
+    "hike",
+    "paddle",
+    "scan",
+    "trace"
+  ],
+  "seen_lemmas": [
+    "drink",
+    "collect",
+    "walk",
+    "swim",
+    "read",
+    "copy"
+  ],
+  "gold_counts": {
+    "contradicted": 216,
+    "unknown": 216,
+    "entailed": 288
+  },
+  "exact_unigram_ceiling": 0.6,
+  "bounded_unigram_ceiling": 0.5,
+  "activity_unigram_ceiling": 0.7,
+  "measures": [
+    "all-item accuracy",
+    "macro recall",
+    "per-presentation accuracy",
+    "per-target gold recall",
+    "different-gold pair both-correct rate",
+    "seen/held-out accuracy",
+    "per-lemma and stratum accuracy"
+  ],
+  "uncertainty": "Percentile bootstrap of 12 lemma blocks, 10000 draws, seed 20271009; 6-block split intervals separately; descriptive, no new primary tests.",
+  "assumptions": [
+    "One finite reporting interval; monotone coverage on separate identical actor assignments",
+    "Coverage landmarks define observed occurrence; full coverage defines endpoint",
+    "Only stated observations constrain histories; unrelated temperature record does not imply nonoccurrence",
+    "No independently observed real-world outcome claimed"
+  ],
+  "checks": {
+    "oracle_reused_unchanged": true,
+    "shared_premise_dual_targets": true,
+    "exact_word_multiset_collision_every_pair": true,
+    "all_pairs_retained": true
+  }
+}

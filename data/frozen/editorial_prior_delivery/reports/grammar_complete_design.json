@@ -1,0 +1,20 @@
+{
+  "declared_utc": "2026-10-09T01:31:07.118982+00:00",
+  "scope": "Post-analysis extension to every inherited defect in the formal main/stress suites; descriptive only. Initial 30-core repair remains separately predeclared. No model/item selection based on answers, no new p-values, no replacement of original estimates.",
+  "planned_cells": 518,
+  "unique_payloads": 518,
+  "pending_unique_before_calls": 338,
+  "source_counts": {
+    "main_per_model": 83,
+    "stress": 20
+  },
+  "original_variant_preserved": true,
+  "source_sha256": {
+    "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+    "data/analysis/stress_planned.jsonl": "9d66eb316d9d9c7eed14fa656f49394657f8c87dd2efab3acdf960a05208a6c3",
+    "data/generated/grammar_complete_main.jsonl": "627de685391cc16d60804406d8f437613ed212e06e737d1c0ce39ddace5c7c48",
+    "data/generated/grammar_complete_stress.jsonl": "0d726e6063956e87b2014e7448a0bb5b4058133add8a91a3261a9f1eed05dea8",
+    "scripts/complete_wording_sensitivity.py": "5b8e4b2de8527f93c187d375a2f9a886847a5eeb790765b56da5e94ba1a48164"
+  },
+  "budget_cap_usd": 0.5
+}

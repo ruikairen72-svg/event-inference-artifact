@@ -1,0 +1,150 @@
+{
+  "pdf": "output/pdf/submission.pdf",
+  "pdf_sha256": "98baa3a0a6fc93571ed5d71fcafee4d3583e313ac0fa79c6d740fe16c8effbe8",
+  "checks": [
+    {
+      "check": "US_Letter_all_pages",
+      "pass": true
+    },
+    {
+      "check": "conservative_eight_page_target",
+      "pass": true,
+      "pages": 7
+    },
+    {
+      "check": "searchable_substantive_text",
+      "pass": true,
+      "text_characters": 40071
+    },
+    {
+      "check": "anonymous_author_metadata",
+      "pass": true,
+      "author_field": ""
+    },
+    {
+      "check": "no_machine_home_path_in_text_or_metadata",
+      "pass": true
+    },
+    {
+      "check": "no_placeholder_DOI_ISBN",
+      "pass": true
+    },
+    {
+      "check": "no_incomplete_research_placeholders",
+      "pass": true,
+      "matches": []
+    },
+    {
+      "check": "no_unresolved_reference_markers",
+      "pass": true
+    },
+    {
+      "check": "unencrypted",
+      "pass": true
+    },
+    {
+      "check": "fonts_embedded",
+      "pass": true,
+      "fonts": [
+        {
+          "name": "IHAIZV+LinLibertineO-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 20997
+        },
+        {
+          "name": "BZIVMZ+LinBiolinumOB-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 8100
+        },
+        {
+          "name": "IXFAWU+LinLibertineOB-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 18634
+        },
+        {
+          "name": "TQTHRL+LibertinusMath-Regular-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 4704
+        },
+        {
+          "name": "YEUUOC+LinLibertineOI-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 7725
+        },
+        {
+          "name": "AKHCZK+LinBiolinumO-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 8123
+        },
+        {
+          "name": "VDVGTR+LatinModernMath-Regular-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 931
+        },
+        {
+          "name": "CAFSZL+Inconsolatazi4-Regular-Identity-H",
+          "type": "Type0",
+          "extension": "cid",
+          "embedded": true,
+          "font_program_bytes": 1326
+        },
+        {
+          "name": "EVICAO+DejaVuSans-Bold",
+          "type": "Type0",
+          "extension": "ttf",
+          "embedded": true,
+          "font_program_bytes": 13348
+        },
+        {
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "type": "Type0",
+          "extension": "ttf",
+          "embedded": true,
+          "font_program_bytes": 3216
+        },
+        {
+          "name": "BMQQDV+DejaVuSans",
+          "type": "Type0",
+          "extension": "ttf",
+          "embedded": true,
+          "font_program_bytes": 14192
+        },
+        {
+          "name": "BMQQDV+DejaVuSans",
+          "type": "Type0",
+          "extension": "ttf",
+          "embedded": true,
+          "font_program_bytes": 13408
+        }
+      ]
+    },
+    {
+      "check": "text_inside_media_box",
+      "pass": true,
+      "violations": []
+    }
+  ],
+  "technical_checks_passed": true,
+  "font_size_range_points": [
+    4.898579120635986,
+    17.21544075012207
+  ],
+  "submission_ready": false,
+  "visual_QA_required": true,
+  "scientific_claim_audit_required": true,
+  "note": "Page/font/metadata checks do not establish placed-figure readability, source-number correctness, novelty, or scientific readiness."
+}

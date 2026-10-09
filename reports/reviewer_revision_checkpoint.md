@@ -1,0 +1,3 @@
+# Final reviewer revision checkpoint
+
+Eight-page main manuscript, five-page supplement and 32 integrated references. All 5,040 final role-binding cells and 1,680 definition-precision pairs are complete. Thirty tests and 46 revision checks pass; all 60 original scientific components remain unchanged. Complete original analyses and current supplementary outputs independently reproduce byte-identically after archive extraction. Scientific source, data, analyses, manuscript and PDF are frozen by reviewer_revision.sha256; later packaging changes are audit documentation only. This records local completion, not a venue upload or acceptance decision.

@@ -1,0 +1,1 @@
+Within-Qwen three-size association in neutral paired composition scores. Points use the same 120 planned family pool and intervals as Figure 3; lines connect three observations rather than establish a scaling law. Qwen8 uses Alibaba with unspecified precision; Qwen14/32 use DeepInfra FP8. Training and provider confounds prevent a parameter-count causal interpretation.

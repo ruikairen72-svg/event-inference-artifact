@@ -1,0 +1,8608 @@
+{
+  "analysis_status": "post-review descriptive analysis; original prespecified tests unchanged",
+  "profiles": [
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "unknown": {
+        "n": 120,
+        "correct": 65,
+        "accuracy": 0.5416666666666666,
+        "predictions": {
+          "unknown": 65,
+          "contradicted": 13,
+          "entailed": 42
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.2735,
+      "negative_gap_pairs": 78,
+      "unknown_to_contradicted": 13,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 13
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "unknown": {
+        "n": 120,
+        "correct": 63,
+        "accuracy": 0.525,
+        "predictions": {
+          "unknown": 63,
+          "contradicted": 57
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.6944999999999999,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 57,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 57
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "unknown": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.29000000000000004,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "unknown": {
+        "n": 120,
+        "correct": 19,
+        "accuracy": 0.15833333333333333,
+        "predictions": {
+          "contradicted": 66,
+          "unknown": 19,
+          "entailed": 35
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.5041666666666667,
+      "negative_gap_pairs": 85,
+      "unknown_to_contradicted": 66,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 66
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "unknown": {
+        "n": 120,
+        "correct": 18,
+        "accuracy": 0.15,
+        "predictions": {
+          "contradicted": 100,
+          "unknown": 18,
+          "entailed": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.4883333333333333,
+      "negative_gap_pairs": 118,
+      "unknown_to_contradicted": 100,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 100
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "unknown": {
+        "n": 120,
+        "correct": 44,
+        "accuracy": 0.36666666666666664,
+        "predictions": {
+          "entailed": 76,
+          "unknown": 44
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.18333333333333332,
+      "negative_gap_pairs": 44,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "unknown": {
+        "n": 120,
+        "correct": 95,
+        "accuracy": 0.7916666666666666,
+        "predictions": {
+          "unknown": 95,
+          "entailed": 25
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 1,
+        "accuracy": 0.008333333333333333,
+        "predictions": {
+          "unknown": 119,
+          "entailed": 1
+        }
+      },
+      "mean_score_gap": -0.24774999999999997,
+      "negative_gap_pairs": 87,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 87
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "unknown": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "mean_score_gap": 0.0,
+      "negative_gap_pairs": 0,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "unknown": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "mean_score_gap": 0.0,
+      "negative_gap_pairs": 0,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "unknown": {
+        "n": 120,
+        "correct": 84,
+        "accuracy": 0.7,
+        "predictions": {
+          "unknown": 84,
+          "entailed": 36
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.3145833333333333,
+      "negative_gap_pairs": 84,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "unknown": {
+        "n": 120,
+        "correct": 2,
+        "accuracy": 0.016666666666666666,
+        "predictions": {
+          "contradicted": 118,
+          "unknown": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "mean_score_gap": -0.5479166666666667,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 118,
+      "both_bounded_contradiction_and_activity_error": 118,
+      "negative_gap_with_either_categorical_error": 120
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "unknown": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 21,
+        "accuracy": 0.175,
+        "predictions": {
+          "unknown": 99,
+          "entailed": 21
+        }
+      },
+      "mean_score_gap": -0.25250000000000006,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 99
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "unknown": {
+        "n": 120,
+        "correct": 82,
+        "accuracy": 0.6833333333333333,
+        "predictions": {
+          "unknown": 82,
+          "entailed": 38
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.30833333333333335,
+      "negative_gap_pairs": 82,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "unknown": {
+        "n": 120,
+        "correct": 117,
+        "accuracy": 0.975,
+        "predictions": {
+          "unknown": 117,
+          "contradicted": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 26,
+        "accuracy": 0.21666666666666667,
+        "predictions": {
+          "unknown": 94,
+          "entailed": 26
+        }
+      },
+      "mean_score_gap": -0.2341666666666667,
+      "negative_gap_pairs": 88,
+      "unknown_to_contradicted": 3,
+      "both_bounded_contradiction_and_activity_error": 3,
+      "negative_gap_with_either_categorical_error": 62
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "unknown": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.5849999999999999,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "unknown": {
+        "n": 120,
+        "correct": 78,
+        "accuracy": 0.65,
+        "predictions": {
+          "unknown": 78,
+          "entailed": 31,
+          "contradicted": 11
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.34375,
+      "negative_gap_pairs": 91,
+      "unknown_to_contradicted": 11,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 13
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "unknown": {
+        "n": 120,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 45,
+        "accuracy": 0.375,
+        "predictions": {
+          "entailed": 45,
+          "unknown": 75
+        }
+      },
+      "mean_score_gap": -0.7162499999999999,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 120,
+      "both_bounded_contradiction_and_activity_error": 75,
+      "negative_gap_with_either_categorical_error": 120
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "unknown": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 120
+        }
+      },
+      "neutral_activity": {
+        "n": 120,
+        "correct": 120,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 120
+        }
+      },
+      "mean_score_gap": -0.5,
+      "negative_gap_pairs": 120,
+      "unknown_to_contradicted": 0,
+      "both_bounded_contradiction_and_activity_error": 0,
+      "negative_gap_with_either_categorical_error": 0
+    }
+  ],
+  "per_lemma": [
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 50,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "unknown": 9,
+          "contradicted": 10,
+          "entailed": 41
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 41,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 49,
+        "accuracy": 0.8166666666666667,
+        "predictions": {
+          "entailed": 51,
+          "contradicted": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 50,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 50
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 15,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "contradicted": 5,
+          "unknown": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "contradicted": 18,
+          "entailed": 40,
+          "unknown": 2
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "contradicted": 8,
+          "unknown": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 15,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "unknown": 5,
+          "contradicted": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 16,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "contradicted": 6,
+          "unknown": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 58,
+        "accuracy": 0.9666666666666667,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 12,
+          "unknown": 8
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "predictions": {
+          "contradicted": 2,
+          "unknown": 8
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 57,
+        "accuracy": 0.95,
+        "predictions": {
+          "contradicted": 13,
+          "entailed": 40,
+          "unknown": 7
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "predictions": {
+          "unknown": 7,
+          "contradicted": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 56,
+        "accuracy": 0.9333333333333333,
+        "predictions": {
+          "contradicted": 14,
+          "entailed": 40,
+          "unknown": 6
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "predictions": {
+          "unknown": 6,
+          "contradicted": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 56,
+        "accuracy": 0.9333333333333333,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 14,
+          "unknown": 6
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "predictions": {
+          "contradicted": 4,
+          "unknown": 6
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 58,
+        "accuracy": 0.9666666666666667,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 12,
+          "unknown": 8
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "predictions": {
+          "unknown": 8,
+          "contradicted": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 15,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "unknown": 5,
+          "contradicted": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 15,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "contradicted": 5,
+          "unknown": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 56,
+        "accuracy": 0.9333333333333333,
+        "predictions": {
+          "unknown": 6,
+          "contradicted": 14,
+          "entailed": 40
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "predictions": {
+          "unknown": 6,
+          "contradicted": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 17,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "contradicted": 7,
+          "unknown": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 41,
+          "contradicted": 19
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "contradicted": 19,
+          "entailed": 40,
+          "unknown": 1
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "contradicted": 9,
+          "unknown": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "entailed": 56,
+          "contradicted": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 60
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 60
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 41,
+          "contradicted": 15,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "contradicted": 5,
+          "unknown": 4,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 41,
+          "contradicted": 19
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 42,
+          "contradicted": 14,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "contradicted": 4,
+          "unknown": 4,
+          "entailed": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 17,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 3,
+          "contradicted": 7
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 18,
+          "unknown": 2
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "contradicted": 8,
+          "unknown": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "contradicted": 16,
+          "unknown": 3,
+          "entailed": 41
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "contradicted": 7,
+          "unknown": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 42,
+          "contradicted": 16,
+          "unknown": 2
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 2,
+          "contradicted": 8
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "contradicted": 20,
+          "entailed": 40
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 18,
+          "unknown": 2
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "contradicted": 8,
+          "unknown": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 15,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "contradicted": 5,
+          "unknown": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 43,
+          "contradicted": 16,
+          "unknown": 1
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "contradicted": 7,
+          "entailed": 2,
+          "unknown": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "contradicted": 20,
+          "entailed": 40
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 46,
+          "contradicted": 10,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 47,
+          "contradicted": 10,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "entailed": 7,
+          "unknown": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 46,
+          "contradicted": 10,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 45,
+          "unknown": 5,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "unknown": 5,
+          "entailed": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 47,
+          "contradicted": 10,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "entailed": 7,
+          "unknown": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 46,
+          "unknown": 4,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "unknown": 4,
+          "entailed": 6
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 47,
+          "contradicted": 10,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "entailed": 7,
+          "unknown": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "entailed": 48,
+          "contradicted": 10,
+          "unknown": 2
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "entailed": 8,
+          "unknown": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 46,
+          "unknown": 4,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 46,
+          "contradicted": 10,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 46,
+          "unknown": 4,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "unknown": 4,
+          "entailed": 6
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 46,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 4
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 39,
+        "accuracy": 0.65,
+        "predictions": {
+          "unknown": 29,
+          "entailed": 21,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 20,
+          "unknown": 30
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "unknown": 32,
+          "contradicted": 10,
+          "entailed": 18
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 25,
+        "accuracy": 0.4166666666666667,
+        "predictions": {
+          "entailed": 45,
+          "unknown": 15
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 24,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 44,
+          "unknown": 16
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 33,
+        "accuracy": 0.55,
+        "predictions": {
+          "entailed": 41,
+          "unknown": 19
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "predictions": {
+          "entailed": 4,
+          "unknown": 6
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 30,
+          "entailed": 20,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 34,
+        "accuracy": 0.5666666666666667,
+        "predictions": {
+          "unknown": 36,
+          "contradicted": 10,
+          "entailed": 14
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "unknown": 32,
+          "contradicted": 10,
+          "entailed": 18
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 35,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "unknown": 35,
+          "contradicted": 10,
+          "entailed": 15
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 34,
+        "accuracy": 0.5666666666666667,
+        "predictions": {
+          "unknown": 36,
+          "contradicted": 10,
+          "entailed": 14
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 20,
+          "unknown": 30,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "unknown": 26,
+          "entailed": 24,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 46,
+        "accuracy": 0.7666666666666667,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 26,
+          "unknown": 24
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 45,
+        "accuracy": 0.75,
+        "predictions": {
+          "contradicted": 10,
+          "unknown": 25,
+          "entailed": 25
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 42,
+        "accuracy": 0.7,
+        "predictions": {
+          "unknown": 28,
+          "contradicted": 10,
+          "entailed": 22
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 41,
+        "accuracy": 0.6833333333333333,
+        "predictions": {
+          "unknown": 29,
+          "entailed": 21,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "contradicted": 10,
+          "unknown": 26,
+          "entailed": 24
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "unknown": 26,
+          "entailed": 24,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 43,
+        "accuracy": 0.7166666666666667,
+        "predictions": {
+          "entailed": 23,
+          "unknown": 27,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 46,
+        "accuracy": 0.7666666666666667,
+        "predictions": {
+          "unknown": 24,
+          "contradicted": 10,
+          "entailed": 26
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 46,
+        "accuracy": 0.7666666666666667,
+        "predictions": {
+          "unknown": 24,
+          "contradicted": 10,
+          "entailed": 26
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "unknown": 26,
+          "entailed": 24,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "entailed": 24,
+          "unknown": 26,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 22,
+          "contradicted": 18,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 22,
+          "entailed": 20,
+          "contradicted": 18
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 21,
+          "contradicted": 19,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 19,
+          "unknown": 21,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 20,
+          "entailed": 20,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 20,
+          "unknown": 20,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 20,
+          "entailed": 20,
+          "contradicted": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 19,
+          "unknown": 21,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 20,
+          "unknown": 22,
+          "contradicted": 18
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 19,
+          "unknown": 21,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 23,
+          "contradicted": 17,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 22,
+          "entailed": 20,
+          "contradicted": 18
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 57,
+        "accuracy": 0.95,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 43,
+          "unknown": 7
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "predictions": {
+          "unknown": 7,
+          "entailed": 3
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 41,
+          "unknown": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 50,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 50,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 49,
+        "accuracy": 0.8166666666666667,
+        "predictions": {
+          "entailed": 51,
+          "contradicted": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "entailed": 41,
+          "contradicted": 10,
+          "unknown": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "entailed": 41,
+          "contradicted": 10,
+          "unknown": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "entailed": 1,
+          "unknown": 9
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "entailed": 28,
+          "unknown": 10,
+          "contradicted": 22
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "contradicted": 22,
+          "entailed": 28,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 35,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "unknown": 10,
+          "contradicted": 25,
+          "entailed": 25
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 30,
+          "contradicted": 20,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 20,
+          "entailed": 30,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 20,
+          "entailed": 30,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 36,
+        "accuracy": 0.6,
+        "predictions": {
+          "entailed": 26,
+          "unknown": 10,
+          "contradicted": 24
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "unknown": 10,
+          "contradicted": 20,
+          "entailed": 30
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "contradicted": 22,
+          "entailed": 28,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "contradicted": 22,
+          "unknown": 12,
+          "entailed": 26
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "contradicted": 8,
+          "unknown": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 35,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "contradicted": 25,
+          "unknown": 10,
+          "entailed": 25
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 39,
+        "accuracy": 0.65,
+        "predictions": {
+          "entailed": 29,
+          "contradicted": 21,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 33,
+          "unknown": 17,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 7,
+          "entailed": 3
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "entailed": 31,
+          "unknown": 19,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "entailed": 1,
+          "unknown": 9
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "unknown": 20,
+          "entailed": 30,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 33,
+          "unknown": 17,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "entailed": 3,
+          "unknown": 7
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "entailed": 32,
+          "unknown": 18,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 8,
+          "entailed": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "unknown": 18,
+          "entailed": 32,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 8,
+          "entailed": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "contradicted": 10,
+          "unknown": 18,
+          "entailed": 32
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 8,
+          "entailed": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 31,
+          "unknown": 19
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "entailed": 1,
+          "unknown": 9
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 33,
+          "contradicted": 10,
+          "unknown": 17
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "entailed": 3,
+          "unknown": 7
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "unknown": 19,
+          "entailed": 31,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 32,
+          "unknown": 18
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 8,
+          "entailed": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "unknown": 19,
+          "entailed": 31,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "unknown": 5,
+          "entailed": 45,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "unknown": 5,
+          "entailed": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 50,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 50,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 47,
+          "contradicted": 10,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 3,
+          "entailed": 7
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 45,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "unknown": 5,
+          "entailed": 5
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "contradicted": 10,
+          "unknown": 9,
+          "entailed": 41
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "entailed": 31,
+          "contradicted": 10,
+          "unknown": 19
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "entailed": 33,
+          "unknown": 17,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 7,
+          "entailed": 3
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 48,
+        "accuracy": 0.8,
+        "predictions": {
+          "entailed": 31,
+          "contradicted": 13,
+          "unknown": 16
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "predictions": {
+          "contradicted": 3,
+          "unknown": 7
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 16,
+          "entailed": 34,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "unknown": 6,
+          "entailed": 4
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 58,
+        "accuracy": 0.9666666666666667,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 38,
+          "unknown": 12
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "predictions": {
+          "entailed": 8,
+          "unknown": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 53,
+        "accuracy": 0.8833333333333333,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 33,
+          "unknown": 17
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 7,
+          "entailed": 3
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "unknown": 19,
+          "entailed": 31,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "entailed": 30,
+          "contradicted": 10,
+          "unknown": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "unknown": 19,
+          "entailed": 31,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "unknown": 19,
+          "contradicted": 10,
+          "entailed": 31
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 52,
+        "accuracy": 0.8666666666666667,
+        "predictions": {
+          "entailed": 32,
+          "unknown": 18,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 8,
+          "entailed": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 31,
+          "unknown": 19
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 57,
+        "accuracy": 0.95,
+        "predictions": {
+          "contradicted": 12,
+          "entailed": 41,
+          "unknown": 7
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "predictions": {
+          "contradicted": 2,
+          "unknown": 7,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 41,
+          "unknown": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "entailed": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "contradicted": 10,
+          "entailed": 40
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 43,
+        "accuracy": 0.7166666666666667,
+        "predictions": {
+          "entailed": 57,
+          "contradicted": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "contradicted": 9,
+          "entailed": 50,
+          "unknown": 1
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "entailed": 9,
+          "unknown": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 42,
+        "accuracy": 0.7,
+        "predictions": {
+          "entailed": 58,
+          "contradicted": 2
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "entailed": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 59,
+        "accuracy": 0.9833333333333333,
+        "predictions": {
+          "contradicted": 11,
+          "entailed": 40,
+          "unknown": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "predictions": {
+          "unknown": 9,
+          "contradicted": 1
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10,
+          "entailed": 40,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "predictions": {
+          "contradicted": 16,
+          "entailed": 40,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "unknown": 4,
+          "contradicted": 6
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 58,
+        "accuracy": 0.9666666666666667,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 8,
+          "contradicted": 12
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "predictions": {
+          "unknown": 8,
+          "contradicted": 2
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 30,
+        "accuracy": 0.5,
+        "predictions": {
+          "contradicted": 30,
+          "unknown": 10,
+          "entailed": 20
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "contradicted": 29,
+          "unknown": 3,
+          "entailed": 28
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "predictions": {
+          "unknown": 3,
+          "entailed": 7
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 44,
+        "accuracy": 0.7333333333333333,
+        "predictions": {
+          "entailed": 34,
+          "contradicted": 23,
+          "unknown": 3
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "predictions": {
+          "entailed": 7,
+          "unknown": 3
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 37,
+        "accuracy": 0.6166666666666667,
+        "predictions": {
+          "contradicted": 28,
+          "entailed": 27,
+          "unknown": 5
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "predictions": {
+          "unknown": 5,
+          "entailed": 5
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 35,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "entailed": 25,
+          "unknown": 7,
+          "contradicted": 28
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "entailed": 3,
+          "unknown": 7
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 38,
+        "accuracy": 0.6333333333333333,
+        "predictions": {
+          "contradicted": 28,
+          "entailed": 28,
+          "unknown": 4
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 4
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 33,
+        "accuracy": 0.55,
+        "predictions": {
+          "contradicted": 30,
+          "entailed": 23,
+          "unknown": 7
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 7,
+          "entailed": 3
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 31,
+        "accuracy": 0.5166666666666667,
+        "predictions": {
+          "contradicted": 30,
+          "entailed": 21,
+          "unknown": 9
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "predictions": {
+          "entailed": 1,
+          "unknown": 9
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 35,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "contradicted": 28,
+          "entailed": 25,
+          "unknown": 7
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "predictions": {
+          "unknown": 7,
+          "entailed": 3
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 36,
+        "accuracy": 0.6,
+        "predictions": {
+          "contradicted": 28,
+          "entailed": 26,
+          "unknown": 6
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "entailed": 4,
+          "unknown": 6
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 34,
+        "accuracy": 0.5666666666666667,
+        "predictions": {
+          "unknown": 6,
+          "contradicted": 30,
+          "entailed": 24
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "predictions": {
+          "unknown": 6,
+          "entailed": 4
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 35,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "entailed": 25,
+          "unknown": 8,
+          "contradicted": 27
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "contradicted": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "predictions": {
+          "unknown": 8,
+          "entailed": 2
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "collect",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "copy",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "crawl",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "drink",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "eat",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "pour",
+      "stratum": "quantity",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "read",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "run",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "swim",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 10,
+          "entailed": 40,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "transcribe",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "walk",
+      "stratum": "path",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "contradicted": 10,
+          "unknown": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "lemma": "write",
+      "stratum": "incremental",
+      "all": {
+        "n": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 40,
+          "unknown": 10,
+          "contradicted": 10
+        }
+      },
+      "unknown": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "unknown": 10
+        }
+      },
+      "neutral_activity": {
+        "n": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 10
+        }
+      }
+    }
+  ],
+  "per_stratum": [
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "stratum": "quantity",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "stratum": "path",
+      "unknown_correct": 39,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 1,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "stratum": "incremental",
+      "unknown_correct": 26,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 3,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "stratum": "quantity",
+      "unknown_correct": 24,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "stratum": "path",
+      "unknown_correct": 21,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "stratum": "incremental",
+      "unknown_correct": 18,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "stratum": "quantity",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "stratum": "path",
+      "unknown_correct": 19,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 3,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "stratum": "incremental",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "stratum": "quantity",
+      "unknown_correct": 8,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "stratum": "path",
+      "unknown_correct": 10,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "stratum": "incremental",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "stratum": "quantity",
+      "unknown_correct": 16,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "stratum": "path",
+      "unknown_correct": 14,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "stratum": "incremental",
+      "unknown_correct": 14,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "stratum": "quantity",
+      "unknown_correct": 15,
+      "unknown_n": 40,
+      "neutral_activity_correct": 1,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "stratum": "quantity",
+      "unknown_correct": 7,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "stratum": "incremental",
+      "unknown_correct": 37,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 3,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "stratum": "quantity",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "stratum": "path",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "stratum": "incremental",
+      "unknown_correct": 2,
+      "unknown_n": 40,
+      "neutral_activity_correct": 0,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 10,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 6,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 5,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "stratum": "quantity",
+      "unknown_correct": 8,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "stratum": "incremental",
+      "unknown_correct": 34,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 2,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 16,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "stratum": "path",
+      "unknown_correct": 37,
+      "unknown_n": 40,
+      "neutral_activity_correct": 4,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 1,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 6,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "stratum": "quantity",
+      "unknown_correct": 8,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "stratum": "incremental",
+      "unknown_correct": 30,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "stratum": "quantity",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 14,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "stratum": "path",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 15,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "stratum": "incremental",
+      "unknown_correct": 0,
+      "unknown_n": 40,
+      "neutral_activity_correct": 16,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 4,
+      "lemmas_with_activity_error": 4
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "stratum": "quantity",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "stratum": "path",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "stratum": "incremental",
+      "unknown_correct": 40,
+      "unknown_n": 40,
+      "neutral_activity_correct": 40,
+      "neutral_activity_n": 40,
+      "lemmas_with_unknown_error": 0,
+      "lemmas_with_activity_error": 0
+    }
+  ],
+  "real_definition_cells": [
+    {
+      "model": "google/gemma-3-12b-it",
+      "composition": "bounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 14,
+        "accuracy": 0.5833333333333334,
+        "predictions": {
+          "entailed": 8,
+          "contradicted": 2,
+          "unknown": 14
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 19,
+        "accuracy": 0.7916666666666666,
+        "predictions": {
+          "unknown": 19,
+          "entailed": 5
+        }
+      },
+      "paired_correct_change": 5
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "composition": "bounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "composition": "unbounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "composition": "bounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 5,
+        "accuracy": 0.20833333333333334,
+        "predictions": {
+          "contradicted": 11,
+          "entailed": 8,
+          "unknown": 5
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 10,
+        "accuracy": 0.4166666666666667,
+        "predictions": {
+          "entailed": 5,
+          "unknown": 10,
+          "contradicted": 9
+        }
+      },
+      "paired_correct_change": 5
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "composition": "bounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "predictions": {
+          "contradicted": 20,
+          "entailed": 4
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 22,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "entailed": 2,
+          "contradicted": 22
+        }
+      },
+      "paired_correct_change": 2
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "composition": "unbounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "composition": "bounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 19,
+        "accuracy": 0.7916666666666666,
+        "predictions": {
+          "unknown": 19,
+          "entailed": 5
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 22,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "unknown": 22,
+          "entailed": 2
+        }
+      },
+      "paired_correct_change": 3
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "composition": "bounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 19,
+        "accuracy": 0.7916666666666666,
+        "predictions": {
+          "contradicted": 19,
+          "entailed": 5
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 19,
+        "accuracy": 0.7916666666666666,
+        "predictions": {
+          "contradicted": 19,
+          "entailed": 5
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "composition": "unbounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 1,
+        "accuracy": 0.041666666666666664,
+        "predictions": {
+          "unknown": 23,
+          "entailed": 1
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "unknown": 24
+        }
+      },
+      "paired_correct_change": -1
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 2,
+        "accuracy": 0.08333333333333333,
+        "predictions": {
+          "unknown": 22,
+          "entailed": 2
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 6,
+        "accuracy": 0.25,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 18
+        }
+      },
+      "paired_correct_change": 4
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "composition": "bounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 16,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "entailed": 8,
+          "unknown": 16
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 18,
+        "accuracy": 0.75,
+        "predictions": {
+          "entailed": 6,
+          "unknown": 18
+        }
+      },
+      "paired_correct_change": 2
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "composition": "bounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 23,
+        "accuracy": 0.9583333333333334,
+        "predictions": {
+          "entailed": 1,
+          "contradicted": 23
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 24
+        }
+      },
+      "paired_correct_change": 1
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "composition": "unbounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "composition": "bounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 15,
+        "accuracy": 0.625,
+        "predictions": {
+          "entailed": 9,
+          "unknown": 15
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 15,
+        "accuracy": 0.625,
+        "predictions": {
+          "unknown": 15,
+          "entailed": 9
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "composition": "bounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "composition": "unbounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "composition": "bounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 16,
+        "accuracy": 0.6666666666666666,
+        "predictions": {
+          "contradicted": 3,
+          "unknown": 16,
+          "entailed": 5
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 18,
+        "accuracy": 0.75,
+        "predictions": {
+          "unknown": 18,
+          "entailed": 4,
+          "contradicted": 2
+        }
+      },
+      "paired_correct_change": 2
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "composition": "bounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 22,
+        "accuracy": 0.9166666666666666,
+        "predictions": {
+          "contradicted": 22,
+          "entailed": 2
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "contradicted": 24
+        }
+      },
+      "paired_correct_change": 2
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "composition": "unbounded",
+      "context": "neutral",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "baseline": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "definition": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "predictions": {
+          "entailed": 24
+        }
+      },
+      "paired_correct_change": 0
+    }
+  ],
+  "source_sha256": {
+    "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7"
+  }
+}

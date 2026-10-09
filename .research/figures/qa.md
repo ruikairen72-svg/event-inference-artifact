@@ -1,0 +1,7 @@
+# Pilot figure export QA
+
+2026-10-08 local. PNG visually inspected after increasing panel spacing and adding x-axis margins. No overlapping context labels, cropped legend, missing endpoint markers, or clipped model labels remain. PDF physical size verified 17.80 × 10.40 cm; text 7–8 pt, SVG retains text and PDF uses TrueType embedding. PDF/SVG/300-dpi PNG exported. All 36 plotted cells have 40 genuine, valid observations. Axes cover the full q domain [0,1]. Color also uses distinct markers/line styles. 2,000 seeded verb-then-family resamples; no p-value tests computed for this plot. Caption discloses subjective q, absent human validation, 12 lexical blocks and shared process mechanisms. Source/script hashes and cell denominators are recorded in the source manifest.
+
+## Editorial mechanism QA — 2026-10-09
+
+Method figure redesigned around two histories and evidence-driven set restriction. Standalone PNG and placed page 3 inspected after wrapping labels and separating headings; no overlap or clipping remains. Color is paired with node shape and direct labels. Embedded TrueType fonts and editable SVG verified. Actual 17.8 cm width retains 7–8 pt labels. Gold U/E/C and activity E agree with the normative rule; histories encode alternatives, not frequencies. Empirical category figure unchanged and rechecked on page 5. All seven final pages inspected; no overfull hboxes or unresolved references in official-template compilation.

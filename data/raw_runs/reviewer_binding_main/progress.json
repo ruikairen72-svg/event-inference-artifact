@@ -1,0 +1,13 @@
+{
+  "run_id": "reviewer_binding_main",
+  "utc": "2026-10-09T04:29:56.451863+00:00",
+  "pending_at_start": 4922,
+  "complete": 4922,
+  "transport_errors": 108,
+  "parse_invalid": 0,
+  "endpoint_mismatch": 0,
+  "run_spend_usd": 0.21280791199999904,
+  "project_spend_usd": 2.272751890999956,
+  "elapsed_s": 2166,
+  "budget_stopped": false
+}

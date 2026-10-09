@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-09T03:51:58.587879+00:00",
+  "datasets": "reviewer_binding",
+  "models": "qwen/qwen3-8b,meta-llama/llama-3.1-8b-instruct,mistralai/ministral-8b-2512,google/gemma-3-12b-it,qwen/qwen3-14b,qwen/qwen3-32b,deepseek/deepseek-v3.2",
+  "planned_pending": 5040,
+  "concurrency": 16,
+  "max_output_tokens": 256,
+  "run_cap_usd": 1.25,
+  "payload_protocol_sha256": "9251657a3a1d6f1697d26c096dc7a57812e9dcb93dad126115ffe1eb1e6b5927"
+}

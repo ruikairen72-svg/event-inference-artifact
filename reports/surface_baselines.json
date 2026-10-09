@@ -1,0 +1,4076 @@
+{
+  "designation": "exploratory offline surface recoverability; not LLM inference or human validation",
+  "training": "720 disjoint pilot-core gold labels",
+  "features": "word unigrams only; fixed TF-IDF and logistic C=1.0; no output-based tuning",
+  "instruction_limit": "uses item text, not the separate rule/order/JSON system instructions; identical item texts necessarily have identical baseline predictions",
+  "source_sha256": {
+    "data/generated/pilot_core.jsonl": "00d8f04a73a917e742c8fa78b1b91849c6c183ab4b74240867a6a0e3dd1a30a2",
+    "data/generated/main_core.jsonl": "a113e72f5cc95915e848c6b76d254d4461817e2d5eb2cad7d525254f657d4c2b"
+  },
+  "results": [
+    {
+      "baseline": "majority",
+      "dataset": "main_core",
+      "n": 2160,
+      "accuracy": 0.6666666666666666,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.6666666666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          360,
+          0
+        ],
+        [
+          0,
+          1440,
+          0
+        ],
+        [
+          0,
+          360,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "template_ood",
+      "n": 288,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "name",
+      "n": 288,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "label_order",
+      "n": 288,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "label_only",
+      "n": 288,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "natural_rule",
+      "n": 288,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "structural_rule",
+      "n": 288,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "majority",
+      "dataset": "real_definition",
+      "n": 96,
+      "accuracy": 0.5,
+      "macro_label_accuracy": 0.3333333333333333,
+      "baseline_accuracy_on_same_families_contexts": 0.5,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          0,
+          24,
+          0
+        ],
+        [
+          0,
+          48,
+          0
+        ],
+        [
+          0,
+          24,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "main_core",
+      "n": 2160,
+      "accuracy": 0.6666666666666666,
+      "macro_label_accuracy": 0.35694444444444445,
+      "baseline_accuracy_on_same_families_contexts": 0.6666666666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          34,
+          326,
+          0
+        ],
+        [
+          34,
+          1406,
+          0
+        ],
+        [
+          34,
+          326,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 0.8833333333333333,
+          "macro_label_accuracy": 0.8833333333333333
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.11666666666666667,
+          "macro_label_accuracy": 0.11666666666666667
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 0.8333333333333334,
+          "macro_label_accuracy": 0.8333333333333334
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.16666666666666666,
+          "macro_label_accuracy": 0.16666666666666666
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "template_ood",
+      "n": 288,
+      "accuracy": 0.5104166666666666,
+      "macro_label_accuracy": 0.34722222222222227,
+      "baseline_accuracy_on_same_families_contexts": 0.5138888888888888,
+      "paired_accuracy_change": -0.00347222222222221,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          3,
+          69,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          3,
+          69,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "name",
+      "n": 288,
+      "accuracy": 0.6319444444444444,
+      "macro_label_accuracy": 0.5092592592592592,
+      "baseline_accuracy_on_same_families_contexts": 0.5138888888888888,
+      "paired_accuracy_change": 0.11805555555555558,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          38,
+          34,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          38,
+          34,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.4583333333333333,
+          "macro_label_accuracy": 0.4583333333333333
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "label_order",
+      "n": 288,
+      "accuracy": 0.5138888888888888,
+      "macro_label_accuracy": 0.35185185185185186,
+      "baseline_accuracy_on_same_families_contexts": 0.5138888888888888,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          4,
+          68,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          4,
+          68,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.041666666666666664,
+          "macro_label_accuracy": 0.041666666666666664
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "label_only",
+      "n": 288,
+      "accuracy": 0.5138888888888888,
+      "macro_label_accuracy": 0.35185185185185186,
+      "baseline_accuracy_on_same_families_contexts": 0.5138888888888888,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          4,
+          68,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          4,
+          68,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.041666666666666664,
+          "macro_label_accuracy": 0.041666666666666664
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "natural_rule",
+      "n": 288,
+      "accuracy": 0.5138888888888888,
+      "macro_label_accuracy": 0.35185185185185186,
+      "baseline_accuracy_on_same_families_contexts": 0.5138888888888888,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          4,
+          68,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          4,
+          68,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.041666666666666664,
+          "macro_label_accuracy": 0.041666666666666664
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "structural_rule",
+      "n": 288,
+      "accuracy": 0.5138888888888888,
+      "macro_label_accuracy": 0.35185185185185186,
+      "baseline_accuracy_on_same_families_contexts": 0.5138888888888888,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          4,
+          68,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          4,
+          68,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.041666666666666664,
+          "macro_label_accuracy": 0.041666666666666664
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "hypothesis_only",
+      "dataset": "real_definition",
+      "n": 96,
+      "accuracy": 0.5104166666666666,
+      "macro_label_accuracy": 0.34722222222222227,
+      "baseline_accuracy_on_same_families_contexts": 0.5104166666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          1,
+          23,
+          0
+        ],
+        [
+          0,
+          48,
+          0
+        ],
+        [
+          1,
+          23,
+          0
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.041666666666666664,
+          "macro_label_accuracy": 0.041666666666666664
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "main_core",
+      "n": 2160,
+      "accuracy": 0.887962962962963,
+      "macro_label_accuracy": 0.775925925925926,
+      "baseline_accuracy_on_same_families_contexts": 0.887962962962963,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          260,
+          100,
+          0
+        ],
+        [
+          0,
+          1440,
+          0
+        ],
+        [
+          0,
+          142,
+          218
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.16666666666666666,
+          "macro_label_accuracy": 0.16666666666666666
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 0.16666666666666666,
+          "macro_label_accuracy": 0.16666666666666666
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.65,
+          "macro_label_accuracy": 0.65
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "template_ood",
+      "n": 288,
+      "accuracy": 0.7430555555555556,
+      "macro_label_accuracy": 0.6574074074074073,
+      "baseline_accuracy_on_same_families_contexts": 0.8229166666666666,
+      "paired_accuracy_change": -0.07986111111111105,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          46,
+          26,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          48,
+          24
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.7916666666666666,
+          "macro_label_accuracy": 0.7916666666666666
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "name",
+      "n": 288,
+      "accuracy": 0.8541666666666666,
+      "macro_label_accuracy": 0.8055555555555557,
+      "baseline_accuracy_on_same_families_contexts": 0.8229166666666666,
+      "paired_accuracy_change": 0.03125,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          51,
+          21,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          21,
+          51
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "label_order",
+      "n": 288,
+      "accuracy": 0.8229166666666666,
+      "macro_label_accuracy": 0.763888888888889,
+      "baseline_accuracy_on_same_families_contexts": 0.8229166666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          51,
+          21,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          30,
+          42
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.625,
+          "macro_label_accuracy": 0.625
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "label_only",
+      "n": 288,
+      "accuracy": 0.8229166666666666,
+      "macro_label_accuracy": 0.763888888888889,
+      "baseline_accuracy_on_same_families_contexts": 0.8229166666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          51,
+          21,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          30,
+          42
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.625,
+          "macro_label_accuracy": 0.625
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "natural_rule",
+      "n": 288,
+      "accuracy": 0.8229166666666666,
+      "macro_label_accuracy": 0.763888888888889,
+      "baseline_accuracy_on_same_families_contexts": 0.8229166666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          51,
+          21,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          30,
+          42
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.625,
+          "macro_label_accuracy": 0.625
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "structural_rule",
+      "n": 288,
+      "accuracy": 0.8229166666666666,
+      "macro_label_accuracy": 0.763888888888889,
+      "baseline_accuracy_on_same_families_contexts": 0.8229166666666666,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          51,
+          21,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          30,
+          42
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.625,
+          "macro_label_accuracy": 0.625
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_only",
+      "dataset": "real_definition",
+      "n": 96,
+      "accuracy": 1.0,
+      "macro_label_accuracy": 1.0,
+      "baseline_accuracy_on_same_families_contexts": 1.0,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          48,
+          0
+        ],
+        [
+          0,
+          0,
+          24
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "main_core",
+      "n": 2160,
+      "accuracy": 0.9537037037037037,
+      "macro_label_accuracy": 0.9074074074074074,
+      "baseline_accuracy_on_same_families_contexts": 0.9537037037037037,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          360,
+          0,
+          0
+        ],
+        [
+          0,
+          1440,
+          0
+        ],
+        [
+          0,
+          100,
+          260
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 0.16666666666666666,
+          "macro_label_accuracy": 0.16666666666666666
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 120,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "template_ood",
+      "n": 288,
+      "accuracy": 0.7604166666666666,
+      "macro_label_accuracy": 0.6805555555555557,
+      "baseline_accuracy_on_same_families_contexts": 0.9270833333333334,
+      "paired_accuracy_change": -0.16666666666666674,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          51,
+          21,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          48,
+          24
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.0,
+          "macro_label_accuracy": 0.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "name",
+      "n": 288,
+      "accuracy": 1.0,
+      "macro_label_accuracy": 1.0,
+      "baseline_accuracy_on_same_families_contexts": 0.9270833333333334,
+      "paired_accuracy_change": 0.07291666666666663,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          0,
+          72
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "label_order",
+      "n": 288,
+      "accuracy": 0.9270833333333334,
+      "macro_label_accuracy": 0.9027777777777778,
+      "baseline_accuracy_on_same_families_contexts": 0.9270833333333334,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          21,
+          51
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "label_only",
+      "n": 288,
+      "accuracy": 0.9270833333333334,
+      "macro_label_accuracy": 0.9027777777777778,
+      "baseline_accuracy_on_same_families_contexts": 0.9270833333333334,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          21,
+          51
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "natural_rule",
+      "n": 288,
+      "accuracy": 0.9270833333333334,
+      "macro_label_accuracy": 0.9027777777777778,
+      "baseline_accuracy_on_same_families_contexts": 0.9270833333333334,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          21,
+          51
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "structural_rule",
+      "n": 288,
+      "accuracy": 0.9270833333333334,
+      "macro_label_accuracy": 0.9027777777777778,
+      "baseline_accuracy_on_same_families_contexts": 0.9270833333333334,
+      "paired_accuracy_change": 0.0,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          21,
+          51
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.125,
+          "macro_label_accuracy": 0.125
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "baseline": "premise_and_hypothesis",
+      "dataset": "real_definition",
+      "n": 96,
+      "accuracy": 0.96875,
+      "macro_label_accuracy": 0.9791666666666666,
+      "baseline_accuracy_on_same_families_contexts": 1.0,
+      "paired_accuracy_change": -0.03125,
+      "confusion_labels": [
+        "contradicted",
+        "entailed",
+        "unknown"
+      ],
+      "confusion": [
+        [
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          45,
+          3
+        ],
+        [
+          0,
+          0,
+          24
+        ]
+      ],
+      "cells": [
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 24,
+          "accuracy": 0.875,
+          "macro_label_accuracy": 0.875
+        },
+        {
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 24,
+          "accuracy": 1.0,
+          "macro_label_accuracy": 1.0
+        }
+      ]
+    }
+  ]
+}

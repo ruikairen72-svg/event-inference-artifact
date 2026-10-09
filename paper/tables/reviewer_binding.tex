@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Post-review role-binding challenge (percent). Each system has 720 cells; R/N/M each 240. All uses all cells; CI is the 12-lemma bootstrap interval. Pair is both-correct recall on 288 pairs with different gold. Any deterministic word-unigram classifier has a 60\% accuracy ceiling and 0\% Pair.}
+\label{tab:binding}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+System & R & N & M & All [95\% CI] & Pair\\
+\midrule
+Qwen8 & 77.1 & 82.5 & 75.8 & 78.5 [77.5,79.6] & 51.0 \\
+Llama8 & 61.7 & 75.0 & 63.3 & 66.7 [65.4,67.8] & 24.0 \\
+Ministral8 & 62.9 & 72.1 & 95.8 & 76.9 [73.8,80.1] & 69.4 \\
+Gemma12 & 87.9 & 98.3 & 63.3 & 83.2 [82.2,84.3] & 59.4 \\
+Qwen14 & 80.4 & 90.0 & 70.0 & 80.1 [79.2,81.1] & 59.0 \\
+Qwen32 & 89.2 & 91.7 & 70.4 & 83.8 [82.6,85.0] & 67.7 \\
+DeepSeek & 94.6 & 94.6 & 90.8 & 93.3 [91.9,94.6] & 91.0 \\
+Unigram & 40.0 & 40.0 & 40.0 & 40.0 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

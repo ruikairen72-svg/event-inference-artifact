@@ -1,0 +1,1910 @@
+{
+  "selection": "Purposive 2024–2026 sample: SAC eight-page applied NLP/LLM empirical studies for format; closest event/aspect/construction benchmarks at EACL/ACL/Findings for topic. Author drafts listed separately. Not random, exhaustive, a population common range, or a submission threshold.",
+  "count_method": "Numbered SAC entries checked as contiguous 1..N; ACL hanging-indent first lines counted in column reading order from References to appendix. Coordinates retained; reference boundaries and numbering visually inspected.",
+  "samples": [
+    {
+      "id": "sac2025_simre",
+      "title": "SimRE: A Requirements Similarity Tool for Software Product Lines",
+      "venue": "SAC 2025",
+      "group": "SAC published-layout",
+      "pdf_url": "https://lbd.udc.es/Repository/Publications/Drafts/1741695248136_227_220.pdf",
+      "published_work_doi": "10.1145/3672608.3707758",
+      "total_pdf_pages": 8,
+      "reference_start": [
+        8,
+        0,
+        122.19
+      ],
+      "reference_end_or_appendix": null,
+      "reference_entries": [
+        {
+          "number": 1,
+          "page": 8,
+          "column": 0,
+          "y": 135.56
+        },
+        {
+          "number": 2,
+          "page": 8,
+          "column": 0,
+          "y": 175.41
+        },
+        {
+          "number": 3,
+          "page": 8,
+          "column": 0,
+          "y": 207.29
+        },
+        {
+          "number": 4,
+          "page": 8,
+          "column": 0,
+          "y": 239.17
+        },
+        {
+          "number": 5,
+          "page": 8,
+          "column": 0,
+          "y": 271.05
+        },
+        {
+          "number": 6,
+          "page": 8,
+          "column": 0,
+          "y": 318.87
+        },
+        {
+          "number": 7,
+          "page": 8,
+          "column": 0,
+          "y": 358.73
+        },
+        {
+          "number": 8,
+          "page": 8,
+          "column": 0,
+          "y": 382.64
+        },
+        {
+          "number": 9,
+          "page": 8,
+          "column": 0,
+          "y": 406.55
+        },
+        {
+          "number": 10,
+          "page": 8,
+          "column": 0,
+          "y": 430.46
+        },
+        {
+          "number": 11,
+          "page": 8,
+          "column": 0,
+          "y": 446.4
+        },
+        {
+          "number": 12,
+          "page": 8,
+          "column": 0,
+          "y": 470.31
+        },
+        {
+          "number": 13,
+          "page": 8,
+          "column": 0,
+          "y": 494.22
+        },
+        {
+          "number": 14,
+          "page": 8,
+          "column": 0,
+          "y": 510.16
+        },
+        {
+          "number": 15,
+          "page": 8,
+          "column": 0,
+          "y": 526.43
+        },
+        {
+          "number": 16,
+          "page": 8,
+          "column": 0,
+          "y": 558.31
+        },
+        {
+          "number": 17,
+          "page": 8,
+          "column": 0,
+          "y": 582.22
+        },
+        {
+          "number": 18,
+          "page": 8,
+          "column": 0,
+          "y": 606.13
+        },
+        {
+          "number": 19,
+          "page": 8,
+          "column": 0,
+          "y": 630.04
+        },
+        {
+          "number": 20,
+          "page": 8,
+          "column": 0,
+          "y": 645.98
+        },
+        {
+          "number": 21,
+          "page": 8,
+          "column": 0,
+          "y": 677.86
+        },
+        {
+          "number": 22,
+          "page": 8,
+          "column": 1,
+          "y": 88.07
+        },
+        {
+          "number": 23,
+          "page": 8,
+          "column": 1,
+          "y": 111.98
+        },
+        {
+          "number": 24,
+          "page": 8,
+          "column": 1,
+          "y": 135.89
+        },
+        {
+          "number": 25,
+          "page": 8,
+          "column": 1,
+          "y": 159.8
+        },
+        {
+          "number": 26,
+          "page": 8,
+          "column": 1,
+          "y": 175.74
+        },
+        {
+          "number": 27,
+          "page": 8,
+          "column": 1,
+          "y": 215.59
+        },
+        {
+          "number": 28,
+          "page": 8,
+          "column": 1,
+          "y": 239.5
+        },
+        {
+          "number": 29,
+          "page": 8,
+          "column": 1,
+          "y": 255.44
+        },
+        {
+          "number": 30,
+          "page": 8,
+          "column": 1,
+          "y": 271.38
+        },
+        {
+          "number": 31,
+          "page": 8,
+          "column": 1,
+          "y": 295.29
+        },
+        {
+          "number": 32,
+          "page": 8,
+          "column": 1,
+          "y": 343.11
+        },
+        {
+          "number": 33,
+          "page": 8,
+          "column": 1,
+          "y": 359.05
+        },
+        {
+          "number": 34,
+          "page": 8,
+          "column": 1,
+          "y": 390.93
+        },
+        {
+          "number": 35,
+          "page": 8,
+          "column": 1,
+          "y": 422.81
+        },
+        {
+          "number": 36,
+          "page": 8,
+          "column": 1,
+          "y": 446.72
+        },
+        {
+          "number": 37,
+          "page": 8,
+          "column": 1,
+          "y": 462.66
+        },
+        {
+          "number": 38,
+          "page": 8,
+          "column": 1,
+          "y": 486.9
+        },
+        {
+          "number": 39,
+          "page": 8,
+          "column": 1,
+          "y": 518.78
+        },
+        {
+          "number": 40,
+          "page": 8,
+          "column": 1,
+          "y": 534.72
+        },
+        {
+          "number": 41,
+          "page": 8,
+          "column": 1,
+          "y": 558.63
+        },
+        {
+          "number": 42,
+          "page": 8,
+          "column": 1,
+          "y": 582.54
+        },
+        {
+          "number": 43,
+          "page": 8,
+          "column": 1,
+          "y": 598.48
+        },
+        {
+          "number": 44,
+          "page": 8,
+          "column": 1,
+          "y": 630.36
+        },
+        {
+          "number": 45,
+          "page": 8,
+          "column": 1,
+          "y": 662.25
+        },
+        {
+          "number": 46,
+          "page": 8,
+          "column": 1,
+          "y": 678.19
+        }
+      ],
+      "reference_count": 46,
+      "pdf_sha256": "08ed2a2d6a777c9ac7fce8e40f22323f22f07b57cefb8f40a1d7dc858450f978",
+      "version_note": "First-page venue/date/DOI verified; author-hosted published-layout copy."
+    },
+    {
+      "id": "sac2026_validators",
+      "title": "Robust LLM-as-a-Judge Validators for Assessing the Quality of Educational Exams",
+      "venue": "SAC 2026",
+      "group": "SAC published-layout",
+      "pdf_url": "https://rdegiovanni.github.io/publications/files/SAC2026_validators.pdf",
+      "published_work_doi": "10.1145/3748522.3779926",
+      "total_pdf_pages": 8,
+      "reference_start": [
+        8,
+        0,
+        352.41
+      ],
+      "reference_end_or_appendix": null,
+      "reference_entries": [
+        {
+          "number": 1,
+          "page": 8,
+          "column": 0,
+          "y": 366.12
+        },
+        {
+          "number": 2,
+          "page": 8,
+          "column": 0,
+          "y": 398.0
+        },
+        {
+          "number": 3,
+          "page": 8,
+          "column": 0,
+          "y": 429.88
+        },
+        {
+          "number": 4,
+          "page": 8,
+          "column": 0,
+          "y": 453.79
+        },
+        {
+          "number": 5,
+          "page": 8,
+          "column": 0,
+          "y": 477.7
+        },
+        {
+          "number": 6,
+          "page": 8,
+          "column": 0,
+          "y": 501.61
+        },
+        {
+          "number": 7,
+          "page": 8,
+          "column": 0,
+          "y": 541.47
+        },
+        {
+          "number": 8,
+          "page": 8,
+          "column": 0,
+          "y": 573.35
+        },
+        {
+          "number": 9,
+          "page": 8,
+          "column": 0,
+          "y": 597.26
+        },
+        {
+          "number": 10,
+          "page": 8,
+          "column": 0,
+          "y": 621.17
+        },
+        {
+          "number": 11,
+          "page": 8,
+          "column": 0,
+          "y": 653.05
+        },
+        {
+          "number": 12,
+          "page": 8,
+          "column": 0,
+          "y": 684.93
+        },
+        {
+          "number": 13,
+          "page": 8,
+          "column": 1,
+          "y": 104.35
+        },
+        {
+          "number": 14,
+          "page": 8,
+          "column": 1,
+          "y": 128.26
+        },
+        {
+          "number": 15,
+          "page": 8,
+          "column": 1,
+          "y": 152.18
+        },
+        {
+          "number": 16,
+          "page": 8,
+          "column": 1,
+          "y": 176.09
+        },
+        {
+          "number": 17,
+          "page": 8,
+          "column": 1,
+          "y": 184.06
+        },
+        {
+          "number": 18,
+          "page": 8,
+          "column": 1,
+          "y": 207.97
+        },
+        {
+          "number": 19,
+          "page": 8,
+          "column": 1,
+          "y": 231.88
+        },
+        {
+          "number": 20,
+          "page": 8,
+          "column": 1,
+          "y": 263.76
+        },
+        {
+          "number": 21,
+          "page": 8,
+          "column": 1,
+          "y": 287.67
+        },
+        {
+          "number": 22,
+          "page": 8,
+          "column": 1,
+          "y": 303.61
+        },
+        {
+          "number": 23,
+          "page": 8,
+          "column": 1,
+          "y": 335.49
+        },
+        {
+          "number": 24,
+          "page": 8,
+          "column": 1,
+          "y": 367.37
+        },
+        {
+          "number": 25,
+          "page": 8,
+          "column": 1,
+          "y": 391.28
+        },
+        {
+          "number": 26,
+          "page": 8,
+          "column": 1,
+          "y": 415.19
+        },
+        {
+          "number": 27,
+          "page": 8,
+          "column": 1,
+          "y": 439.1
+        },
+        {
+          "number": 28,
+          "page": 8,
+          "column": 1,
+          "y": 470.98
+        },
+        {
+          "number": 29,
+          "page": 8,
+          "column": 1,
+          "y": 494.89
+        },
+        {
+          "number": 30,
+          "page": 8,
+          "column": 1,
+          "y": 526.77
+        },
+        {
+          "number": 31,
+          "page": 8,
+          "column": 1,
+          "y": 550.68
+        },
+        {
+          "number": 32,
+          "page": 8,
+          "column": 1,
+          "y": 574.59
+        },
+        {
+          "number": 33,
+          "page": 8,
+          "column": 1,
+          "y": 598.5
+        },
+        {
+          "number": 34,
+          "page": 8,
+          "column": 1,
+          "y": 622.41
+        },
+        {
+          "number": 35,
+          "page": 8,
+          "column": 1,
+          "y": 646.32
+        }
+      ],
+      "reference_count": 35,
+      "pdf_sha256": "ed2cc71f9e949b50139e71e4a1836c86ff5be162f096d3366766b591cdc7f47f",
+      "version_note": "First-page venue/date/DOI verified; author-hosted published-layout copy."
+    },
+    {
+      "id": "sac2024_process",
+      "title": "Process Knowledge Extraction and Knowledge Graph Construction Through Prompting: A Quantitative Analysis",
+      "venue": "SAC 2024",
+      "group": "SAC author draft (separate)",
+      "pdf_url": "https://raw.githubusercontent.com/patriziobellan86/Process-Knowledge-Extraction-and-Knowledge-Graph-Construction-Through-Prompting/main/ProcessKnowledgeExtractionAndKnowledgeGraphConstructionThroughPrompting.pdf",
+      "published_work_doi": "10.1145/3605098.3635957",
+      "total_pdf_pages": 8,
+      "reference_start": [
+        8,
+        0,
+        193.24
+      ],
+      "reference_end_or_appendix": null,
+      "reference_entries": [
+        {
+          "number": 1,
+          "page": 8,
+          "column": 0,
+          "y": 206.73
+        },
+        {
+          "number": 2,
+          "page": 8,
+          "column": 0,
+          "y": 267.95
+        },
+        {
+          "number": 3,
+          "page": 8,
+          "column": 0,
+          "y": 306.2
+        },
+        {
+          "number": 4,
+          "page": 8,
+          "column": 0,
+          "y": 352.11
+        },
+        {
+          "number": 5,
+          "page": 8,
+          "column": 0,
+          "y": 398.02
+        },
+        {
+          "number": 6,
+          "page": 8,
+          "column": 0,
+          "y": 413.32
+        },
+        {
+          "number": 7,
+          "page": 8,
+          "column": 0,
+          "y": 459.23
+        },
+        {
+          "number": 8,
+          "page": 8,
+          "column": 0,
+          "y": 489.83
+        },
+        {
+          "number": 9,
+          "page": 8,
+          "column": 0,
+          "y": 528.09
+        },
+        {
+          "number": 10,
+          "page": 8,
+          "column": 0,
+          "y": 551.05
+        },
+        {
+          "number": 11,
+          "page": 8,
+          "column": 0,
+          "y": 581.65
+        },
+        {
+          "number": 12,
+          "page": 8,
+          "column": 0,
+          "y": 596.95
+        },
+        {
+          "number": 13,
+          "page": 8,
+          "column": 0,
+          "y": 612.26
+        },
+        {
+          "number": 14,
+          "page": 8,
+          "column": 0,
+          "y": 658.16
+        },
+        {
+          "number": 15,
+          "page": 8,
+          "column": 0,
+          "y": 681.12
+        },
+        {
+          "number": 16,
+          "page": 8,
+          "column": 1,
+          "y": 85.8
+        },
+        {
+          "number": 17,
+          "page": 8,
+          "column": 1,
+          "y": 124.06
+        },
+        {
+          "number": 18,
+          "page": 8,
+          "column": 1,
+          "y": 162.32
+        },
+        {
+          "number": 19,
+          "page": 8,
+          "column": 1,
+          "y": 177.62
+        },
+        {
+          "number": 20,
+          "page": 8,
+          "column": 1,
+          "y": 208.23
+        },
+        {
+          "number": 21,
+          "page": 8,
+          "column": 1,
+          "y": 231.18
+        },
+        {
+          "number": 22,
+          "page": 8,
+          "column": 1,
+          "y": 284.74
+        },
+        {
+          "number": 23,
+          "page": 8,
+          "column": 1,
+          "y": 338.3
+        },
+        {
+          "number": 24,
+          "page": 8,
+          "column": 1,
+          "y": 368.9
+        },
+        {
+          "number": 25,
+          "page": 8,
+          "column": 1,
+          "y": 391.86
+        },
+        {
+          "number": 26,
+          "page": 8,
+          "column": 1,
+          "y": 407.16
+        },
+        {
+          "number": 27,
+          "page": 8,
+          "column": 1,
+          "y": 453.07
+        },
+        {
+          "number": 28,
+          "page": 8,
+          "column": 1,
+          "y": 498.98
+        },
+        {
+          "number": 29,
+          "page": 8,
+          "column": 1,
+          "y": 521.93
+        },
+        {
+          "number": 30,
+          "page": 8,
+          "column": 1,
+          "y": 560.19
+        },
+        {
+          "number": 31,
+          "page": 8,
+          "column": 1,
+          "y": 575.49
+        },
+        {
+          "number": 32,
+          "page": 8,
+          "column": 1,
+          "y": 613.75
+        }
+      ],
+      "reference_count": 32,
+      "pdf_sha256": "742f507dbefd46fee5c799c1f1b054cad5a47da53f972e216bed63722b0333cd",
+      "version_note": "PDF has placeholder DOI/venue metadata; count applies only to this retrieved author version, excluded from published-layout range."
+    },
+    {
+      "id": "sac2024_retrofit_author",
+      "title": "An Experiment in Retrofitting Competency Questions for Existing Ontologies",
+      "venue": "SAC 2024",
+      "group": "SAC author preprint (separate)",
+      "pdf_url": "https://arxiv.org/pdf/2311.05662",
+      "published_work_doi": "10.1145/3605098.3636053",
+      "total_pdf_pages": 9,
+      "reference_start": [
+        8,
+        1,
+        250.04
+      ],
+      "reference_end_or_appendix": null,
+      "reference_entries": [
+        {
+          "number": 1,
+          "page": 8,
+          "column": 1,
+          "y": 262.05
+        },
+        {
+          "number": 2,
+          "page": 8,
+          "column": 1,
+          "y": 285.96
+        },
+        {
+          "number": 3,
+          "page": 8,
+          "column": 1,
+          "y": 309.87
+        },
+        {
+          "number": 4,
+          "page": 8,
+          "column": 1,
+          "y": 333.71
+        },
+        {
+          "number": 5,
+          "page": 8,
+          "column": 1,
+          "y": 357.69
+        },
+        {
+          "number": 6,
+          "page": 8,
+          "column": 1,
+          "y": 381.57
+        },
+        {
+          "number": 7,
+          "page": 8,
+          "column": 1,
+          "y": 421.45
+        },
+        {
+          "number": 8,
+          "page": 8,
+          "column": 1,
+          "y": 445.36
+        },
+        {
+          "number": 9,
+          "page": 8,
+          "column": 1,
+          "y": 477.24
+        },
+        {
+          "number": 10,
+          "page": 8,
+          "column": 1,
+          "y": 517.06
+        },
+        {
+          "number": 11,
+          "page": 8,
+          "column": 1,
+          "y": 532.96
+        },
+        {
+          "number": 12,
+          "page": 8,
+          "column": 1,
+          "y": 564.9
+        },
+        {
+          "number": 13,
+          "page": 8,
+          "column": 1,
+          "y": 580.85
+        },
+        {
+          "number": 14,
+          "page": 8,
+          "column": 1,
+          "y": 604.69
+        },
+        {
+          "number": 15,
+          "page": 8,
+          "column": 1,
+          "y": 636.57
+        },
+        {
+          "number": 16,
+          "page": 8,
+          "column": 1,
+          "y": 660.48
+        },
+        {
+          "number": 17,
+          "page": 8,
+          "column": 1,
+          "y": 684.39
+        },
+        {
+          "number": 18,
+          "page": 9,
+          "column": 0,
+          "y": 86.71
+        },
+        {
+          "number": 19,
+          "page": 9,
+          "column": 0,
+          "y": 110.55
+        },
+        {
+          "number": 20,
+          "page": 9,
+          "column": 0,
+          "y": 134.46
+        },
+        {
+          "number": 21,
+          "page": 9,
+          "column": 0,
+          "y": 158.37
+        },
+        {
+          "number": 22,
+          "page": 9,
+          "column": 0,
+          "y": 182.28
+        },
+        {
+          "number": 23,
+          "page": 9,
+          "column": 0,
+          "y": 206.26
+        },
+        {
+          "number": 24,
+          "page": 9,
+          "column": 1,
+          "y": 110.55
+        },
+        {
+          "number": 25,
+          "page": 9,
+          "column": 1,
+          "y": 134.53
+        },
+        {
+          "number": 26,
+          "page": 9,
+          "column": 1,
+          "y": 158.44
+        },
+        {
+          "number": 27,
+          "page": 9,
+          "column": 1,
+          "y": 174.38
+        },
+        {
+          "number": 28,
+          "page": 9,
+          "column": 1,
+          "y": 198.29
+        }
+      ],
+      "reference_count": 28,
+      "pdf_sha256": "8a6c778b2d6a2828222a6cf99ae8afb3970a4f1d8617c40324f0d3bdabe73922",
+      "version_note": "PDF has placeholder DOI/venue metadata; count applies only to this retrieved author version, excluded from published-layout range."
+    },
+    {
+      "id": "prus2024",
+      "title": "Human Temporal Inferences Go Beyond Aspectual Class",
+      "venue": "EACL 2024",
+      "group": "Closest-topic NLP published",
+      "pdf_url": "https://aclanthology.org/2024.eacl-long.115.pdf",
+      "published_work_doi": "10.18653/v1/2024.eacl-long.115",
+      "total_pdf_pages": 11,
+      "reference_start": [
+        9,
+        1,
+        277.54
+      ],
+      "reference_end_or_appendix": [
+        11,
+        0,
+        186.69,
+        "A"
+      ],
+      "reference_entries": [
+        {
+          "page": 9,
+          "column": 1,
+          "y": 297.81,
+          "first_line": "Malihe Alikhani, Thomas Kober, Bashar Alhafni, Yue"
+        },
+        {
+          "page": 9,
+          "column": 1,
+          "y": 395.0,
+          "first_line": "Malihe Alikhani and Matthew Stone. 2019. “caption”"
+        },
+        {
+          "page": 9,
+          "column": 1,
+          "y": 470.27,
+          "first_line": "Emily M. Bender and Alexander Koller. 2020. Climbing"
+        },
+        {
+          "page": 9,
+          "column": 1,
+          "y": 545.54,
+          "first_line": "Emily M. Bender and Alex Lascarides. 2019. Linguis-"
+        },
+        {
+          "page": 9,
+          "column": 1,
+          "y": 609.85,
+          "first_line": "Samuel R. Bowman, Gabor Angeli, Christopher Potts,"
+        },
+        {
+          "page": 9,
+          "column": 1,
+          "y": 696.08,
+          "first_line": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 128.37,
+          "first_line": "Tad T Brunyé, Tali Ditman, Caroline R Mahoney, Ja-"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 195.1,
+          "first_line": "Bernard Comrie. 1976. Aspect : an introduction to the"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 250.88,
+          "first_line": "Ido Dagan, Oren Glickman, and Bernardo Magnini."
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 328.57,
+          "first_line": "David R. Dowty. 1979. Word meaning and Montague"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 395.3,
+          "first_line": "Annemarie Friedrich and Damyana Gateva. 2017. Clas-"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 472.99,
+          "first_line": "Annemarie Friedrich and Alexis Palmer. 2014. Auto-"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 550.68,
+          "first_line": "Annemarie Friedrich, Nianwen Xue, and Alexis Palmer."
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 639.33,
+          "first_line": "Sheila Glasbey. 2004. Event structure, punctuality, and"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 673.18,
+          "first_line": "Jen Hay, Christopher Kennedy, and Beth Levin. 2001."
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 717.99,
+          "first_line": "Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras,"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 72.6,
+          "first_line": "Thomas Kober, Malihe Alikhani, Matthew Stone, and"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 161.09,
+          "first_line": "Thomas Kober, Sander Bijl de Vroe, and Mark Steed-"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 238.62,
+          "first_line": "Alex Lascarides. 1991. The progressive and the imper-"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 272.31,
+          "first_line": "Geoffrey N. Leech. 1971. Meaning and the English"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 306.0,
+          "first_line": "Christopher D. Manning. 2006. Local textual inference"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 350.65,
+          "first_line": "Marc Moens and Mark Steedman. 1988."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 395.3,
+          "first_line": "Ellie Pavlick and Tom Kwiatkowski. 2019. Inherent"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 450.91,
+          "first_line": "Jeeyoung Peck, Jingxia Lin, and Chaofen Sun. 2013."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 506.52,
+          "first_line": "James Pustejovsky. 1991. Cognition, 41(1-3):47–81."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 529.25,
+          "first_line": "Stefano Rastelli. 2019. The imperfective paradox in a"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 573.9,
+          "first_line": "Eric V. Siegel and Kathleen R. McKeown. 2000."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 640.47,
+          "first_line": "Zeno Vendler. 1967. Linguistics in Philosophy. Cornell"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 674.16,
+          "first_line": "Adina Williams, Nikita Nangia, and Samuel Bowman."
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 72.6,
+          "first_line": "Annie Zaenen, Lauri Karttunen, and Richard Crouch."
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 146.2,
+          "first_line": "Sandro Zucchi. 2020. Progressive: The imperfective"
+        }
+      ],
+      "reference_count": 31,
+      "pdf_sha256": "6bd33ce5a5595cfbb4513c2984e8626151537192ce247e4bd8aa9532b1453886",
+      "version_note": "Official ACL Anthology PDF; total length includes reference pages and any appendices."
+    },
+    {
+      "id": "prus2025",
+      "title": "World Knowledge Resolves Some Aspectual Ambiguity",
+      "venue": "Findings ACL 2025",
+      "group": "Closest-topic NLP published",
+      "pdf_url": "https://aclanthology.org/2025.findings-acl.683.pdf",
+      "published_work_doi": "10.18653/v1/2025.findings-acl.683",
+      "total_pdf_pages": 14,
+      "reference_start": [
+        10,
+        0,
+        327.78
+      ],
+      "reference_end_or_appendix": [
+        11,
+        1,
+        685.84,
+        "A"
+      ],
+      "reference_entries": [
+        {
+          "page": 10,
+          "column": 0,
+          "y": 347.77,
+          "first_line": "Malihe Alikhani and Matthew Stone. 2019. “caption”"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 422.56,
+          "first_line": "Emily M. Bender and Alexander Koller. 2020. Climbing"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 497.36,
+          "first_line": "Nathanael Chambers, Taylor Cassidy, Bill McDowell,"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 561.19,
+          "first_line": "Bernard Comrie. 1976. Aspect : an introduction to the"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 614.06,
+          "first_line": "David R. Dowty. 1979. Word meaning and Montague"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 677.89,
+          "first_line": "Annemarie Friedrich and Damyana Gateva. 2017. Clas-"
+        },
+        {
+          "page": 10,
+          "column": 0,
+          "y": 752.68,
+          "first_line": "Annemarie Friedrich and Alexis Palmer. 2014. Auto-"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 125.03,
+          "first_line": "Annemarie Friedrich, Nianwen Xue, and Alexis Palmer."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 210.33,
+          "first_line": "Jennifer Hu and Roger Levy. 2023. Prompting is not"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 284.68,
+          "first_line": "Thomas Kober, Malihe Alikhani, Matthew Stone, and"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 369.99,
+          "first_line": "Thomas Kober, Sander Bijl de Vroe, and Mark Steed-"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 444.34,
+          "first_line": "Alex Lascarides. 1991. The progressive and the imper-"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 474.84,
+          "first_line": "Beth Levin. 1993. English verb classes and alternations"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 516.31,
+          "first_line": "Yuxi Li, Emmanuele Chersoni, and Yu-Yin Hsu. 2024."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 601.62,
+          "first_line": "Marc Moens and Mark Steedman. 1988."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 643.09,
+          "first_line": "OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal,"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 213.75,
+          "first_line": "Ellie Pavlick and Tom Kwiatkowski. 2019. Inherent"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 267.22,
+          "first_line": "Rashmi Prasad, Bonnie Webber, and Aravind Joshi."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 342.51,
+          "first_line": "Katarzyna Pru´s, Mark Steedman, and Adam Lopez."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 428.96,
+          "first_line": "James Pustejovsky. 1991. The generative lexicon. Com-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 460.52,
+          "first_line": "Susan Rothstein. 2008. Structuring events: A study in"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 503.03,
+          "first_line": "Eric V. Siegel and Kathleen R. McKeown. 2000."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 567.46,
+          "first_line": "Zeno Vendler. 1967. Linguistics in Philosophy. Cornell"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 599.02,
+          "first_line": "H. J. Verkuyl. 1972."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 641.53,
+          "first_line": "Sandro Zucchi. 2020. Progressive: The imperfective"
+        }
+      ],
+      "reference_count": 25,
+      "pdf_sha256": "6460a809c54c80b81f70001ac569943adcdb045454df83f237d873eb92ca2ea1",
+      "version_note": "Official ACL Anthology PDF; total length includes reference pages and any appendices."
+    },
+    {
+      "id": "core_2025",
+      "title": "CoRE: Condition-based Reasoning for Identifying Outcome Variance in Complex Events",
+      "venue": "Findings ACL 2025",
+      "group": "Closest-topic NLP published",
+      "pdf_url": "https://aclanthology.org/2025.findings-acl.992.pdf",
+      "published_work_doi": "10.18653/v1/2025.findings-acl.992",
+      "total_pdf_pages": 21,
+      "reference_start": [
+        10,
+        1,
+        133.3
+      ],
+      "reference_end_or_appendix": [
+        13,
+        0,
+        70.33,
+        "A"
+      ],
+      "reference_entries": [
+        {
+          "page": 10,
+          "column": 1,
+          "y": 152.66,
+          "first_line": "Malihe Alikhani and Matthew Stone. 2019. “caption”"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 226.07,
+          "first_line": "Nadav Amir, Yael Niv, and Angela J Langdon. 2024."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 277.56,
+          "first_line": "Filippos Bellos, Yayuan Li, Wuao Liu, and Jason Corso."
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 361.92,
+          "first_line": "Chandra Bhagavatula, Ronan Le Bras, Chaitanya"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 446.29,
+          "first_line": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 607.37,
+          "first_line": "Ruth M.J Byrne. 2016. Counterfactual thought. Annual"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 636.94,
+          "first_line": "Ruth MJ Byrne. 2019. Counterfactuals in explainable"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 688.43,
+          "first_line": "Ruth MJ Byrne and Alessandra Tasso. 1999. Deductive"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 728.95,
+          "first_line": "Gergely Csibra and György Gergely. 2007. ‘obsessed"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 106.36,
+          "first_line": "Ruud Custers. 2023. Thoughts about actions and out-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 151.09,
+          "first_line": "David R. Dowty. 1977. Toward a semantic analysis of"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 195.81,
+          "first_line": "Yi Fang, Moxin Li, Wenjie Wang, Lin Hui, and Fuli"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 284.37,
+          "first_line": "Oswaldo Filho. 2012. Goodman and parry on coun-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 329.1,
+          "first_line": "Annemarie Friedrich, Nianwen Xue, and Alexis Palmer."
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 417.66,
+          "first_line": "Sayontan Ghosh, Mahnaz Koupaee, Isabella Chen, Fran-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 495.26,
+          "first_line": "T. Givón. 1992."
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 539.99,
+          "first_line": "Nelson Goodman. 1947. The problem of counterfactual"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 584.71,
+          "first_line": "William Hart and Dolores Albarracín. 2011. Learning"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 640.39,
+          "first_line": "Bernhard Hommel, Jochen Müsseler, Gisa Ascher-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 707.03,
+          "first_line": "Tianyu Jiang and Ellen Riloff. 2018. Learning proto-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 72.6,
+          "first_line": "Thomas Kober, Malihe Alikhani, Matthew Stone, and"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 156.87,
+          "first_line": "Chin-Yew Lin. 2004. ROUGE: A package for auto-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 208.25,
+          "first_line": "Carol J Madden and Rolf A Zwaan. 2003. How does"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 248.68,
+          "first_line": "Joseph P Magliano and Michelle C Schleich. 2000. Verb"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 289.11,
+          "first_line": "Hugo Mercier, Jonathan J. Rolison, Marta Stragà, Do-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 340.5,
+          "first_line": "Marc Moens and Mark Steedman. 1988."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 380.93,
+          "first_line": "Nasrin Mostafazadeh, Lucy Vanderwende, Wen-tau Yih,"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 465.19,
+          "first_line": "Yael Niv. 2019. Learning task-state representations. In"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 494.66,
+          "first_line": "Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Car-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 589.79,
+          "first_line": "Katarzyna Pru´s, Mark Steedman, and Adam Lopez."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 674.16,
+          "first_line": "Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 72.6,
+          "first_line": "Elahe Rahimtoroghi, Jiaqi Wu, Ruimin Wang, Pranav"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 160.15,
+          "first_line": "Rachel Rudinger, Vered Shwartz, Jena D. Hwang, Chan-"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 247.71,
+          "first_line": "Meghan M Salomon, Joseph P Magliano, and Gabriel A"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 291.43,
+          "first_line": "Eric V. Siegel and Kathleen R. McKeown. 2000."
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 357.06,
+          "first_line": "Carlota S. Smith. 1983. A theory of aspectual choice."
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 389.82,
+          "first_line": "Carlota S. Smith. 1999. Activities: States or events?"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 422.57,
+          "first_line": "Niket Tandon, Bhavana Dalvi, Keisuke Sakaguchi, Pe-"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 532.05,
+          "first_line": "Sai Vallurupalli, Katrin Erk, and Francis Ferraro. 2024."
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 619.6,
+          "first_line": "Zeno Vendler. 1957. Verbs and times. The Philosophi-"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 652.36,
+          "first_line": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 707.03,
+          "first_line": "Li Zhang, Qing Lyu, and Chris Callison-Burch. 2020."
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 72.6,
+          "first_line": "Kaitlyn Zhou, Dan Jurafsky, and Tatsunori Hashimoto."
+        }
+      ],
+      "reference_count": 43,
+      "pdf_sha256": "7ef298088da111f0a827facf4c7d91990c6a8989e86a3b79ef332e73179c3d70",
+      "version_note": "Official ACL Anthology PDF; total length includes reference pages and any appendices."
+    },
+    {
+      "id": "cxmp_2026",
+      "title": "CxMP: A Linguistic Minimal-Pair Benchmark for Evaluating Constructional Understanding in Language Models",
+      "venue": "ACL 2026",
+      "group": "Closest-topic NLP published",
+      "pdf_url": "https://aclanthology.org/2026.acl-long.2132.pdf",
+      "published_work_doi": "10.18653/v1/2026.acl-long.2132",
+      "total_pdf_pages": 15,
+      "reference_start": [
+        10,
+        1,
+        484.37
+      ],
+      "reference_end_or_appendix": [
+        13,
+        0,
+        128.92,
+        "A"
+      ],
+      "reference_entries": [
+        {
+          "page": 10,
+          "column": 1,
+          "y": 504.39,
+          "first_line": "Stella Biderman, Hailey Schoelkopf, Quentin Gregory"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 601.14,
+          "first_line": "Claire Bonial and Harish Tayyar Madabushi. 2024. A"
+        },
+        {
+          "page": 10,
+          "column": 1,
+          "y": 697.89,
+          "first_line": "Samuel R. Bowman, Gabor Angeli, Christopher Potts,"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 72.6,
+          "first_line": "Lucas Charpentier, Leshem Choshen, Ryan Cotterell,"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 193.21,
+          "first_line": "Lucas Georges Gabriel Charpentier and David Samuel."
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 269.99,
+          "first_line": "Ionut Constantinescu, Tiago Pimentel, Ryan Cotterell,"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 335.81,
+          "first_line": "William Croft. 2001. Radical Construction Grammar:"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 379.7,
+          "first_line": "Charles J. Fillmore. 1986. Varieties of conditional sen-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 434.56,
+          "first_line": "Charles J. Fillmore, Paul Kay, and Mary Catherine"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 489.42,
+          "first_line": "Richard Futrell and Kyle Mahowald. 2025. How linguis-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 533.32,
+          "first_line": "Adele Goldberg. 2006. Constructions at Work: The"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 577.21,
+          "first_line": "Adele E. Goldberg. 1995. Constructions: A Construc-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 632.07,
+          "first_line": "Adele E Goldberg. 2003. Constructions: a new theo-"
+        },
+        {
+          "page": 11,
+          "column": 0,
+          "y": 675.97,
+          "first_line": "Suchin Gururangan, Swabha Swayamdipta, Omer Levy,"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 72.6,
+          "first_line": "Thomas Hoffmann. 2017. Construction grammar as"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 138.44,
+          "first_line": "Jennifer Hu and Roger Levy. 2023. Prompting is not"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 215.24,
+          "first_line": "Michael Y. Hu, Aaron Mueller, Candace Ross, Ad-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 335.88,
+          "first_line": "Philip A. Huebner, Elior Sulem, Fisher Cynthia, and"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 412.68,
+          "first_line": "Yusuke Ide, Yuto Nishida, Justin Vasselli, Miyu Oba,"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 533.32,
+          "first_line": "Anna A. Ivanova, Aalok Sathe, Benjamin Lipkin, Un-"
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 664.92,
+          "first_line": "Edward Kako. 2006. The semantics of syntactic frames."
+        },
+        {
+          "page": 11,
+          "column": 1,
+          "y": 697.89,
+          "first_line": "Julie Kallini, Isabel Papadimitriou, Richard Futrell,"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 72.6,
+          "first_line": "Paul Kay and Charles J. Fillmore. 1999."
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 124.17,
+          "first_line": "Emmanuel Keuleers and Marc Brysbaert. 2010. Wuggy:"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 164.78,
+          "first_line": "Tom Mackintosh, Harish Tayyar Madabushi, and Claire"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 249.23,
+          "first_line": "R. Thomas McCoy, Ellie Pavlick, and Tal Linzen. 2019."
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 333.67,
+          "first_line": "Meta. 2024. The Llama 3 herd of models. Preprint,"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 363.32,
+          "first_line": "Kanishka Misra and Kyle Mahowald. 2024. Language"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 447.77,
+          "first_line": "Marianna Nezhurina, Jörg Franke, Taishi Nakamura,"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 521.26,
+          "first_line": "Team OLMo, Pete Walsh, Luca Soldaini, Dirk Groen-"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 605.71,
+          "first_line": "Christopher Potts. 2024. Characterizing english prepos-"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 646.32,
+          "first_line": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavat-"
+        },
+        {
+          "page": 12,
+          "column": 0,
+          "y": 708.85,
+          "first_line": "Julian Salazar, Davis Liang, Toan Q. Nguyen, and Ka-"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 72.6,
+          "first_line": "Wesley Scivetti, Tatsuya Aoyama, Ethan Wilcox, and"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 158.98,
+          "first_line": "Wesley Scivetti, Melissa Torgbi, Mollie Shichman, Tay-"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 300.16,
+          "first_line": "Aaditya Singh, Adam Fry, Adam Perelman, Adam Tart,"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 364.62,
+          "first_line": "Alex Warstadt, Alicia Parrish, Haokun Liu, Anhad Mo-"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 440.04,
+          "first_line": "Alex Warstadt, Amanpreet Singh, and Samuel R. Bow-"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 493.54,
+          "first_line": "Leonie Weissweiler, Valentin Hofmann, Abdullatif Kök-"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 590.88,
+          "first_line": "Leonie Weissweiler, Kyle Mahowald, and Adele E."
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 666.3,
+          "first_line": "Xinru Yu, Bin Guo, Shiwei Luo, Jie Wang, Tao Ji, and"
+        },
+        {
+          "page": 12,
+          "column": 1,
+          "y": 741.72,
+          "first_line": "Qi Zhang, Tianqi Du, Haotian Huang, Yifei Wang, and"
+        }
+      ],
+      "reference_count": 42,
+      "pdf_sha256": "ae09d0336d190b60a78661bde1c03c2d34544ca6bcb497d5a418c331d820688c",
+      "version_note": "Official ACL Anthology PDF; total length includes reference pages and any appendices."
+    }
+  ],
+  "observed_ranges": {
+    "SAC published-layout": {
+      "n": 2,
+      "range": [
+        35,
+        46
+      ],
+      "median": 40.5,
+      "individual_counts": [
+        46,
+        35
+      ]
+    },
+    "Closest-topic NLP published": {
+      "n": 4,
+      "range": [
+        25,
+        43
+      ],
+      "median": 36.5,
+      "individual_counts": [
+        31,
+        25,
+        43,
+        42
+      ]
+    }
+  },
+  "manuscript_before": 14,
+  "manuscript_after": 32,
+  "all_bibliography_items_cited_in_body": true,
+  "manuscript_sha256": "5153ba211fe620a703406a64f7a243e9f0d4116ebd35f5da86b5e9ba2749323f"
+}

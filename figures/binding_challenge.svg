@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="240.944882pt" height="198.425197pt" viewBox="0 0 240.944882 198.425197" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T10:09:25.099665</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 198.425197 
+L 240.944882 198.425197 
+L 240.944882 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 5.782677 47.622047 
+L 36.382677 47.622047 
+Q 39.033071 47.622047 39.033071 44.893701 
+L 39.033071 37.948819 
+Q 39.033071 35.220472 36.382677 35.220472 
+L 5.782677 35.220472 
+Q 3.132283 35.220472 3.132283 37.948819 
+L 3.132283 44.893701 
+Q 3.132283 47.622047 5.782677 47.622047 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 5.782677 72.92126 
+L 36.382677 72.92126 
+Q 39.033071 72.92126 39.033071 70.192913 
+L 39.033071 63.248031 
+Q 39.033071 60.519685 36.382677 60.519685 
+L 5.782677 60.519685 
+Q 3.132283 60.519685 3.132283 63.248031 
+L 3.132283 70.192913 
+Q 3.132283 72.92126 5.782677 72.92126 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #ffffff; stroke: #bd5a16; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 99.630709 51.218504 
+L 232.873228 51.218504 
+Q 235.523622 51.218504 235.523622 48.490157 
+L 235.523622 34.352362 
+Q 235.523622 31.624016 232.873228 31.624016 
+L 99.630709 31.624016 
+Q 96.980315 31.624016 96.980315 34.352362 
+L 96.980315 48.490157 
+Q 96.980315 51.218504 99.630709 51.218504 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #f3f6fa; stroke: #cbd4df; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 99.630709 76.517717 
+L 232.873228 76.517717 
+Q 235.523622 76.517717 235.523622 73.78937 
+L 235.523622 59.651575 
+Q 235.523622 56.923228 232.873228 56.923228 
+L 99.630709 56.923228 
+Q 96.980315 56.923228 96.980315 59.651575 
+L 96.980315 73.78937 
+Q 96.980315 76.517717 99.630709 76.517717 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #f3f6fa; stroke: #cbd4df; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 5.782677 127.73622 
+L 36.382677 127.73622 
+Q 39.033071 127.73622 39.033071 125.007874 
+L 39.033071 118.062992 
+Q 39.033071 115.334646 36.382677 115.334646 
+L 5.782677 115.334646 
+Q 3.132283 115.334646 3.132283 118.062992 
+L 3.132283 125.007874 
+Q 3.132283 127.73622 5.782677 127.73622 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 5.782677 153.035433 
+L 36.382677 153.035433 
+Q 39.033071 153.035433 39.033071 150.307087 
+L 39.033071 143.362205 
+Q 39.033071 140.633858 36.382677 140.633858 
+L 5.782677 140.633858 
+Q 3.132283 140.633858 3.132283 143.362205 
+L 3.132283 150.307087 
+Q 3.132283 153.035433 5.782677 153.035433 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #ffffff; stroke: #bd5a16; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 99.630709 131.332677 
+L 232.873228 131.332677 
+Q 235.523622 131.332677 235.523622 128.604331 
+L 235.523622 114.466535 
+Q 235.523622 111.738189 232.873228 111.738189 
+L 99.630709 111.738189 
+Q 96.980315 111.738189 96.980315 114.466535 
+L 96.980315 128.604331 
+Q 96.980315 131.332677 99.630709 131.332677 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #f3f6fa; stroke: #cbd4df; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 99.630709 156.63189 
+L 232.873228 156.63189 
+Q 235.523622 156.63189 235.523622 153.903543 
+L 235.523622 139.765748 
+Q 235.523622 137.037402 232.873228 137.037402 
+L 99.630709 137.037402 
+Q 96.980315 137.037402 96.980315 139.765748 
+L 96.980315 153.903543 
+Q 96.980315 156.63189 99.630709 156.63189 
+z
+" clip-path="url(#p2835d5674a)" style="fill: #f3f6fa; stroke: #cbd4df; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 3.614173 94.251969 
+L 236.125984 94.251969 
+" clip-path="url(#p2835d5674a)" style="fill: none; stroke: #d4dbe5; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #172d4b; font: 700 8.1px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="11.115364" transform="rotate(-0 3.614173 11.115364)">Words stay fixed; actor bindings change</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #172d4b; font: 700 7.4px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="24.831929" transform="rotate(-0 3.614173 24.831929)">(a) Original assignment</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #2563eb; font: 700 7.6px 'DejaVu Sans'; text-anchor: middle" x="20.480315" y="43.518385" transform="rotate(-0 20.480315 43.518385)">Nora</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #bd5a16; font: 700 7.6px 'DejaVu Sans'; text-anchor: middle" x="20.480315" y="68.817597" transform="rotate(-0 20.480315 68.817597)">Alex</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #455166; font: 700 7.5px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="40.951882" transform="rotate(-0 103.606299 40.951882)">Zero coverage</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #455166; font: 6.9px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="47.293733" transform="rotate(-0 103.606299 47.293733)">throughout the interval</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #455166; font: 700 7.5px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="66.251095" transform="rotate(-0 103.606299 66.251095)">¼ → ½ coverage</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #455166; font: 6.9px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="72.592945" transform="rotate(-0 103.606299 72.592945)">observed by minute 3</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 40.96063 41.42126 
+L 94.450394 41.42126 
+" clip-path="url(#p2835d5674a)" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 40.96063 66.720472 
+L 94.450394 66.720472 
+" clip-path="url(#p2835d5674a)" style="fill: none; stroke-dasharray: 4.5,3; stroke-dashoffset: 0; stroke: #bd5a16; stroke-width: 1.5"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #455166; font: 7px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="87.254397" transform="rotate(-0 3.614173 87.254397)">Same Nora targets:</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #2563eb; font: 700 8.2px 'DejaVu Sans'; text-anchor: start" x="99.992126" y="87.585522" transform="rotate(-0 99.992126 87.585522)">B = C     A = C</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #172d4b; font: 700 7.4px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="104.946102" transform="rotate(-0 3.614173 104.946102)">(b) Swapped assignment</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #2563eb; font: 700 7.6px 'DejaVu Sans'; text-anchor: middle" x="20.480315" y="123.632558" transform="rotate(-0 20.480315 123.632558)">Nora</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #bd5a16; font: 700 7.6px 'DejaVu Sans'; text-anchor: middle" x="20.480315" y="148.931771" transform="rotate(-0 20.480315 148.931771)">Alex</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #455166; font: 700 7.5px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="121.066056" transform="rotate(-0 103.606299 121.066056)">Zero coverage</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #455166; font: 6.9px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="127.407906" transform="rotate(-0 103.606299 127.407906)">throughout the interval</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #455166; font: 700 7.5px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="146.365268" transform="rotate(-0 103.606299 146.365268)">¼ → ½ coverage</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #455166; font: 6.9px 'DejaVu Sans'; text-anchor: start" x="103.606299" y="152.707118" transform="rotate(-0 103.606299 152.707118)">observed by minute 3</text>
+   </g>
+   <g id="line2d_4">
+    <path d="M 40.96063 121.535433 
+L 94.450394 146.834646 
+" clip-path="url(#p2835d5674a)" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 40.96063 146.834646 
+L 94.450394 121.535433 
+" clip-path="url(#p2835d5674a)" style="fill: none; stroke-dasharray: 4.5,3; stroke-dashoffset: 0; stroke: #bd5a16; stroke-width: 1.5"/>
+   </g>
+   <g id="text_18">
+    <text style="fill: #455166; font: 7px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="167.36857" transform="rotate(-0 3.614173 167.36857)">Same Nora targets:</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #2563eb; font: 700 8.2px 'DejaVu Sans'; text-anchor: start" x="99.992126" y="167.699695" transform="rotate(-0 99.992126 167.699695)">B = U     A = E</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #455166; font: 7px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="186.715027" transform="rotate(-0 3.614173 186.715027)">B: all the water     A: some water</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #172d4b; font: 700 7.1px 'DejaVu Sans'; text-anchor: start" x="3.614173" y="197.407975" transform="rotate(-0 3.614173 197.407975)">Identical word counts  •  Different reference labels</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2835d5674a">
+   <rect x="0" y="0" width="240.944882" height="198.425197"/>
+  </clipPath>
+ </defs>
+</svg>

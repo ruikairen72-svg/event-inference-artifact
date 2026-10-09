@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-09T01:34:05.071292+00:00",
+  "datasets": "grammar_complete_stress",
+  "models": "deepseek/deepseek-v3.2",
+  "planned_pending": 20,
+  "concurrency": 4,
+  "max_output_tokens": 256,
+  "run_cap_usd": 0.5,
+  "payload_protocol_sha256": "29f3a29900a1da061ff81a4cdae23e560b200930fb856b77f4578bda15a0619c"
+}

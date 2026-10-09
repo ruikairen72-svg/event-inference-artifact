@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{All 30 prespecified contrasts. Each cell gives estimate, marginal lexical/family bootstrap 95\% CI, and Holm-adjusted $p$ across the complete 30-test family. The first four columns are q differences over 120 complete paired families; the rule column is percentage-point accuracy change over 24 complete families with 12 matched cells each. Exact block sign flips use the retained lexical blocks. Marginal intervals and adjusted tests have different multiplicity scopes. All planned probability contrasts have complete scores, so adverse bounds equal the point estimate.}
+\label{tab:primary_results}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+System & Real CS & Real--Nonce CS & Real--Micro CS & Cancel--neutral q & Structural rule\\
+\midrule
+Qwen8 & \shortstack{$-0.344$\\$[-0.457,-0.220]$\\$0.043$} & \shortstack{$0.372$\\$[0.235,0.521]$\\$0.015$} & \shortstack{$0.156$\\$[0.043,0.280]$\\$0.279$} & \shortstack{$-0.485$\\$[-0.585,-0.381]$\\$0.015$} & \shortstack{$-0.69$\\$[-2.63,1.09]$\\$1.000$} \\[3pt]
+Llama8 & \shortstack{$-0.504$\\$[-0.713,-0.300]$\\$0.065$} & \shortstack{$-0.016$\\$[-0.223,0.186]$\\$1.000$} & \shortstack{$-0.321$\\$[-0.537,-0.108]$\\$0.240$} & \shortstack{$-0.279$\\$[-0.421,-0.138]$\\$0.109$} & \shortstack{$3.82$\\$[0.83,6.67]$\\$0.279$} \\[3pt]
+Ministral8 & \shortstack{$-0.248$\\$[-0.361,-0.140]$\\$0.065$} & \shortstack{$-0.248$\\$[-0.361,-0.140]$\\$0.065$} & \shortstack{$-0.248$\\$[-0.361,-0.140]$\\$0.065$} & \shortstack{$-0.446$\\$[-0.602,-0.277]$\\$0.043$} & \shortstack{$3.12$\\$[0.00,6.79]$\\$1.000$} \\[3pt]
+Gemma12 & \shortstack{$-0.274$\\$[-0.417,-0.141]$\\$0.109$} & \shortstack{$0.421$\\$[0.290,0.541]$\\$0.015$} & \shortstack{$0.017$\\$[-0.127,0.149]$\\$1.000$} & \shortstack{$-0.665$\\$[-0.805,-0.511]$\\$0.015$} & \shortstack{$-2.78$\\$[-5.16,-0.32]$\\$0.703$} \\[3pt]
+Qwen14 & \shortstack{$-0.315$\\$[-0.415,-0.202]$\\$0.065$} & \shortstack{$0.233$\\$[0.130,0.348]$\\$0.015$} & \shortstack{$-0.062$\\$[-0.175,0.061]$\\$1.000$} & \shortstack{$-0.677$\\$[-0.784,-0.582]$\\$0.015$} & \shortstack{$0.00$\\$[-1.92,2.08]$\\$1.000$} \\[3pt]
+Qwen32 & \shortstack{$-0.308$\\$[-0.410,-0.198]$\\$0.043$} & \shortstack{$-0.074$\\$[-0.200,0.067]$\\$1.000$} & \shortstack{$0.277$\\$[0.169,0.392]$\\$0.015$} & \shortstack{$-0.692$\\$[-0.802,-0.590]$\\$0.015$} & \shortstack{$1.74$\\$[-0.31,3.62]$\\$1.000$} \\[3pt]
+\bottomrule
+\end{tabular}
+\end{table*}

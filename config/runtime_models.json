@@ -1,0 +1,384 @@
+{
+  "protocol": "runtime-v1",
+  "models": [
+    {
+      "id": "qwen/qwen3-8b",
+      "tier": "main",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.117,
+      "output_usd_per_million": 0.45499999999999996,
+      "context_length": 131072,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 8192,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen3",
+        "instruct_type": "qwen3"
+      },
+      "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
+      "dense_parameters_billion": 8.2,
+      "provider_tag": "alibaba",
+      "pricing": {
+        "prompt": "0.000000117",
+        "completion": "0.000000455",
+        "discount": 0
+      },
+      "provider_quantization": "unknown",
+      "reasoning_supported": true
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "tier": "main",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.049999999999999996,
+      "output_usd_per_million": 0.08,
+      "context_length": 131072,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 117964,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Llama3",
+        "instruct_type": "llama3"
+      },
+      "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to...",
+      "dense_parameters_billion": null,
+      "provider_tag": "groq",
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000008",
+        "input_cache_read": "0.000000025",
+        "discount": 0
+      },
+      "provider_quantization": "unknown",
+      "reasoning_supported": false
+    },
+    {
+      "id": "mistralai/ministral-8b-2512",
+      "tier": "main",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.15,
+      "output_usd_per_million": 0.15,
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 209715,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Mistral",
+        "instruct_type": null
+      },
+      "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
+      "dense_parameters_billion": null,
+      "provider_tag": "mistral",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.00000015",
+        "input_cache_read": "0.000000015",
+        "discount": 0
+      },
+      "provider_quantization": "unknown",
+      "reasoning_supported": false
+    },
+    {
+      "id": "google/gemma-3-12b-it",
+      "tier": "main",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.049999999999999996,
+      "output_usd_per_million": 0.15,
+      "context_length": 131072,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": "gemma"
+      },
+      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...",
+      "dense_parameters_billion": null,
+      "provider_tag": "deepinfra/bf16",
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000015",
+        "discount": 0
+      },
+      "provider_quantization": "bf16",
+      "reasoning_supported": false
+    },
+    {
+      "id": "qwen/qwen3-14b",
+      "tier": "main",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.12,
+      "output_usd_per_million": 0.24,
+      "context_length": 131072,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 40960,
+        "max_completion_tokens": 16384,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen3",
+        "instruct_type": "qwen3"
+      },
+      "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
+      "dense_parameters_billion": 14.8,
+      "provider_tag": "deepinfra/fp8",
+      "pricing": {
+        "prompt": "0.00000012",
+        "completion": "0.00000024",
+        "discount": 0
+      },
+      "provider_quantization": "fp8",
+      "reasoning_supported": true
+    },
+    {
+      "id": "qwen/qwen3-32b",
+      "tier": "main",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.08,
+      "output_usd_per_million": 0.28,
+      "context_length": 131072,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 40960,
+        "max_completion_tokens": 16384,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen3",
+        "instruct_type": "qwen3"
+      },
+      "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
+      "dense_parameters_billion": 32.8,
+      "provider_tag": "deepinfra/fp8",
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000028",
+        "discount": 0
+      },
+      "provider_quantization": "fp8",
+      "reasoning_supported": true
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "tier": "stress",
+      "catalogue_listed": true,
+      "inference_verified": false,
+      "input_usd_per_million": 0.28,
+      "output_usd_per_million": 0.42,
+      "context_length": 163840,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "DeepSeek",
+        "instruct_type": null
+      },
+      "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
+      "dense_parameters_billion": null,
+      "provider_tag": "deepinfra/fp4",
+      "pricing": {
+        "prompt": "0.00000026",
+        "completion": "0.00000038",
+        "input_cache_read": "0.00000013",
+        "discount": 0
+      },
+      "provider_quantization": "fp4",
+      "reasoning_supported": true
+    }
+  ],
+  "provider_choice_basis": "live listed availability, supported controls, documented precision; no semantic outputs used"
+}

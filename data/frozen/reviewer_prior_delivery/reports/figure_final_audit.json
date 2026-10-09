@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "utc": "2026-10-09T03:17:10.997775+00:00",
+  "visual_inspection": "All eight figure PNGs inspected, including placed category figure on final page 5. Axes, legends, error bars and text readable without clipping. Method conceptual; pilot excluded from main inference.",
+  "main_estimate_cells": 90,
+  "primary_estimate_and_ci_exact_matches": 18,
+  "category_estimate_cells": 36,
+  "embedded_font_and_editable_svg_checks": [
+    "main_fig2",
+    "main_fig3",
+    "main_fig4",
+    "main_fig5",
+    "main_fig6",
+    "main_category_accuracy",
+    "method_schematic",
+    "pilot_diagnostic"
+  ],
+  "source_manifests": {
+    ".research/figures/main_source_manifest.json": "8280e7d313e3dcff99696dab5bb14a9d1c2c406cb763b55617e03e005f85c8f0",
+    ".research/figures/category_source_manifest.json": "df44989e155dc42db0a3dc6f050ff162b68220fd981559ff455e35a317b914fc"
+  },
+  "no_significance_stars": true,
+  "visual_inspection_is_agent_self_review": true,
+  "method_redesign": "Compatible histories with explicit set restriction; concrete reading target pair, color+shape direct labels, no flow-box substitution",
+  "method_source_manifest_sha256": "c94ea72eecc0ffb57600283bd66d070292ef74636e831c41cb5306679286d723",
+  "placed_visual_QA": "Method page3 and empirical categories page5 checked in current eight-page paper; figure files unchanged from previous verified delivery.",
+  "pdf_sha256": "a29d23b2566516b08cee582dbe3e436816d93d5c6cfc468d81f1cb0dd1ac59f0"
+}

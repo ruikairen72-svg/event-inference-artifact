@@ -1,0 +1,14 @@
+{
+  "completed_utc": "2026-10-07T19:13:51.344311+00:00",
+  "local_report_date": "2026-10-08",
+  "planned_v2_cells": 1600,
+  "completed_v2_cells": 1600,
+  "parse_valid_v2_cells": 1600,
+  "missing_v2_cells": 0,
+  "pilot_including_v1_known_returned_cost_usd": 0.049306867999999865,
+  "pilot_including_v1_conservative_ledger_usd": 0.20714793800000045,
+  "usability_gate_passed": true,
+  "human_review_completed": false,
+  "main_frozen": false,
+  "note": "Progress.json describes latest resume invocation; this is the cumulative completion checkpoint."
+}

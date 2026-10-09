@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-08T15:07:13.306478+00:00",
+  "datasets": "main_labels",
+  "models": "qwen/qwen3-8b,qwen/qwen3-14b,qwen/qwen3-32b,deepseek/deepseek-v3.2",
+  "planned_pending": 12,
+  "concurrency": 4,
+  "max_output_tokens": 256,
+  "run_cap_usd": 0.02,
+  "payload_protocol_sha256": "f2f4a3f475d1b2df0baf32c8891e38ea1fe01f8af3b6eca772bae0ca3fcc84dc"
+}

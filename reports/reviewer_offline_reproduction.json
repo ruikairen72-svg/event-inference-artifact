@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "utc": "2026-10-09T05:07:01.482600+00:00",
+  "independent_extraction": true,
+  "network_calls": 0,
+  "archive_member_count": 509,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "scripts/verify_review_archive.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/verify_retained_original.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/analyze_primary.py",
+        "--input",
+        "data/analysis/main_planned.jsonl",
+        "--protocol",
+        "config/study_protocol_frozen.json",
+        "--output",
+        "reports/primary_reproduced.json"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/analyze_secondary.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/analyze_reviewer_diagnostics.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/analyze_binding_challenge.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "exact_original_primary_JSON": true,
+  "exact_original_secondary_JSON": true,
+  "exact_reviewer_core_JSON": true,
+  "exact_final_challenge_JSON": true,
+  "exact_final_challenge_planned_records": true,
+  "tests_passed": 30,
+  "first_pack": true,
+  "comparison_sha256": {
+    "reports/primary_results.json": "78402593fef60ae5da70face754763c778cf2ce8093abd5e99ce4d5d4adcacfd",
+    "reports/secondary_results.json": "05d122e9f0a055593ba68060052790a47b747788fe1fb0bf959f7604bdf1949d",
+    "reports/reviewer_core_diagnostics.json": "a60c256b0d36d888825e03e91ebbf9d2982c19fd96ba735fd2e4fbf1a559e92d",
+    "reports/reviewer_binding_results.json": "b166b6c15705d338e7b8da089b955da370e5070ff4e4d835f4675346f4207763",
+    "data/analysis/reviewer_binding_planned.jsonl": "a3ba1ca57fe97aeaef017e761f8e61ad386d52cef7e96b18e107f9efb14bfb9d"
+  },
+  "scope": "Independent first archive extraction; complete original analyses reproduced. Final editorial repack verified separately against unchanged original scientific hashes."
+}

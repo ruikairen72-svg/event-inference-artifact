@@ -1,0 +1,9 @@
+{
+  "source_url": "https://sigapp.org/sac/sac2027/authorkit/ACM_SAC_2027_Article_Template.zip",
+  "checked_date": "2026-10-08",
+  "sha256": "cabdde54130673583a758a56a015c8c08bc93f1f0e1561a12ab88343911e7af4",
+  "note": "Official SAC 2027 kit, locally retained unchanged. Runtime export may require cached TeX dependencies; no TeX installation.",
+  "acmart_cls_sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+  "acmart_version": "2026/06/27 v2.19",
+  "class_compared_byte_for_byte_with_official_zip": true
+}

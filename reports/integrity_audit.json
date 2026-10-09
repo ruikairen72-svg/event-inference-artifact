@@ -1,0 +1,82 @@
+{
+  "utc": "2026-10-09T02:51:15.537282+00:00",
+  "checks": [
+    {
+      "check": "historical_snapshot_phase2_design_snapshot",
+      "pass": true,
+      "files": 66,
+      "mismatch_paths": []
+    },
+    {
+      "check": "historical_snapshot_phase3_snapshot",
+      "pass": true,
+      "files": 57,
+      "mismatch_paths": []
+    },
+    {
+      "check": "historical_snapshot_phase4_snapshot",
+      "pass": true,
+      "files": 28,
+      "mismatch_paths": []
+    },
+    {
+      "check": "historical_snapshot_theory_main_v1",
+      "pass": true,
+      "files": 54,
+      "mismatch_paths": []
+    },
+    {
+      "check": "historical_snapshot_grammar_initial_v1",
+      "pass": true,
+      "files": 5,
+      "mismatch_paths": []
+    },
+    {
+      "check": "active_frozen_inputs",
+      "pass": true,
+      "files": 20,
+      "mismatch_paths": []
+    },
+    {
+      "check": "original_gold_file_unchanged",
+      "pass": true
+    },
+    {
+      "check": "no_openrouter_credential_in_research_files",
+      "pass": true,
+      "hit_paths": []
+    },
+    {
+      "check": "unique_successful_payload_cache",
+      "pass": true,
+      "unique_responses": 30801,
+      "duplicates": []
+    }
+  ],
+  "collection_diagnostics": {
+    "model_transport_success_counts": {
+      "deepseek/deepseek-v3.2": 660,
+      "meta-llama/llama-3.1-8b-instruct": 4644,
+      "google/gemma-3-12b-it": 4661,
+      "qwen/qwen3-32b": 4661,
+      "mistralai/ministral-8b-2512": 4661,
+      "qwen/qwen3-14b": 4661,
+      "qwen/qwen3-8b": 4661
+    },
+    "providers": {
+      "DeepInfra": 14643,
+      "Groq": 4644,
+      "Mistral": 4661,
+      "Alibaba": 4661
+    },
+    "parse_status": {
+      "ok": 28609
+    },
+    "finish_reasons": {
+      "stop": 28609
+    }
+  },
+  "pending_artifacts": [],
+  "submission_ready": false,
+  "note": "Integrity checks do not establish semantic population validity, final scientific interpretation or visual PDF quality."
+}

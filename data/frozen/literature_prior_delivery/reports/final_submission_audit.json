@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-09T02:50:25.353460+00:00",
+  "paper_ready": true,
+  "submission_ready": true,
+  "remaining": [],
+  "pdf_sha256": "98baa3a0a6fc93571ed5d71fcafee4d3583e313ac0fa79c6d740fe16c8effbe8",
+  "manuscript_sha256": "27ae506fac67acd27a1e7362a53599fc91f7e566626f322d87fa8ee04434a920",
+  "pages": 7,
+  "visual_QA": {
+    "passed": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "inspection": "All seven revised pages viewed; final changes on pages 4\u20136 re-rendered and reviewed; unchanged pages verified by raster identity. Both method and result figures readable at placement.",
+    "render_manifest_sha256": "4e5586f896e0a5f5ed7e520af80848a7efbcc5f0e2ea5a394ea5baeb98d5bcc2"
+  },
+  "scientific_claim_audit": "33 claim/source entries and complete tables verified; 2243 descriptive comparisons reconciled. All 30 primary contrasts and all 380 secondary rows retained.",
+  "review_type": "Agent self-audit; no independent human review, ratings or annotations",
+  "limitations": [
+    "Operational theory labels under stated readings; no population validity claim",
+    "Subjective uncalibrated q; intended prior effects exploratory",
+    "Presentation, provider and training confounds prevent causal knowledge/size claims",
+    "All unusable mixed fits excluded from inferential claims",
+    "Post-freeze wording supplements descriptive; original estimates unchanged"
+  ],
+  "actual_venue_submission": false,
+  "acceptance_probability_estimated": false,
+  "native_preview_limitation": "Native standalone compiler does not resolve project external figure; exported final PDF verified with existing Tectonic 0.17.0 and unchanged official acmart v2.19.",
+  "offline_reproduction_passed": true,
+  "readiness_scope": "Complete scientifically audited local submission artifact and reproducibility package; author-account administrative entry and actual venue upload not performed.",
+  "editorial_revision_passed": true,
+  "editorial_revision_audit": "reports/editorial_revision_audit.json"
+}

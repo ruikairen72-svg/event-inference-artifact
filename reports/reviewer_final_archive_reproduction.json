@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "utc": "2026-10-09T05:10:50.901019+00:00",
+  "independent_extraction": true,
+  "network_calls": 0,
+  "tests_passed": 30,
+  "exact_final_reviewer_outputs": {
+    "reports/reviewer_core_diagnostics.json": "a60c256b0d36d888825e03e91ebbf9d2982c19fd96ba735fd2e4fbf1a559e92d",
+    "reports/reviewer_binding_results.json": "5cd0416d0f2acfed460832920306759cf262daddc4ad62277ebf1e647b5a07f6",
+    "data/analysis/reviewer_binding_planned.jsonl": "a3ba1ca57fe97aeaef017e761f8e61ad386d52cef7e96b18e107f9efb14bfb9d"
+  },
+  "original_60_scientific_components_identical": true,
+  "original_primary_secondary_exact_reproduction": "reports/reviewer_offline_reproduction.json",
+  "archive_members_verified": 510,
+  "final_repack_policy": "Only audit and completion documents may be updated after this extraction; final archive members are hash verified. No scientific source, data, result, manuscript or PDF changes follow this check."
+}

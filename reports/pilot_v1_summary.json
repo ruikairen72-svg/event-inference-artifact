@@ -1,0 +1,413 @@
+{
+  "run_id": "pilot_v1",
+  "responses": 40,
+  "parse_valid": 40,
+  "parse_valid_rate": 1.0,
+  "transport_attempts": 49,
+  "http_failures": 9,
+  "known_actual_cost_usd": 0.0013291549999999996,
+  "conservative_ledger_usd": 0.004428953000000001,
+  "finish_reasons": {
+    "stop": 40
+  },
+  "returned_providers": {
+    "Groq": 24,
+    "Alibaba": 16
+  },
+  "model_counts": {
+    "meta-llama/llama-3.1-8b-instruct": 24,
+    "qwen/qwen3-8b": 16
+  },
+  "cells": [
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "composition": "bounded",
+      "context": "cancelling",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "contradicted": 2
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "composition": "bounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.5,
+      "q_sd": null,
+      "gold_labels": {
+        "unknown": 1
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "composition": "bounded",
+      "context": "supportive",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "composition": "unbounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "composition": "unbounded",
+      "context": "supportive",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 2
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "composition": "bounded",
+      "context": "cancelling",
+      "n": 3,
+      "parsed_n": 3,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "contradicted": 3
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "composition": "bounded",
+      "context": "neutral",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 0.5,
+      "entailed_rate": 0.0,
+      "mean_q": 0.5,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "unknown": 2
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "composition": "bounded",
+      "context": "supportive",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "n": 3,
+      "parsed_n": 3,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 3
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "composition": "unbounded",
+      "context": "neutral",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 2
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "composition": "unbounded",
+      "context": "supportive",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 2
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "composition": "bounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 0.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.5,
+      "q_sd": null,
+      "gold_labels": {
+        "unknown": 1
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "composition": "unbounded",
+      "context": "neutral",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 2
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "composition": "bounded",
+      "context": "neutral",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.5,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "unknown": 2
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "composition": "unbounded",
+      "context": "supportive",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 2
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "composition": "bounded",
+      "context": "cancelling",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "contradicted": 2
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "composition": "bounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 0.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.0,
+      "q_sd": null,
+      "gold_labels": {
+        "unknown": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "composition": "unbounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 0.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.6,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "composition": "bounded",
+      "context": "cancelling",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.0,
+      "q_sd": null,
+      "gold_labels": {
+        "contradicted": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "composition": "bounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 0.0,
+      "mean_q": 0.6,
+      "q_sd": null,
+      "gold_labels": {
+        "unknown": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "composition": "bounded",
+      "context": "supportive",
+      "n": 2,
+      "parsed_n": 2,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": 0.0,
+      "gold_labels": {
+        "entailed": 2
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "composition": "unbounded",
+      "context": "cancelling",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "composition": "unbounded",
+      "context": "neutral",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 0.95,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "composition": "unbounded",
+      "context": "supportive",
+      "n": 1,
+      "parsed_n": 1,
+      "accuracy": 1.0,
+      "entailed_rate": 1.0,
+      "mean_q": 1.0,
+      "q_sd": null,
+      "gold_labels": {
+        "entailed": 1
+      }
+    }
+  ]
+}

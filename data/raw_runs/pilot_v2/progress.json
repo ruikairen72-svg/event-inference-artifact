@@ -1,0 +1,13 @@
+{
+  "run_id": "pilot_v2",
+  "utc": "2026-10-07T18:52:48.710034+00:00",
+  "pending_at_start": 3,
+  "complete": 3,
+  "transport_errors": 1,
+  "parse_invalid": 0,
+  "endpoint_mismatch": 0,
+  "run_spend_usd": 0.20271898500000043,
+  "project_spend_usd": 0.20714793800000045,
+  "elapsed_s": 6,
+  "budget_stopped": false
+}

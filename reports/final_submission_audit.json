@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-09T05:11:23.226897+00:00",
+  "paper_ready": true,
+  "submission_ready": true,
+  "remaining": [],
+  "pdf_sha256": "8f155f9417096a00e8d69f62546c8d176f21d82fe91733d5ab253a83c3d32931",
+  "manuscript_sha256": "9934498d6bf24dee14af536486bafcb5ab706ae0183e4e15df9eb21c36178158",
+  "pages": 8,
+  "visual_QA": {
+    "passed": true,
+    "main_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "supplement_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "inspection": "All thirteen final pages inspected. Figures on main pages 3, 4 and 5 and all tables legible; six supplement captions/tables verified; no blank or overflow pages. Single-column supplement uses unchanged acmart acmlarge/nonacm class, main uses official sigconf.",
+    "render_manifest_sha256": "000e611bcbedb04b6ae7ea9fd5b8cb8daa20b3a675290a794343968cad9fc576"
+  },
+  "scientific_claim_audit": "33 original numerical/provenance checks, 46 reviewer-revision checks, all60 original scientific components unchanged, all30 primary and380 secondary rows retained",
+  "review_type": "Agent self-audit; no independent human review, ratings or annotations",
+  "limitations": [
+    "Operational theory labels under stated readings; no population validity claim",
+    "Subjective uncalibrated q; intended prior effects exploratory",
+    "Presentation, provider and training confounds prevent causal knowledge/size claims",
+    "All unusable mixed fits excluded from inferential claims",
+    "Post-freeze wording supplements descriptive; original estimates unchanged"
+  ],
+  "actual_venue_submission": false,
+  "acceptance_probability_estimated": false,
+  "native_preview_limitation": "Native standalone compiler does not resolve project external figure; exported final PDF verified with existing Tectonic 0.17.0 and unchanged official acmart v2.19.",
+  "offline_reproduction_passed": true,
+  "readiness_scope": "Local anonymous scientific submission artifacts complete, including independently extracted offline reproduction. Author/account entry and external venue upload remain administrative actions.",
+  "editorial_revision_passed": true,
+  "editorial_revision_audit": "reports/editorial_revision_audit.json",
+  "references": 32,
+  "literature_revision_passed": true,
+  "literature_revision_audit": "reports/literature_revision_audit.json",
+  "previous_editorial_evidence": "data/frozen/literature_prior_delivery",
+  "previous_delivery_preserved": "data/frozen/reviewer_prior_delivery",
+  "supplementary_pages": 5,
+  "supplementary_pdf_sha256": "7382c8ce97fdc8b8905be4d6939693e436989a286f5ccccf4a9ef15c853d5ea3",
+  "reviewer_revision_passed": true,
+  "reviewer_revision_audit": "reports/reviewer_revision_audit.json",
+  "supplementary_experiment_final_cells": 5040,
+  "supplementary_definition_pairs": 1680,
+  "tests_passed": 30,
+  "final_archive_reproduction": "reports/reviewer_final_archive_reproduction.json"
+}

@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-09T00:31:49.264131+00:00",
+  "stage": "main_collection_complete_stress_still_collecting",
+  "planned_analysis_cells": 28104,
+  "unique_planned_payloads": 27984,
+  "missing_unique_payloads": 0,
+  "parse_invalid_planned_cells": 0,
+  "planned_by_model": {
+    "google/gemma-3-12b-it": 4684,
+    "qwen/qwen3-32b": 4684,
+    "mistralai/ministral-8b-2512": 4684,
+    "meta-llama/llama-3.1-8b-instruct": 4684,
+    "qwen/qwen3-14b": 4684,
+    "qwen/qwen3-8b": 4684
+  },
+  "main_raw_sha256": {
+    "responses.jsonl": "7eaaf8d978fe01b6fe82e84cee6dd3b812ba82c3d50712cc30ee62fc1f6a7a3a",
+    "errors.jsonl": "47938a90efce9be4e90b6f7acf574b2139e804065e007f732d40891d27bc51e3",
+    "attempts.jsonl": "52372883c06d4f3b5dd1038261707943818a85d5a04ae98d730fc5807135cc28"
+  },
+  "note": "Mechanical completeness only; no semantic performance inference. All main payloads are accounted for. Stress, supplementary grammar, inferential analysis and final paper are still pending."
+}

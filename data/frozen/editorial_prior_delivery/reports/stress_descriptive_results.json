@@ -1,0 +1,2246 @@
+{
+  "scope": "Descriptive matched stress comparison: all seven named systems on the identical 30 core families; no new p-values or pooling with 120-family estimates.",
+  "family_ids": [
+    "F001",
+    "F009",
+    "F019",
+    "F020",
+    "F024",
+    "F032",
+    "F036",
+    "F043",
+    "F046",
+    "F047",
+    "F059",
+    "F064",
+    "F073",
+    "F074",
+    "F076",
+    "F078",
+    "F080",
+    "F088",
+    "F093",
+    "F099",
+    "F117",
+    "F132",
+    "F134",
+    "F135",
+    "F142",
+    "F143",
+    "F146",
+    "F147",
+    "F150",
+    "F164"
+  ],
+  "results": [
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9222222222222223,
+      "macro_label_accuracy": 0.8444444444444444,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 0.9,
+        "unknown": 0.6333333333333333
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.9,
+          "entailed_rate": 0.1,
+          "mean_q": 0.10333333333333333,
+          "q_sd": 0.3045441288824685,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.6333333333333333,
+          "entailed_rate": 0.23333333333333334,
+          "mean_q": 0.5883333333333334,
+          "q_sd": 0.2833553067882397,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9816666666666667,
+          "q_sd": 0.02450662589267807,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9649999999999997,
+          "q_sd": 0.023304579984969973,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9599999999999999,
+          "q_sd": 0.02034190510862433,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.5777777777777777,
+      "macro_label_accuracy": 0.5388888888888889,
+      "gold_accuracy": {
+        "entailed": 0.6166666666666667,
+        "contradicted": 1,
+        "unknown": 0
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9933333333333334,
+          "q_sd": 0.01728729518208804,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.13333333333333333,
+          "entailed_rate": 0.13333333333333333,
+          "mean_q": 0.12666666666666665,
+          "q_sd": 0.32845860845967234,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.3333333333333333,
+          "entailed_rate": 0.3333333333333333,
+          "mean_q": 0.7133333333333335,
+          "q_sd": 0.17116907014619387,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9616666666666666,
+          "q_sd": 0.021509153357603835,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 1,
+      "macro_label_accuracy": 1,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.8388888888888889,
+      "macro_label_accuracy": 0.6777777777777778,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 0.8,
+        "unknown": 0.23333333333333334
+      },
+      "cells": [
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.8,
+          "entailed_rate": 0.2,
+          "mean_q": 0.2,
+          "q_sd": 0.4068381021724863,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.23333333333333334,
+          "entailed_rate": 0.3333333333333333,
+          "mean_q": 0.5166666666666667,
+          "q_sd": 0.40435843892076345,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.8666666666666667,
+      "macro_label_accuracy": 0.7333333333333334,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 0.2
+      },
+      "cells": [
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.2,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9666666666666667,
+          "q_sd": 0.07580980435789034,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.8944444444444445,
+      "macro_label_accuracy": 0.7888888888888889,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 0.36666666666666664
+      },
+      "cells": [
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.36666666666666664,
+          "entailed_rate": 0.6333333333333333,
+          "mean_q": 0.8166666666666667,
+          "q_sd": 0.24506625892678044,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.5777777777777777,
+      "macro_label_accuracy": 0.6722222222222223,
+      "gold_accuracy": {
+        "entailed": 0.48333333333333334,
+        "contradicted": 0.7666666666666667,
+        "unknown": 0.7666666666666667
+      },
+      "cells": [
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.7666666666666667,
+          "entailed_rate": 0.23333333333333334,
+          "mean_q": 0.23333333333333334,
+          "q_sd": 0.4301830671520762,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.7666666666666667,
+          "entailed_rate": 0.23333333333333334,
+          "mean_q": 0.7083333333333333,
+          "q_sd": 0.25328304098493193,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.1,
+          "entailed_rate": 0.1,
+          "mean_q": 0.9163333333333331,
+          "q_sd": 0.1430091227698509,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.03333333333333333,
+          "entailed_rate": 0.03333333333333333,
+          "mean_q": 0.9379999999999998,
+          "q_sd": 0.06702547122626926,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.8,
+          "entailed_rate": 0.8,
+          "mean_q": 0.99,
+          "q_sd": 0.020341905108624325,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.7222222222222222,
+      "macro_label_accuracy": 0.8611111111111112,
+      "gold_accuracy": {
+        "entailed": 0.5833333333333334,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.3333333333333333,
+          "entailed_rate": 0.3333333333333333,
+          "mean_q": 0.6666666666666666,
+          "q_sd": 0.23973165074269204,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.6666666666666666,
+      "macro_label_accuracy": 0.8333333333333334,
+      "gold_accuracy": {
+        "entailed": 0.5,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9277777777777778,
+      "macro_label_accuracy": 0.8555555555555555,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 0.5666666666666667
+      },
+      "cells": [
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.026666666666666672,
+          "q_sd": 0.02537081317024624,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.5666666666666667,
+          "entailed_rate": 0.3333333333333333,
+          "mean_q": 0.6986666666666665,
+          "q_sd": 0.2800459732373182,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9936666666666665,
+          "q_sd": 0.004901325178535613,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9846666666666664,
+          "q_sd": 0.013829836145670425,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9739999999999996,
+          "q_sd": 0.019930915164897613,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9659999999999996,
+          "q_sd": 0.019930915164897613,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9388888888888889,
+      "macro_label_accuracy": 0.8777777777777778,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 0.6333333333333333
+      },
+      "cells": [
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.6333333333333333,
+          "entailed_rate": 0.0,
+          "mean_q": 0.27166666666666667,
+          "q_sd": 0.17154638124874635,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9813333333333331,
+          "q_sd": 0.024315928273789835,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9793333333333331,
+          "q_sd": 0.017991057804352163,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9083333333333331,
+          "q_sd": 0.018952451089472556,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9699999999999996,
+          "q_sd": 0.02034190510862433,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 1,
+      "macro_label_accuracy": 1,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.6999999999999997,
+          "q_sd": 2.2584051416334807e-16,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9899999999999997,
+          "q_sd": 3.387607712450221e-16,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9906666666666663,
+          "q_sd": 0.0025370813170246262,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9388888888888889,
+      "macro_label_accuracy": 0.8777777777777778,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 0.9666666666666667,
+        "unknown": 0.6666666666666666
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.9666666666666667,
+          "entailed_rate": 0.03333333333333333,
+          "mean_q": 0.03333333333333333,
+          "q_sd": 0.18257418583505533,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.6666666666666666,
+          "entailed_rate": 0.3333333333333333,
+          "mean_q": 0.7133333333333334,
+          "q_sd": 0.22086559079087512,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9966666666666666,
+          "q_sd": 0.012685406585123132,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.6444444444444445,
+      "macro_label_accuracy": 0.5722222222222222,
+      "gold_accuracy": {
+        "entailed": 0.7166666666666667,
+        "contradicted": 1,
+        "unknown": 0
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.8666666666666667,
+          "entailed_rate": 0.8666666666666667,
+          "mean_q": 0.8666666666666667,
+          "q_sd": 0.34574590364176044,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5749999999999998,
+          "q_sd": 0.10064447498411216,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.8722222222222222,
+      "macro_label_accuracy": 0.9361111111111111,
+      "gold_accuracy": {
+        "entailed": 0.8083333333333333,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.23333333333333334,
+          "entailed_rate": 0.23333333333333334,
+          "mean_q": 0.7699999999999998,
+          "q_sd": 0.1290549201456229,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9333333333333333,
+      "macro_label_accuracy": 0.8666666666666667,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 0.6
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.6,
+          "entailed_rate": 0.4,
+          "mean_q": 0.7300000000000001,
+          "q_sd": 0.2306662015808214,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.8722222222222222,
+      "macro_label_accuracy": 0.9361111111111111,
+      "gold_accuracy": {
+        "entailed": 0.8083333333333333,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.5,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.23333333333333334,
+          "entailed_rate": 0.23333333333333334,
+          "mean_q": 0.7183333333333334,
+          "q_sd": 0.18913748572334127,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 1,
+      "macro_label_accuracy": 1,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.40333333333333343,
+          "q_sd": 0.04901325178535611,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "knowledge": "real",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9,
+      "macro_label_accuracy": 0.8,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 0.9333333333333333,
+        "unknown": 0.4666666666666667
+      },
+      "cells": [
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.9333333333333333,
+          "entailed_rate": 0.06666666666666667,
+          "mean_q": 0.06666666666666667,
+          "q_sd": 0.2537081317024625,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.4666666666666667,
+          "entailed_rate": 0.4666666666666667,
+          "mean_q": 0.6583333333333333,
+          "q_sd": 0.32802526535717286,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9993333333333333,
+          "q_sd": 0.0025370813170246262,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9993333333333333,
+          "q_sd": 0.0025370813170246262,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9883333333333333,
+          "q_sd": 0.025875475452347873,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.996,
+          "q_sd": 0.009684683962230054,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "knowledge": "nonce",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 0.9833333333333333,
+      "macro_label_accuracy": 0.9666666666666667,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 0.9
+      },
+      "cells": [
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 0.9,
+          "entailed_rate": 0.0,
+          "mean_q": 0.42,
+          "q_sd": 0.16273524086899446,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 0.9966666666666666,
+          "q_sd": 0.01825741858350553,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "knowledge": "micro",
+      "planned": 180,
+      "parse_valid": 180,
+      "accuracy": 1,
+      "macro_label_accuracy": 1,
+      "gold_accuracy": {
+        "entailed": 1,
+        "contradicted": 1,
+        "unknown": 1
+      },
+      "cells": [
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "contradicted": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 0.0,
+          "mean_q": 0.37000000000000005,
+          "q_sd": 0.0952311163288627,
+          "gold_labels": {
+            "unknown": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v3.2",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "n": 30,
+          "parsed_n": 30,
+          "accuracy": 1.0,
+          "entailed_rate": 1.0,
+          "mean_q": 1.0,
+          "q_sd": 0.0,
+          "gold_labels": {
+            "entailed": 30
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+    "data/analysis/stress_planned.jsonl": "9d66eb316d9d9c7eed14fa656f49394657f8c87dd2efab3acdf960a05208a6c3"
+  }
+}

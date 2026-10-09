@@ -1,0 +1,13 @@
+{
+  "run_id": "main_endpoint_probe",
+  "utc": "2026-10-08T15:05:42.164297+00:00",
+  "pending_at_start": 15,
+  "complete": 13,
+  "transport_errors": 9,
+  "parse_invalid": 3,
+  "endpoint_mismatch": 0,
+  "run_spend_usd": 0.0038300200000000004,
+  "project_spend_usd": 0.21097795800000047,
+  "elapsed_s": 19,
+  "budget_stopped": false
+}

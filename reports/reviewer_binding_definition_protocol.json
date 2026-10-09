@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-09T04:37:21.347124+00:00",
+  "status": "frozen_before_definition_precision_collection",
+  "source_dataset": "data/supplementary/reviewer_binding.jsonl",
+  "canonical_dataset": "data/supplementary/reviewer_binding_v2.jsonl",
+  "affected_cells_per_model": 240,
+  "models": [
+    "qwen/qwen3-8b",
+    "meta-llama/llama-3.1-8b-instruct",
+    "mistralai/ministral-8b-2512",
+    "google/gemma-3-12b-it",
+    "qwen/qwen3-14b",
+    "qwen/qwen3-32b",
+    "deepseek/deepseek-v3.2"
+  ],
+  "additional_payloads": 1680,
+  "analysis_scope": "post-review paired wording sensitivity; initial outcomes retained; original prespecified studies unchanged",
+  "reason": "The nonce-some target must describe occurrence, not the availability of an observed occurrence record. Replace requires an observed increase between two positive coverage landmarks with requires reaching at least two positive coverage landmarks. No history or gold change.",
+  "collector_sha256": "4849b531e1d217428e02fc9cc984948308beb3ee18add26c7c758291cc3854d5",
+  "run_cap_usd": 0.45,
+  "aggregate_supplementary_cap_usd": 1.25,
+  "bootstrap": "Same twelve lemma blocks and descriptive measures as frozen supplementary design; no new primary tests.",
+  "dataset_sha256": "3890ef65ad2ca645de8950bcd92d3f23e20884aff044674badce4dbbd77c6457",
+  "source_dataset_sha256": "affa88cca388a1f3846a69c7806c785ab31663711a6b812bd5fb0b99f7d3881d",
+  "repair_script_sha256": "31f456f2d985b2cc24845c29ac62a2aa55a78cf0e460bc33a395e1c8222662e4"
+}

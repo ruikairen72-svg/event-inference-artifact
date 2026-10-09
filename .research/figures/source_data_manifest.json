@@ -1,0 +1,992 @@
+{
+  "figures": [
+    {
+      "figure": "pilot_diagnostic",
+      "purpose": "pilot diagnostic, not confirmation",
+      "source": "data/analysis/pilot_v2_planned.jsonl",
+      "source_sha256": "84bec81e122cbb82e02b43a356222971c175f089bf03735b053f065a999b8b66",
+      "script_sha256": "2e1bff8b442fefdb463a95bb3a430e4b05373633cb35fb1f60dd05fbddf61300",
+      "seed": 20271007,
+      "bootstrap_draws": 2000,
+      "bootstrap": "verbs then families within verbs",
+      "human_review": false,
+      "cells": [
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "supportive",
+          "planned": 40,
+          "valid": 40
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "cancelling",
+          "planned": 40,
+          "valid": 40
+        }
+      ]
+    },
+    {
+      "purpose": "method mechanism: evidence selects compatible histories; no empirical frequency claim",
+      "source": "data/theory/normative_cells.jsonl",
+      "source_sha256": "feaa692bc56c3fa3a5d13f1a37a12e70e5332632a87a595b56f424389392b998",
+      "script_sha256": "ce0513fca8b56080278f4d78ed7326ef3e9b628963e1bcad4b5d94ec8605bed3",
+      "cells": 18,
+      "example_family": "F141; VP excerpts, schematic histories",
+      "reference_visual_rules": "CoRE Figure 1: concrete instance, aligned relationship table, distinct levels and direct category labels; no scientific content copied",
+      "reference": "https://aclanthology.org/2025.findings-acl.992/",
+      "outputs": [
+        "figures/method_schematic.pdf",
+        "figures/method_schematic.svg",
+        "figures/method_schematic.png"
+      ]
+    },
+    {
+      "figure": "main_fig2",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Real-presentation target-truth scores for bounded versus activity targets across contexts. Points are means over up to 120 planned families; intervals use 10,000 seeded verb-then-family percentile bootstrap draws. Full q domain [0,1]. Scores are elicited and uncalibrated. Missing/invalid q is excluded with denominators recorded; no unknown target receives an invented outcome.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig3",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Paired neutral compositional sensitivity across the three presentations, using up to 120 complete family pairs per system. A negative score distinguishes endpoint belief from activity occurrence; logic alone does not specify its magnitude, and a negative contrast alone does not certify categorical correctness. Intervals resample lexical verbs then families. Definitions, notation and length also differ across presentations, so layer gaps do not identify internal knowledge removal.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig4",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Exploratory intended completion-burden sensitivity in bounded Real targets, with up to 40 paired families per context and system. High/low are intended directions without human prior ratings; no causal world-knowledge effect is identified. Interval procedure matches Figure 3. Supporting/cancelling evidence determines the theory label regardless of burden cue.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig5",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Within-Qwen three-size association in neutral paired composition scores. Points use the same 120 planned family pool and intervals as Figure 3; lines connect three observations rather than establish a scaling law. Qwen8 uses Alibaba with unspecified precision; Qwen14/32 use DeepInfra FP8. Training and provider confounds prevent a parameter-count causal interpretation.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_fig6",
+      "source": "data/analysis/main_planned.jsonl",
+      "source_sha256": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+      "script": ".research/figures/scripts/main_figures.py",
+      "script_sha256": "819095b1506ae7fe0fcd8424f9a9fd0c814a8bcd76a84c33523f546067d5b3e5",
+      "caption": "Contextual override and guidance gains use different units/populations. Left: bounded Real cancellation-minus-neutral q on up to 120 complete pairs. Right: rule-minus-baseline accuracy, averaged within each of 24 fixed families across 12 matched neutral/cancelling cells; parse/transport failures count incorrect. Lexical/family bootstrap intervals, no outcome-selected exclusions. A correct ceiling can give zero gain; guidance is not proof of an internal semantic mechanism.",
+      "bootstrap_draws": 10000,
+      "seed": 20271007
+    },
+    {
+      "figure": "main_category_accuracy",
+      "designation": "post-freeze descriptive diagnostic, not a new confirmatory test",
+      "caption": "Neutral categorical correctness separates unresolved bounded endpoints (gold unknown) from witnessed activity occurrence (gold entailed). All six systems and three presentations retain 120 planned families per cell; missing/invalid judgments count incorrect. Marginal 95% intervals use 10,000 seeded verb-then-family bootstrap draws across 12 retained lexical blocks. Floor/ceiling intervals describe this construction pool, not deterministic service behavior or arbitrary English. No new p-values; presentation gaps also include definitions, notation and length.",
+      "source_sha256": {
+        "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+        ".research/figures/scripts/category_errors.py": "ab5182232daecdf0333f3ba5418089ef1e3ca36364c7a2511621ac2eddbaa286",
+        "src/event_completion/analysis.py": "3eda978c1580152289448fe98d9af88eaafc46d20cb7b19507778eaa378f7fee"
+      },
+      "seed": 20271007,
+      "estimates": [
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.65,
+          "ci95": [
+            0.4083333333333333,
+            0.8666666666666667
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.15833333333333333,
+          "ci95": [
+            0.016666666666666666,
+            0.35
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.7916666666666666,
+          "ci95": [
+            0.5583333333333333,
+            0.9833333333333333
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.5416666666666666,
+          "ci95": [
+            0.2833333333333333,
+            0.7916666666666666
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.7,
+          "ci95": [
+            0.45,
+            0.9083333333333333
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.6833333333333333,
+          "ci95": [
+            0.45,
+            0.8916666666666667
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.15,
+          "ci95": [
+            0.058333333333333334,
+            0.25833333333333336
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.525,
+          "ci95": [
+            0.375,
+            0.6583333333333333
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.016666666666666666,
+          "ci95": [
+            0.0,
+            0.06666666666666667
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.975,
+          "ci95": [
+            0.9083333333333333,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.36666666666666664,
+          "ci95": [
+            0.275,
+            0.4583333333333333
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "bounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.008333333333333333,
+          "ci95": [
+            0.0,
+            0.03333333333333333
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "real",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.375,
+          "ci95": [
+            0.23333333333333334,
+            0.5166666666666667
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "nonce",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.21666666666666667,
+          "ci95": [
+            0.1,
+            0.35833333333333334
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-8b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "meta-llama/llama-3.1-8b-instruct",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "mistralai/ministral-8b-2512",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "google/gemma-3-12b-it",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-14b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 0.175,
+          "ci95": [
+            0.09166666666666666,
+            0.25833333333333336
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        },
+        {
+          "model": "qwen/qwen3-32b",
+          "knowledge": "micro",
+          "composition": "unbounded",
+          "context": "neutral",
+          "planned": 120,
+          "parsed": 120,
+          "estimate": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_families": 120,
+          "n_lexical_blocks": 12,
+          "bootstrap_draws": 10000
+        }
+      ],
+      "requires_visual_QA": true
+    },
+    {
+      "figure_id": "binding_challenge",
+      "archetype": "mechanism",
+      "source": "data/supplementary/reviewer_binding.jsonl",
+      "source_sha256": "affa88cca388a1f3846a69c7806c785ab31663711a6b812bd5fb0b99f7d3881d",
+      "item_ids": [
+        "RB01_0_0_real_bounded",
+        "RB01_0_0_real_unbounded",
+        "RB01_0_1_real_bounded",
+        "RB01_0_1_real_unbounded"
+      ],
+      "selection": "first predefined idle/open drink pair, both swaps/targets; no API outcomes used",
+      "script": ".research/figures/scripts/binding_challenge.py",
+      "script_sha256": "122a1956643685ac6a9a60aa49b919373cd37993edfc968f54c5d2f510af7ba7",
+      "outputs": [
+        "figures/binding_challenge.pdf",
+        "figures/binding_challenge.svg",
+        "figures/binding_challenge.png"
+      ],
+      "output_sha256": {
+        "figures/binding_challenge.pdf": "7b6b122ea439c0e808589a03092d41d67e2d31fea1427e5cde3276ec44c9e567",
+        "figures/binding_challenge.svg": "3bb1f7acd2a7995c60d9a9b56f22b7845872b120b284303dd2a206636d9387d2",
+        "figures/binding_challenge.png": "bdf3477aecbdef12f725f8d50ea88e10349988b516d6bb3f73d46beb136f9cf5"
+      },
+      "physical_cm": [
+        8.5,
+        7.0
+      ],
+      "empirical_statistics": false
+    }
+  ],
+  "editorial_revision_utc": "2026-10-09T02:50:25.353460+00:00",
+  "details": "Dedicated manifests retain all empirical estimates/denominators; method is a normative mechanism illustration."
+}

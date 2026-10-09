@@ -1,0 +1,23 @@
+{
+  "status": "post-freeze supplementary wording control; primary benchmark and tests unchanged",
+  "declared_before_supplementary_calls": true,
+  "main_source_sha256": "a113e72f5cc95915e848c6b76d254d4461817e2d5eb2cad7d525254f657d4c2b",
+  "control_sha256": "134ca0a7cd6daf2be086b3e7b3446045c6728d488ed0afce2c3d61497a4c108f",
+  "repairs": {
+    "was never drank": "was never drunk",
+    "was never ate": "was never eaten",
+    "were never wrote": "were never written"
+  },
+  "items_per_model": 30,
+  "models": 6,
+  "planned_cells": 180,
+  "human_annotations": 0,
+  "analysis": "paired all-planned categorical accuracy and complete-pair q change; no new significance test",
+  "limitation": "Corrected requests occur later; service variability and collection order prevent a pure causal attribution.",
+  "declared_utc": "2026-10-08T22:17:05.687473+00:00",
+  "code_source_sha256": {
+    "src/event_completion/wording.py": "ad666a6c287fcb0a2a39647e8af6b461b40e555a32ca5ea2bdf466c27d986826",
+    "scripts/generate_grammar_control.py": "b7708ac5c1c42bd5bb8bf2b9d80a845e44b6a6854bda37119f5e20a8c1e95d40",
+    "scripts/grammar_when_ready.py": "7885eec8eb6206d4384c7488af8f8ee80075e54bc1860725395354db8a2be12f"
+  }
+}

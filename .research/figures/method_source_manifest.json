@@ -1,0 +1,15 @@
+{
+  "purpose": "method mechanism: evidence selects compatible histories; no empirical frequency claim",
+  "source": "data/theory/normative_cells.jsonl",
+  "source_sha256": "feaa692bc56c3fa3a5d13f1a37a12e70e5332632a87a595b56f424389392b998",
+  "script_sha256": "ce0513fca8b56080278f4d78ed7326ef3e9b628963e1bcad4b5d94ec8605bed3",
+  "cells": 18,
+  "example_family": "F141; VP excerpts, schematic histories",
+  "reference_visual_rules": "CoRE Figure 1: concrete instance, aligned relationship table, distinct levels and direct category labels; no scientific content copied",
+  "reference": "https://aclanthology.org/2025.findings-acl.992/",
+  "outputs": [
+    "figures/method_schematic.pdf",
+    "figures/method_schematic.svg",
+    "figures/method_schematic.png"
+  ]
+}

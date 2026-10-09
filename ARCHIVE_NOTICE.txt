@@ -1,0 +1,20 @@
+Anonymous research review archive
+
+This local archive accompanies a theory-derived event-inference study. It is not
+an external publication and does not create a new public license grant.
+
+All original ImperfectiveNLI labels are unchanged. The original dataset is
+attributed to Bolei Ma and Yusuke Miyao (ACL 2026), official repository commit
+938ef893c3368f3a597e6add2cfebdad02fddebf. Their paper specifies CC BY-NC 4.0 for
+the dataset: https://creativecommons.org/licenses/by-nc/4.0/ . The original
+400-item JSON is retained unchanged; the separately supplied concern flags and
+our generated items/results are clearly distinguished. Upstream code and full
+third-party papers/books are excluded; source URLs and audit notes are supplied.
+
+ACM template files are unchanged official SAC 2027 resources. They retain their
+own notices and terms; provenance is recorded. The study code and new artifacts
+remain subject to their rights holders' decisions about a public release.
+
+No API key is included. Offline analysis operates on the recorded outcomes.
+All human-review forms are excluded; no human annotations or ratings exist.
+See README.md for reproduction and the final audit for scientific limitations.

@@ -1,0 +1,91 @@
+{
+  "status": "post-freeze descriptive paired wording control, not confirmatory inference",
+  "primary_unchanged": true,
+  "results": [
+    {
+      "model": "qwen/qwen3-8b",
+      "planned_pairs": 30,
+      "original_accuracy_all_planned": 0.7333333333333333,
+      "corrected_accuracy_all_planned": 0.7333333333333333,
+      "paired_accuracy_change": 0.0,
+      "corrected_transport_missing": 0,
+      "corrected_parse_valid": 30,
+      "valid_label_pairs": 30,
+      "judgment_disagreements": 0,
+      "valid_q_pairs": 30,
+      "mean_corrected_minus_original_q": 0.0033333333333333335
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "planned_pairs": 30,
+      "original_accuracy_all_planned": 0.4666666666666667,
+      "corrected_accuracy_all_planned": 0.4666666666666667,
+      "paired_accuracy_change": 0.0,
+      "corrected_transport_missing": 0,
+      "corrected_parse_valid": 30,
+      "valid_label_pairs": 30,
+      "judgment_disagreements": 0,
+      "valid_q_pairs": 30,
+      "mean_corrected_minus_original_q": 0.0
+    },
+    {
+      "model": "mistralai/ministral-8b-2512",
+      "planned_pairs": 30,
+      "original_accuracy_all_planned": 0.3333333333333333,
+      "corrected_accuracy_all_planned": 0.36666666666666664,
+      "paired_accuracy_change": 0.033333333333333326,
+      "corrected_transport_missing": 0,
+      "corrected_parse_valid": 30,
+      "valid_label_pairs": 30,
+      "judgment_disagreements": 1,
+      "valid_q_pairs": 30,
+      "mean_corrected_minus_original_q": -0.016666666666666666
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "planned_pairs": 30,
+      "original_accuracy_all_planned": 0.9666666666666667,
+      "corrected_accuracy_all_planned": 0.9333333333333333,
+      "paired_accuracy_change": -0.033333333333333326,
+      "corrected_transport_missing": 0,
+      "corrected_parse_valid": 30,
+      "valid_label_pairs": 30,
+      "judgment_disagreements": 1,
+      "valid_q_pairs": 30,
+      "mean_corrected_minus_original_q": 0.036333333333333336
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "planned_pairs": 30,
+      "original_accuracy_all_planned": 1.0,
+      "corrected_accuracy_all_planned": 1.0,
+      "paired_accuracy_change": 0.0,
+      "corrected_transport_missing": 0,
+      "corrected_parse_valid": 30,
+      "valid_label_pairs": 30,
+      "judgment_disagreements": 0,
+      "valid_q_pairs": 30,
+      "mean_corrected_minus_original_q": 0.0
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "planned_pairs": 30,
+      "original_accuracy_all_planned": 1.0,
+      "corrected_accuracy_all_planned": 1.0,
+      "paired_accuracy_change": 0.0,
+      "corrected_transport_missing": 0,
+      "corrected_parse_valid": 30,
+      "valid_label_pairs": 30,
+      "judgment_disagreements": 0,
+      "valid_q_pairs": 30,
+      "mean_corrected_minus_original_q": 0.0
+    }
+  ],
+  "source_sha256": {
+    "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7",
+    "data/analysis/grammar_repair_planned.jsonl": "bef8ab7255f90cc5ef5e046b5c6eb9622fe14ae1b817a3910bd57d8bac7c3fb5"
+  },
+  "final_known_returned_project_cost_usd": 0.9111097799999909,
+  "final_conservative_project_ledger_usd": 2.022611841999984,
+  "limitation": "Later requests and service variability confound pure causal wording attribution. Original failed/malformed responses are retained. No new p-values."
+}

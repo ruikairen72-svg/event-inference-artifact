@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-08T15:08:08.861066+00:00",
+  "datasets": "main_labels",
+  "models": "qwen/qwen3-8b,qwen/qwen3-14b,qwen/qwen3-32b",
+  "planned_pending": 9,
+  "concurrency": 4,
+  "max_output_tokens": 256,
+  "run_cap_usd": 0.02,
+  "payload_protocol_sha256": "5c45cd754bb1efdb3331e18a038fbf9f3512247ce543f2c15915cacb68ee9d3a"
+}

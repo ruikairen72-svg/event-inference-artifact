@@ -1,0 +1,1 @@
+Exploratory intended completion-burden sensitivity in bounded Real targets, with up to 40 paired families per context and system. High/low are intended directions without human prior ratings; no causal world-knowledge effect is identified. Interval procedure matches Figure 3. Supporting/cancelling evidence determines the theory label regardless of burden cue.

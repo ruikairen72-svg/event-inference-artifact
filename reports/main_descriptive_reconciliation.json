@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "comparisons": 2243,
+  "planned_main_cells": 28104,
+  "scope": "Every early main descriptive estimate and original subset reconciles with official complete planned cells. The authoring snapshot is byte-identical to official main materialization and all 30 primary results match exactly. No new effect testing or deletion.",
+  "source_sha256": {
+    "reports/main_descriptive_results.json": "66ee2ead10352fe2ccd62e7b1bf622314af83bba1f601c2cfe185423f4af0b58",
+    "data/analysis/main_planned.jsonl": "3d52ae4c4bcb71c2c6200481dc6044be25da83ef85ccf4b3d8dac6fd77dffdb7"
+  }
+}

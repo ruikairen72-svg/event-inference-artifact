@@ -1,0 +1,19 @@
+{
+  "pdf_sha256": "a29d23b2566516b08cee582dbe3e436816d93d5c6cfc468d81f1cb0dd1ac59f0",
+  "pages": 8,
+  "image_sha256": {
+    "page-1.png": "1880d8818931e14b666b665945768dd38c5d561a2630ba68445a7c751ac5af68",
+    "page-2.png": "6b07f76e3a266befd0a939d51ddb7e6e6c88bb82cfedc30d7a1ec2d347169814",
+    "page-3.png": "98daa6fff960d3e75e0d6ebd6df94ac9bd2ba6f44964468d412f42873e871d69",
+    "page-4.png": "95e55cd56c6006f2d03949176bf70ac53853af7d6c6b91fed6be5b365e8c12af",
+    "page-5.png": "51995409cc4ff2d7786cfa2a57e7226250a589c5b8a30d09e0a3b881fc5f082e",
+    "page-6.png": "447edfebe827b96ca27e52b2eb8858de7d998aa2b56c3de93d5545c685da6363",
+    "page-7.png": "e3bab81a77d27ffcd0864c67ad3786f1ccbcbf8ba512cd239223c4e2170afff5",
+    "page-8.png": "f37135ae6b3fcd389ad9c7ae883cbc50516e9924df1ece3ba4b5a6e8d1a5d1c6"
+  },
+  "render_location": "tmp/pdfs/literature",
+  "revision": "Verified literature coverage expansion",
+  "changed_from_visually_inspected_pass": [
+    8
+  ]
+}

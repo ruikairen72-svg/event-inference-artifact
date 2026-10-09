@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-09T04:32:23.644761+00:00",
+  "purpose": "Keep supplementary data separate from the original generator replay contract",
+  "old_path": "data/generated/reviewer_binding.jsonl",
+  "canonical_path": "data/supplementary/reviewer_binding.jsonl",
+  "dataset_bytes_unchanged": true,
+  "collection_snapshot_manifest": "data/frozen/reviewer_binding_collection/snapshot_manifest.json",
+  "protocol_bytes_unchanged": true,
+  "inference_payloads_unchanged": "Test matches all 5040 current collector payloads to unchanged main collector in disposable fixture; only storage path changes.",
+  "current_source_sha256": {
+    "scripts/build_binding_challenge.py": "8b37c398550a9dd03e9e3a909a4006c07baef983089dfa59adc40d244af81353",
+    "src/event_completion/runner_binding.py": "c702f5ea3316dfcd0173c3d459e70b50a1d6090a6ee8a528fa3303708ab2297f"
+  }
+}
